@@ -1,0 +1,63 @@
+/* 导航文字颜色 */
+
+.nav-tabs__item>div>span {
+    color: #e1e1e1;
+}
+
+.popular-list .popular-tips[data-v-59ee846d],
+.history-list .history-tips,
+.rank-container .rank-tips[data-v-9b180bbc],
+.weekly-header .update-tips[data-v-6b37fecd] {
+    color: #bcbcbc;
+}
+
+.video-card .video-name[data-v-a182333c],
+.weekly-header .current-tiem[data-v-6b37fecd],
+.rank-tab-wrap .rank-tab,
+.rank-list .rank-item .content .info .title {
+    color: #e1e1e1;
+}
+
+.video-card .strong-tag[data-v-a182333c],
+.video-card .weekly-hint[data-v-a182333c],
+.video-card .history-hint[data-v-a182333c],
+.rank-tab-wrap {
+    background: #161819;
+}
+
+.video-card .rcmd-tag[data-v-a182333c] {
+    border: 1px solid #f63;
+}
+
+
+/* 每周观看列表 */
+
+.weekly-header .panel .select-item[data-v-6b37fecd] {
+    background: #222;
+}
+
+.weekly-header .panel .item-title[data-v-6b37fecd] {
+    color: #e1e1e1;
+}
+
+.weekly-header .panel .select-item[data-v-6b37fecd]:not(.item-active):hover {
+    background: #000000d4;
+}
+
+.rank-list .rank-item:hover {
+    box-shadow: 0 2px 8px 1px rgb(0 0 0 / 40%);
+}
+
+
+/* 返回顶部 */
+
+.back-top-btn[data-v-6af406fd] {
+    background: #3b3b3b!important;
+    border: 1px solid #3b3b3b!important;
+    border-radius: 5px!important;
+}
+
+.rank-container .rank-tips .icon-tip[data-v-9b180bbc] {
+    fill: #e1e1e1!important;
+    color: #e1e1e1;
+}

@@ -1,0 +1,152 @@
+/* 话题页面 
+   1.导航栏
+   2.背景更改
+   3.评论
+   4.评论发布、标题（热门、最新）-窗口外观
+   5.卡片
+   6.卡片-加关注-更多
+   7.卡片样式修改
+   8.右侧活跃用户
+   9.窗口-视频
+   10.页面跳转切换
+   11.举报页面
+*/
+
+
+/* 4.评论发布、标题（热门、最新）-窗口外观 */
+
+.feed-topic .publish-panel-container[data-v-54d921ce],
+.feed-topic .separater-line[data-v-54d921ce] {
+    background: #222;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px 0px rgb(0 0 0 / 50%);
+}
+
+
+/* 6.卡片-加关注-更多 */
+
+.card .focus-btn .focus[data-v-b5713636] {
+    border: 1px solid #ccd0d7;
+    border-radius: 20px;
+    background-color: #222;
+}
+
+.card .focus-btn .unfocus[data-v-b5713636] {
+    border: 1px solid #00a1d6;
+    border-radius: 20px;
+    background-color: #222;
+}
+
+.card .more-panel[data-v-b5713636] {
+    background: #2B2B2B;
+    border: 0px;
+    -webkit-box-shadow: 0 11px 12px 0 rgb(0 0 0 / 20%);
+    box-shadow: 0 11px 12px 0 rgb(0 0 0 / 20%);
+    border-radius: 10px;
+    color: #e1e1e1;
+}
+
+.card .more-panel[data-v-b5713636]:after {
+    border-top: 1px solid #2b2b2b;
+    border-left: 1px solid #2B2B2B;
+    background: #2B2B2B;
+}
+
+
+/* 7.卡片样式修改 */
+
+.card[data-v-b5713636] {
+    border-radius: 15px!important;
+    border: 0px!important;
+}
+
+
+/*  8.右侧活跃用户 */
+
+.tc-dark-slate {
+    color: #e1e1e1;
+}
+
+.active-panel .show-more-button[data-v-07e05beb] {
+    background-color: #3b3b3b;
+    border-radius: 10px;
+}
+
+
+/* 9.窗口-视频 */
+
+.tab-nav .tab .tab-text[data-v-21a80c3a] {
+    color: #bcbcbc;
+}
+
+.video-topic .video-list[data-v-479d07d0] {
+    background-color: #222;
+    border-radius: 15px;
+}
+
+.video-topic .video-list .video-title[data-v-479d07d0] {
+    color: #e7e7e7;
+}
+
+.v .t[data-v-23ab063d] {
+    color: #e1e1e1;
+}
+
+
+/*  10.页面跳转切换 */
+
+.page-list-box .page-item a[data-v-33234bd8] {
+    color: #bcbcbc;
+}
+
+.page-list-box .page-item[data-v-33234bd8] {
+    color: #bcbcbc;
+    background-color: #2B2B2B;
+    border: 0px;
+}
+
+.page-list-box .active a[data-v-33234bd8] {
+    color: #e1e1e1!important;
+}
+
+.page-list-box .active[data-v-33234bd8] {
+    background: #00a1d6!important;
+}
+
+.page-list-box .page-input[data-v-33234bd8] {
+    color: #e1e1e1;
+    border-radius: 10px;
+    border: 0px;
+    background-color: #3b3b3b;
+}
+
+
+/* 11.举报页面 */
+
+.bp-popup-panel[data-v-3c863400] {
+    background-color: #222;
+}
+
+.selector-box[data-v-f55b66b8] {
+    color: #e1e1e1;
+}
+
+.content-text[data-v-f55b66b8] {
+    color: #bcbcbc;
+}
+
+bl-button--primary[data-v-65bda702]:disabled {
+    background-color: #6f6f6f;
+    color: #a2a2a2;
+}
+
+.bp-popup-ctnr .popup-content-ctnr[data-v-b38bf146] {
+    color: #e1e1e1;
+}
+
+
+/* 12.默认、时间排序 */
+
+.tab-wrap .tab-item[data-v-479d07d0] {
+    color: #bcbcbc;
+}

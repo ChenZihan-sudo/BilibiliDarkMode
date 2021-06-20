@@ -1,0 +1,82 @@
+/* 首页导航文字*/
+
+.international-header a {
+    color: #e7e7e7;
+}
+
+
+/* 去除导航栏边框 */
+
+.page-tab .con li {
+    border: 0px;
+}
+
+
+/* 修改图标使其内部灰色 */
+
+.page-tab .con li .bilifont {
+    color: #3e3e3e
+}
+
+
+/* 标题文字 */
+
+a {
+    color: #e1e1e1;
+}
+
+
+/* 主标题文字 */
+
+.storey-title .no-link {
+    color: #e7e7e7;
+}
+
+
+/* 频道选择 */
+
+
+/* 上箭头 */
+
+.van-popper[x-placement^=top] .popper__arrow:after {
+    bottom: 0px;
+    border-top-color: #222;
+}
+
+.van-popper-channel {
+    border: 0px;
+    box-shadow: 0 2px 12px 0 rgb(0 0 0 / 50%);
+}
+
+
+/* 导航栏 三角 */
+
+.van-popper[x-placement^=bottom] .popper__arrow:after {
+    border-bottom-color: #222!important;
+}
+
+.van-popper[x-placement^=bottom] .popper__arrow {
+    border-bottom-color: #222!important;
+}
+
+
+/* 背景 */
+
+.van-popover {
+    background: #222!important;
+    border-radius: 15px!important;
+    color: #e1e1e1!important;
+}
+
+
+/* 文字 */
+
+.international-header a,
+.van-popover a {
+    color: #e1e1e1!important;
+}
+
+.international-header a:hover,
+.van-popover a:hover {
+    color: #00A1D6!important;
+}

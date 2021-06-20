@@ -1,0 +1,607 @@
+/* 个人空间 */
+
+body {
+    background: #161819;
+}
+
+
+/* _____________________________其他 */
+
+.n .n-inner {
+    background: #222;
+}
+
+#page-index .col-1 {
+    background: #222;
+}
+
+
+/* user page */
+
+.n .n-inner {
+    background: #222;
+    box-shadow: 0 0 0 1px #222;
+}
+
+.n .n-data .n-data-v {
+    color: #e7e7e7e8;
+}
+
+.g-search input {
+    color: #e7e7e7e8;
+    border: 1px solid #222;
+    background: #505050;
+}
+
+#page-index .col-2 .section {
+    background: #222;
+    border: 1px solid #222;
+    border-radius: 10px;
+}
+
+section-title {
+    color: #e7e7e7e8;
+}
+
+.user .info .meta .row:first-child {
+    color: #e7e7e7e8;
+}
+
+#page-index .col-1 {
+    background: #222;
+}
+
+
+/* _____________________________其他 */
+
+
+/* 主标题文字 */
+
+.n .n-btn.active {
+    color: #00a1d6!important;
+}
+
+a,
+.section-title .t,
+#page-index .fav-item .name,
+.small-item .title,
+.section-title,
+#page-index .col-2 .section .user-auth.no-auth .no-auth-title .goto-auth,
+.section-title {
+    color: #e1e1e1;
+}
+
+#page-index .bangumi .content .title {
+    color: #e7e7e7e0;
+}
+
+
+/* 副标题文字 */
+
+.n .n-num,
+.n .n-text,
+.large-item .desc,
+.sec-empty-hint,
+#page-index .channel .empty-state p,
+.section .more,
+#page-index .fav-item .state,
+.i-m-text,
+.i-m-u-icon,
+.list-create .text,
+.private-hint,
+.n .n-data .n-data-k {
+    color: #bcbcbc;
+}
+
+textarea::placeholder {
+    color: #bcbcbcc9;
+}
+
+
+/* 卡片外观 */
+
+#page-index .col-1 {}
+
+
+/* 卡片 */
+
+#page-index #i-ann-content textarea {
+    color: #e7e7e7e0;
+    background: #222;
+    border: 1px solid #424242;
+}
+
+.list-create {
+    background: #222;
+}
+
+.section .count:before,
+.section .more {
+    background: #222;
+}
+
+.section .count {
+    background: #777;
+    border: 0px solid #ddd;
+    border-radius: 3px;
+    color: #f6fafb;
+}
+
+.section .count:before {
+    height: 0px;
+    width: 0px;
+}
+
+
+/* 卡片、图片阴影、边框取消 */
+
+.large-item .cover img,
+.mini-item .cover img {
+    box-shadow: 0 0 0 0px #e5e9ef;
+}
+
+#page-index .fav-covers,
+#page-index .col-1 {
+    border: 0px;
+}
+
+
+/* 边框 */
+
+.section,
+#page-index .col-2 .section-title,
+.i-m-r2,
+.section .more {
+    border-bottom: 1px solid #bcbcbc;
+}
+
+
+/* 创作中心 */
+
+.i-m-r2 {
+    background: #2b2b2b;
+    border-radius: 15px;
+    border: 0px;
+}
+
+.i-m-upload {
+    border-right: 1px solid #bcbcbc;
+}
+
+
+/* 公告去边框 */
+
+#page-index .col-2 .section-title,
+#page-index .col-2 .section:last-child {
+    border-bottom: 0px;
+}
+
+.section .count:before,
+.section .more {
+    background: #222;
+}
+
+
+/* 更多 */
+
+.section .more {
+    padding: 0 10px 0 10px;
+}
+
+.i-m-u-icon,
+.i-m-v-icon {
+    width: 0px;
+    height: 0px;
+}
+
+
+/* ___________________________________ */
+
+
+/* 卡片外观 */
+
+.col-full {
+    background: #222;
+    border-radius: 15px;
+    box-shadow: 0px 0px 0px #000;
+}
+
+
+/* 主标题 */
+
+.sub-tabs span,
+.pgc-space-follow-item .pgc-item-info .pgc-item-title {
+    color: #e1e1e1!important;
+}
+
+
+/* 更亮的副标题文字 */
+
+.pgc-space-follow-item .pgc-item-info .pgc-item-desc {
+    color: #bcbcbc!important;
+}
+
+
+/*  页面跳转切换 */
+
+.bangumi-pagelistbox .p,
+.be-pager-item,
+.be-pager-next,
+.be-pager-prev {
+    color: #bcbcbc!important;
+    background-color: #2B2B2B!important;
+    border: 0px!important;
+    margin-right: 8px!important;
+}
+
+.bangumi-pagelistbox .p:hover,
+.bangumi-pagelistbox .p.active,
+.be-pager-item-active {
+    background-color: #00a1d6c7!important;
+    color: #e7e7e7e0!important;
+    border-color: #00a1d6c7!important;
+}
+
+.bangumi-pagelistbox .custom-right .custom-right-inner.custompage,
+.be-pager-options-elevator input {
+    color: #e1e1e1!important;
+    border-radius: 10px!important;
+    border: 0px!important;
+    background-color: #3b3b3b!important;
+}
+
+.pgc-space-follow-item .pgc-item-info .pgc-item-desc,
+.be-pager-item a,
+.be-pager-next a,
+.be-pager-prev a {
+    color: #e7e7e7e0;
+}
+
+
+/* ————————————————————————选项窗口 */
+
+
+/* 窗口外观 */
+
+.be-dropdown-menu,
+.pgc-space-follow-item .bangumi-options .opt-list {
+    background-color: #2b2b2b!important;
+    border: 0px!important;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 30%)!important;
+}
+
+
+/* 字颜色 */
+
+.be-dropdown-item,
+.pgc-space-follow-item .bangumi-options .opt-list li {
+    color: #bcbcbc!important;
+}
+
+
+/* 已选中字颜色 */
+
+.pgc-space-follow-item .bangumi-options .opt-list li.disabled {
+    color: #8E8E8E!important;
+}
+
+
+/* 保持选中颜色 */
+
+.be-dropdown-item:hover,
+.pgc-space-follow-item .bangumi-options .opt-list li:hover {
+    color: #00a1d6;
+    background-color: #3b3b3b!important;
+}
+
+#page-fav .fav-sidenav .fav-item:hover {
+    background-color: #3b3b3b!important;
+}
+
+
+/* -------------------------收藏 */
+
+
+/* 主标题 */
+
+.favInfo-box .favInfo-details .fav-name,
+#page-fav .fav-sidenav .nav-title .text,
+.small-item.disabled .title {
+    color: #e1e1e1;
+}
+
+
+/* 副标题 */
+
+#page-fav .fav-main .filter-item,
+#page-fav .fav-sidenav .favlist-title,
+#page-fav .fav-sidenav .watch-later,
+#page-fav .fav-main .search-types,
+input::placeholder {
+    color: #bcbcbc;
+}
+
+
+/* 去边框 */
+
+#page-fav .fav-main .small-item {
+    border: 0px;
+}
+
+
+/* 边框颜色 */
+
+#page-fav .fav-sidenav .nav-container,
+.be-dropdown-item.be-dropdown-item-delimiter,
+#page-fav .fav-main .favList-info,
+#page-fav .fav-sidenav .watch-later {
+    border-bottom: 1px solid #bcbcbc80;
+}
+
+#page-fav .fav-sidenav {
+    border-right: 1px solid #bcbcbc80;
+}
+
+#page-fav .fav-sidenav .watch-later {
+    border-top: 1px solid #bcbcbc80;
+}
+
+#page-fav .fav-main .search-input input {}
+
+#page-fav .fav-main .search-input input {
+    background: #222;
+    color: #bcbcbc;
+}
+
+
+/* 搜索框 */
+
+
+/* .bangumi-pagelistbox .custom-right .custom-right-inner.custompage {
+    background: #222!important;
+} */
+
+
+/* 视频加载中页面 */
+
+.small-item .cover {
+    background: #272727;
+}
+
+
+/* 收藏频道拖动 */
+
+#page-fav .fav-sidenav .icon-cursor {
+    background-color: #2b2b2b;
+}
+
+
+/* 分区窗口 */
+
+#page-fav .fav-main .filter-item .filter-type .be-dropdown-item span {
+    color: #e7e7e7e0;
+}
+
+
+/* _____________________________设置 */
+
+#page-setting .setting-privacy-item .setting-privacy-name,
+#page-setting .setting-index-module {
+    color: #e1e1e1;
+}
+
+
+/* 个人标签编辑 */
+
+#page-setting #setting-new-tag {
+    color: #bcbcbc;
+    border: 1px solid #3b3b3b;
+}
+
+#page-setting #setting-new-tag-btn {
+    background: #3b3b3b;
+    border: 1px solid #3b3b3b;
+    border-radius: 10px 0 0 10px;
+}
+
+#page-setting .setting-tag-list a {
+    background: #222;
+    border: 1px solid #3b3b3b;
+    border-radius: 10px;
+}
+
+
+/* 边框设置 */
+
+#page-setting .setting-index-module {
+    border-bottom: 1px solid #bcbcbc;
+}
+
+
+/* _____________________________投稿 */
+
+
+/* 主标题 */
+
+#page-video .page-head__left .video-title {
+    color: #e1e1e1;
+}
+
+.be-tab-item {
+    color: #bcbcbc;
+}
+
+.contribution-sidenav .contribution-item:hover {
+    background-color: #3b3b3b
+}
+
+
+/* _____________________________动态 */
+
+
+/* 外观背景颜色 */
+
+#page-dynamic .col-2 .section {
+    background-color: #222;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgb(0 0 0 / 30%);
+    border: 0px;
+}
+
+
+/* -------------------投稿 */
+
+
+/* 主标题 */
+
+#page-video .page-head__left .video-title {
+    color: #e1e1e1;
+}
+
+#page-video #submit-video-type-filter {
+    background-color: #2b2b2b;
+    border-radius: 15px;
+}
+
+
+/* 副标题 */
+
+#page-video #submit-video-type-filter a,
+#page-video .page-head__left .be-tab-item {
+    color: #bcbcbc;
+}
+
+.contribution-sidenav .contribution-item:hover {
+    background-color: #3b3b3b;
+}
+
+
+/* 边框 */
+
+.contribution-sidenav~.main-content {
+    border-left: 1px solid #bcbcbc80;
+}
+
+.contribution-sidenav {
+    border-right: 1px solid #bcbcbc80;
+}
+
+
+/* 按钮-播放全部 */
+
+#page-video .play-all-btn,
+#page-index .channel .section-right-options .play-all-channel {
+    border: 1px solid #bcbcbc;
+    border-radius: 10px;
+    color: #bcbcbc;
+}
+
+.be-tab-input,
+#page-video .play-all-btn .video-commonplayer_play,
+#page-index .channel .section-right-options .play-all-channel .video-commonplayer_play,
+#page-index .channel .section-right-options .play-all-channel>span {
+    color: #bcbcbc;
+}
+
+.section,
+#page-index .col-2 .section-title,
+.i-m-r2,
+.section .more {
+    border-bottom: 1px solid #bcbcbc;
+}
+
+.be-tab-item.is-active {
+    color: #00a1d6!important;
+}
+
+
+/* 更多 */
+
+#page-index .col-1 .section .more {
+    border-radius: 10px;
+}
+
+
+/* ____________________________主页 */
+
+
+/* 列表标题 */
+
+#page-index .channel.guest .channel-item .channel-title .channel-name {
+    color: #e1e1e1;
+}
+
+
+/* 视频信息 */
+
+.small-item .meta,
+.i-pin-desc {
+    color: #bcbcbc;
+}
+
+
+/* 边框 */
+
+.section,
+#page-index .col-2 .section-title,
+.i-m-r2,
+.section .more {
+    border-bottom: 1px solid #bcbcbc80;
+}
+
+.article-content,
+.s-content,
+#page-index .channel .channel-item {
+    border-bottom: 1px solid #bcbcbc80;
+}
+
+.meta-col,
+.i-pin-meta {
+    color: #bcbcbc;
+}
+
+
+/* 推荐栏目 */
+
+#page-index .channel .section-right-options .play-all-channel {}
+
+
+/* 认证 */
+
+#page-index .col-2 .section .user-auth .auth-description {
+    color: #e7e7e7e0;
+}
+
+
+/*直播desc */
+
+.i-live .i-live-off-guest p,
+.i-live .i-live-unfo-btn,
+.i-live .i-live-fo-count,
+.elec .elec-monthly-count {
+    color: #bcbcbc;
+}
+
+
+/* 充电人数 */
+
+
+/* .elec .elec-monthly-c{
+    color: #e7e7e7e0;
+}
+
+.elec .elec-status{
+    background: #222;
+    color: #bcbcbc;
+}
+
+.elec .elec-count{
+    color: #e7e7e7e0;
+} */
+
+
+/* ————————————————————————频道 */
+
+#page-channel-index .channel-item .channel-name {
+    color: #e1e1e1;
+}

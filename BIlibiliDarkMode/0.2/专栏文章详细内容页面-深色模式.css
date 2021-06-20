@@ -1,0 +1,67 @@
+/* 专栏文章详细内容页面-深色模式
+https://www.bilibili.com/read/cvXXXXXXX */
+
+
+/* 文章盒子外观 */
+
+.article-container,
+.article-up-info[data-v-2724bf84],
+.recommend-list,
+.right-side-bar .side-toolbar[data-v-3ee147b6],
+.right-side-bar.on .to-top[data-v-3ee147b6] {
+    background-color: #222;
+    border-radius: 15px;
+    box-shadow: 1px 3px 10px rgb(0 0 0 / 40%);
+}
+
+
+/* 主标题 */
+
+.article-container .title-container .title,
+.normal-article-holder,
+.article-up-info .up-name[data-v-2724bf84],
+.recommend-list .recommend-header .title,
+.recommend-list .recommend-article-list .left-panel .article-desc,
+.recommend-list .recommend-article-list .left-panel .article-title {
+    color: #e1e1e1;
+}
+
+
+/* 更亮的副标题 */
+
+.normal-article-holder figcaption,
+.right-side-bar .side-toolbar .toolbar-item[data-v-3ee147b6],
+.recommend-list .recommend-header .more,
+.recommend-list .recommend-header .more .iconfont,
+.article-tags .tag-item,
+.interaction-info .toolbar .share-box,
+.interaction-info .hover-item {
+    color: #bcbcbc;
+}
+
+
+/* 副标题 */
+
+.article-breadcrumb .breadcrumb-name,
+.article-breadcrumb .slash,
+.right-side-bar .side-toolbar .toolbar-on[data-v-3ee147b6],
+.right-side-bar .side-toolbar .toolbar-on>.iconfont[data-v-3ee147b6],
+.right-side-bar .side-toolbar .toolbar-item .iconfont[data-v-3ee147b6],
+.right-side-bar .to-top .iconfont[data-v-3ee147b6] {
+    color: #8E8E8E;
+}
+
+
+/* —————————————————————————————————————————————————— */
+
+
+/* 下滑出现的标题 */
+
+.fixed-top-header {
+    background: #141414;
+}
+
+.fixed-top-header .inner .inner-title,
+.fixed-top-header .inner .up-info__name {
+    color: #bcbcbc;
+}

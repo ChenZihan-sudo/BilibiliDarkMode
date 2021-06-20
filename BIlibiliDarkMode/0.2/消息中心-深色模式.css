@@ -1,0 +1,68 @@
+/* 消息中心-深色模式 */
+
+body {
+    background: #161819!important;
+}
+
+
+/* 外观 */
+
+.space-right .space-right-top .title[data-v-1c9150a9],
+.card[data-v-fb77dc7a],
+.space-left[data-v-1c9150a9],
+.config[data-v-467e3e3e] {
+    background-color: #222;
+    -webkit-box-shadow: 0 2px 4px 0 rgb(0 0 0 / 50%);
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 50%);
+    border-radius: 15px;
+}
+
+.space-right[data-v-1c9150a9] {
+    background-color: #2b2b2b;
+}
+
+
+/* 设置刷新时背景颜色 */
+
+
+/* document.querySelector("#link-message-container > div.container > div.space-right > div.space-right-bottom.ps > div.card > div > div").style.backgroundColor = "#222"*/
+
+.link-progress-tv[data-v-42e02e95] {
+    background-color: #222!important;
+}
+
+
+/* 暗标题文字 */
+
+.line-1 .name-field[data-v-657577a0],
+.title[data-v-7d37e619],
+.item a[data-v-7d37e619] {
+    color: #bcbcbc;
+}
+
+.line-1[data-v-657577a0] {
+    color: #8E8E8E;
+}
+
+.orginal-reply[data-v-8142435e],
+.text-box[data-v-8142435e],
+.text[data-v-e5050176] {
+    color: #bcbcbc;
+}
+
+.divider[data-v-1df9d092] {
+    border-bottom: 1px solid #bcbcbc80;
+}
+
+.side-bar .icon[data-v-7d37e619] {
+    width: 0px;
+    height: 0px;
+    background: #222;
+}
+
+
+/* 消息中心-选项列表-icon */
+
+.item[data-v-7d37e619]::before {
+    color: #e7e7e7e0;
+}

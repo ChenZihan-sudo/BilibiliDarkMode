@@ -1,0 +1,66 @@
+/* 专题列表、专题列表-深色模式 */
+
+
+/* 专题列表-https://www.bilibili.com/blackboard/topic_list.html#/ */
+
+
+/* 话题列表-https://www.bilibili.com/topic/integrated-1.html */
+
+
+/* 标题 */
+
+.topic-main .topic-title .b-topic-t,
+.topic-main .act-list ul li h2 a,
+.b-head .b-head-t,
+.art_list li h2 a {
+    color: #e1e1e1;
+}
+
+
+/* 副标题 */
+
+.topic-main .nav-tab li,
+.topic-main .act-list ul li .act-info,
+.art_list li .info {
+    color: #8E8E8E;
+}
+
+.topic-main .act-list ul li,
+.art_list li {
+    background: #222;
+}
+
+.topic-main .act-list ul li,
+.art_list li {
+    border-bottom: 1px solid #e5e9ef;
+    padding: 0 0 20px;
+    margin: 20px 0 0;
+    border-radius: 10px;
+}
+
+.topic-main .act-list ul li img,
+.art_list li img {
+    padding: 10px 0px 0px 10px;
+}
+
+
+/* 字与卡片上部距离 */
+
+.topic-main .act-list ul li h2,
+.art_list li h2 {
+    margin: 25px 0px 20px 0px;
+}
+
+
+/* 字向右移动 */
+
+.topic-main .act-list ul li .act-info,
+.topic-main .act-list ul li h2,
+.art_list li .info {
+    padding: 0px 0px 0px 20px;
+}
+
+.topic-main .act-list ul li .found-time,
+.art_list li .artInfo {
+    padding: 0px 0px 0px 165px;
+}

@@ -1,0 +1,913 @@
+/* 番剧视频播放页面 
+1.导航栏
+2.视频卡片阴影
+3.视频卡片底部
+4.评论背景颜色
+5.评论
+6.无点评
+7.三连、分享、手机观看、一起看
+8.番剧描述
+9.右侧
+10.关注分组页面
+11.点评内部
+12.评论弹出
+13.其他
+*/
+
+
+/* 2.视频卡片阴影 */
+
+.bilibili-player {
+    box-shadow: 0 0 8px #040404!important;
+}
+
+
+/* 4.评论背景颜色 */
+
+.bb-comment,
+.comment-bilibili-fold {
+    background-color: #161819!important;
+}
+
+
+/* 5.评论*/
+
+.bb-comment .comment-list .list-item .text,
+.comment-bilibili-fold .comment-list .list-item .text,
+.bb-comment .comment-list .list-item .user .text-con,
+.comment-bilibili-fold .comment-list .list-item .user .text-con {
+    color: #e7e7e7e0!important;
+}
+
+.bb-comment .comment-list .list-item .info>span,
+.comment-bilibili-fold .comment-list .list-item .info>span {
+    color: #ffffffb3!important;
+}
+
+.bb-comment .comment-send .textarea-container textarea,
+.comment-bilibili-fold .comment-send .textarea-container textarea {
+    background-color: #2b2b2b!important;
+    border: 0px!important;
+    color: #e2e2e2!important;
+}
+
+.bb-comment .comment-send .textarea-container:hover textarea,
+.comment-bilibili-fold .comment-send .textarea-container:hover textarea,
+.bb-comment .comment-send .textarea-container.focus textarea,
+.comment-bilibili-fold .comment-send .textarea-container.focus textarea {
+    border: 1px solid #00a1d6!important;
+    color: #e2e2e2!important;
+}
+
+.bb-comment .comment-send .textarea-container:hover textarea,
+.comment-bilibili-fold .comment-send .textarea-container:hover textarea,
+.bb-comment .comment-send .textarea-container.focus textarea,
+.comment-bilibili-fold .comment-send .textarea-container.focus textarea {
+    color: #505050!important;
+}
+
+
+/* 评论排序白字 */
+
+.bb-comment .comment-header .tabs-order li,
+.comment-bilibili-fold .comment-header .tabs-order li {
+    color: #ffffffb5!important;
+}
+
+
+/* 评论横线降亮度 */
+
+.bb-comment .comment-header,
+.comment-bilibili-fold .comment-header {
+    border-bottom: 1px solid #e5e9ef8a!important;
+}
+
+.bb-comment .comment-list .list-item .con,
+.comment-bilibili-fold .comment-list .list-item .con {
+    border-top: 1px solid #e5e9ef8a!important;
+}
+
+
+/* 评论username */
+
+.bb-comment .comment-list .list-item .user .name,
+.comment-bilibili-fold .comment-list .list-item .user .name {
+    color: #e4e9ecf2;
+}
+
+
+/* 评论排序 */
+
+.bb-comment .comment-header .tabs-order li.on,
+.comment-bilibili-fold .comment-header .tabs-order li.on {
+    color: #00a1d6!important;
+}
+
+
+/* 表情 */
+
+.bb-comment .comment-send .comment-emoji,
+.comment-bilibili-fold .comment-send .comment-emoji,
+.bb-comment .comment-send-lite .comment-emoji,
+.comment-bilibili-fold .comment-send-lite .comment-emoji {
+    color: #bcbcbc!important;
+    border: 1px solid #bcbcbc!important;
+}
+
+.bb-comment .comment-send .comment-emoji .face,
+.comment-bilibili-fold .comment-send .comment-emoji .face,
+.bb-comment .comment-send-lite .comment-emoji .face,
+.comment-bilibili-fold .comment-send-lite .comment-emoji .face {
+    width: 0px!important;
+    height: 0px!important;
+    margin-right: 0px!important;
+    background: #222!important;
+}
+
+.bb-comment .comment-send .comment-emoji,
+.comment-bilibili-fold .comment-send .comment-emoji,
+.bb-comment .comment-send-lite .comment-emoji,
+.comment-bilibili-fold .comment-send-lite .comment-emoji {
+    width: 60px!important;
+    color: #bcbcbc!important;
+    border: 1px solid #bcbcbc!important;
+    border-radius: 15px!important;
+    margin-top: 8px!important;
+}
+
+.bb-comment .comment-send .comment-emoji .text,
+.comment-bilibili-fold .comment-send .comment-emoji .text,
+.bb-comment .comment-send-lite .comment-emoji .text,
+.comment-bilibili-fold .comment-send-lite .comment-emoji .text {
+    vertical-align: inherit!important;
+}
+
+
+/* _______表情________ */
+
+
+/* 窗口外观 */
+
+.emoji-box {
+    border: 0px!important;
+    border-radius: 10px!important;
+    background-color: #2B2B2B!important;
+    -webkit-box-shadow: 0 3px 5px 0 rgb(0 0 0 / 30%)!important;
+    box-shadow: 0 3px 5px 0 rgb(0 0 0 / 30%)!important;
+}
+
+
+/* 标题-表情 */
+
+.title[data-v-00b4b4ea],
+.emoji-box .emoji-title {
+    padding: 15px;
+    font-size: 14px;
+    color: #e1e1e1;
+    text-align: left;
+}
+
+
+/* emoji背景透明 */
+
+.emoji[data-v-60ae9c4d] {
+    background-color: transparent;
+}
+
+
+/* 选中表情 */
+
+.emoji[data-v-60ae9c4d]:hover,
+.emoji-box .emoji-text:hover,
+.emoji-box .emoji-tabs .tab-link:hover {
+    background-color: #403b3b!important;
+}
+
+
+/* 颜文字适配 */
+
+.dp-i-block[data-v-60ae9c4d],
+.emoji-box .emoji-text {
+    display: inline-block;
+    color: #e1e1e1!important;
+}
+
+
+/* 底部表情选择 */
+
+.pagination[data-v-97c4281e],
+.emoji-box .emoji-tabs {
+    position: relative!important;
+    width: 100%!important;
+    border-bottom-left-radius: 8px!important;
+    border-bottom-right-radius: 8px!important;
+    background-color: #222!important;
+}
+
+.emoji-cover.selected[data-v-97c4281e],
+.emoji-box .emoji-tabs .tab-link.on {
+    background-color: #403b3b!important;
+}
+
+.emoji-box .emoji-tabs .tab-link.on {
+    background-color: #403b3b!important;
+}
+
+
+/* 翻页 */
+
+.page-controller .prev[data-v-97c4281e]:hover,
+.page-controller .next[data-v-97c4281e]:hover {
+    background-color: #403b3b;
+    color: #e1e1e1;
+}
+
+.page-controller .prev[data-v-97c4281e],
+.page-controller .next[data-v-97c4281e] {
+    color: #e1e1e1;
+}
+
+.page-controller .prev.disabled[data-v-97c4281e],
+.page-controller .next.disabled[data-v-97c4281e] {
+    color: #8E8E8E!important;
+}
+
+.emoji-box .emoji-tabs .emoji-tab-slider .prev {
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIzLjAuMSwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IuWbvuWxgl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB2aWV3Qm94PSIwIDAgMTYgMTYiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDE2IDE2OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGwtcnVsZTpldmVub2RkO2NsaXAtcnVsZTpldmVub2RkO2ZpbGw6Izc1NzU3NTt9Cjwvc3R5bGU+Cjx0aXRsZT5nZW5lcmFsX2VudGVyX3M8L3RpdGxlPgo8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KPHBhdGggaWQ9IkNvbWJpbmVkLVNoYXBlIiBjbGFzcz0ic3QwIiBkPSJNOS4yLDhsLTMuNCwzLjRjLTAuMywwLjMtMC4zLDAuOCwwLDEuMWMwLjMsMC4zLDAuOCwwLjMsMS4xLDBsMy45LTMuOQoJYzAuMy0wLjMsMC4zLTAuOCwwLTEuMUw2LjksMy42Yy0wLjMtMC4zLTAuOC0wLjMtMS4xLDBjLTAuMywwLjMtMC4zLDAuOCwwLDEuMUw5LjIsOHoiLz4KPC9zdmc+Cg==)!important;
+    transform: rotate( 180deg)!important;
+}
+
+.emoji-box .emoji-tabs .emoji-tab-slider .next.on {
+    background: url(//s1.hdslb.com/bfs/seed/jinkela/commentpc/./img/left-arrow-disable.1c51ed4.svg) no-repeat!important;
+    transform: rotate( 180deg)!important;
+}
+
+
+/* 3.视频卡片底部 */
+
+.bilibili-player-video-sendbar {
+    background: #212121!important;
+}
+
+
+/* 视频底框 */
+
+.bilibili-player-video-info {
+    color: #ded9d9!important;
+}
+
+
+/* 底框视频信息 */
+
+.bilibili-player-video-sendbar .bilibili-player-video-inputbar {
+    color: #999!important;
+    background-color: #505050;
+}
+
+.bilibili-player-video-sendbar .bilibili-player-video-inputbar .bilibili-player-video-danmaku-input {
+    color: #ccd0d7!important;
+}
+
+
+/* 底框评论栏、输入文字 */
+
+.bilibili-player .bui-button.bui-button-blue,
+.bilibili-player .bui-button.bui-button-gray3:hover,
+.bilibili-player .bui-button.bui-button-gray:hover {
+    opacity: 0.9!important;
+}
+
+
+/* 发送按键 */
+
+.bilibili-player-video-sendbar .bilibili-player-video-inputbar .bilibili-player-video-inputbar-wrap {
+    border: 0px!important;
+    background-color: #505050!important;
+}
+
+
+/* 去评论边框 */
+
+
+/* 6.无点评 */
+
+.main-container .review-module .review-list .empty-wrapper .btn-go-write {
+    background-color: #222;
+    border-radius: 20px;
+}
+
+
+/*7.三连、分享、手机观看、一起看 */
+
+.main-container .tool-bar .watch-info .watch-more,
+.main-container .tool-bar .share-info .share-more,
+.main-container .tool-bar .mobile-info .mobile-more {
+    background: #222;
+    border: 0px solid #e5e9ef!important;
+    box-shadow: 0 2px 4px 0 #131212!important;
+    border-radius: 10px;
+}
+
+.main-container .tool-bar .watch-info .watch-more .title {
+    color: #bbb;
+}
+
+.main-container .tool-bar .watch-info .watch-more .action-wrap .watch-action .main-title,
+.main-container .tool-bar .watch-info .watch-more .action-wrap .watch-action .sub-title {
+    color: #e2e2e2;
+}
+
+.main-container .tool-bar .watch-info .watch-more .action-wrap .watch-action.match-watch,
+.main-container .tool-bar .watch-info .watch-more .action-wrap .watch-action.create-watch {
+    opacity: 0.95;
+}
+
+
+/* 一起看 */
+
+.main-container .tool-bar .mobile-info .mobile-more .top-wrapper {
+    color: #fff!important;
+}
+
+.main-container .tool-bar .coin-info i,
+.main-container .tool-bar .like-info i,
+.main-container .tool-bar .coin-info span,
+.main-container .tool-bar .like-info span,
+.main-container .tool-bar .share-info i,
+.main-container .tool-bar .share-info span,
+.main-container .tool-bar .mobile-info i,
+.main-container .tool-bar .mobile-info span,
+.main-container .tool-bar .watch-info span,
+.main-container .tool-bar .watch-info span {
+    color: #ffffffad!important;
+}
+
+
+/* 点赞投币分享栏icon font */
+
+
+/* 8.番剧描述 */
+
+
+/* 展开收起 */
+
+.main-container .media-info .media-right .media-desc i {
+    background-color: #151718!important;
+}
+
+.main-container .media-info .media-right .media-tool-bar .btn-follow span,
+.main-container .media-info .media-right .media-tool-bar .btn-follow i {
+    color: #ffffffcc;
+}
+
+.main-container .media-info .media-right .media-tool-bar .btn-follow.active {
+    background-color: #505050!important;
+}
+
+.main-container .media-info .media-right .media-tool-bar .bangumi-options .opt-list {
+    border: 0px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px #000000c2!important;
+    background-color: #222;
+}
+
+.main-container .media-info .media-right .media-tool-bar .bangumi-options .opt-list li {
+    color: #bcbcbc;
+}
+
+.main-container .media-info .media-right .media-tool-bar .bangumi-options .opt-list li.disabled {
+    color: #999;
+}
+
+.main-container .media-info .media-right .media-tool-bar .bangumi-options .opt-list li:hover {
+    color: #00a0d6b6;
+    background-color: #99999982;
+}
+
+
+/* avbv */
+
+.main-container .media-info .media-right .pub-wrapper .av-link {
+    color: #d0c7c7;
+}
+
+
+/* 9.右侧 */
+
+.ep-section-module,
+.main-container .ep-list-wrapper {
+    background-color: #222222;
+    border-radius: 10px;
+}
+
+.ep-section-module .section-title,
+.main-container .ep-list-wrapper .list-title h4 {
+    color: #e7e7e7e8;
+}
+
+.ep-list-wrapper .ep-item,
+.section-ep-wrapper .ep-item {
+    color: #e7e7e7e0;
+}
+
+.ep-list-wrapper .ep-item.cursor,
+.section-ep-wrapper .ep-item.cursor {
+    background-color: #46484a;
+}
+
+.ep-list-wrapper .ep-item:hover,
+.section-ep-wrapper .ep-item:hover {
+    background-color: #525456bd;
+}
+
+
+/* 剧集选择框 */
+
+.main-container .ep-list-wrapper .list-wrapper.simple ul .ep-item {
+    border-radius: 4px;
+    background-color: #ffffff4a;
+    border: 0px;
+}
+
+
+/* 弹幕库 */
+
+.bui-collapse .bui-collapse-header {
+    background: #222!important;
+    border-radius: 10px!important;
+}
+
+.player-auxiliary-area .player-auxiliary-filter-title {
+    color: #e7e7e7e8!important;
+}
+
+.bui-collapse .bui-collapse-header .bui-collapse-arrow {
+    color: #8E8E8E!important;
+}
+
+.player-auxiliary-area .player-auxiliary-danmaku .player-auxiliary-danmaku-function {
+    background-color: #2b2b2b!important;
+}
+
+
+/* 展开 */
+
+.player-auxiliary-area .player-auxiliary-danmaku .player-auxiliary-danmaku-function [class*=player-auxiliary-danmaku-btn-] {
+    color: #bcbcbc!important;
+}
+
+.player-auxiliary-area .player-auxiliary-danmaku .player-auxiliary-danmaku-function [class*=player-auxiliary-danmaku-btn-] {
+    background: #2b2b2b!important;
+}
+
+.danmaku-wrap .player-auxiliary-area .player-auxiliary-danmaku-wrap {
+    background-color: #2b2b2b!important;
+}
+
+.danmaku-wrap .player-auxiliary-area .player-auxiliary-danmaku-wrap .player-auxiliary-danmaku-list .danmaku-info-row span.danmaku-info-danmaku,
+.danmaku-wrap .player-auxiliary-area .player-auxiliary-danmaku-wrap .player-auxiliary-danmaku-list .danmaku-info-row {
+    color: #bcbcbc!important;
+}
+
+.danmaku-wrap .player-auxiliary-area .player-auxiliary-danmaku-wrap .player-auxiliary-danmaku-list .danmaku-info-row .danmaku-info-block-btn,
+.danmaku-wrap .player-auxiliary-area .player-auxiliary-danmaku-wrap .player-auxiliary-danmaku-list .danmaku-info-row .danmaku-info-protect-btn,
+.danmaku-wrap .player-auxiliary-area .player-auxiliary-danmaku-wrap .player-auxiliary-danmaku-list .danmaku-info-row .danmaku-info-report-btn {
+    background: #2b2b2b!important;
+}
+
+.danmaku-wrap .player-auxiliary-area .player-auxiliary-danmaku-wrap .player-auxiliary-danmaku-list .danmaku-info-row .danmaku-info-block-btn:hover,
+.danmaku-wrap .player-auxiliary-area .player-auxiliary-danmaku-wrap .player-auxiliary-danmaku-list .danmaku-info-row .danmaku-info-protect-btn:hover,
+.danmaku-wrap .player-auxiliary-area .player-auxiliary-danmaku-wrap .player-auxiliary-danmaku-list .danmaku-info-row .danmaku-info-report-btn:hover {
+    background-color: #00a1d67d!important;
+    color: #dcdcdc!important;
+}
+
+.danmaku-wrap .player-auxiliary-area .player-auxiliary-danmaku-wrap .player-auxiliary-danmaku-list .danmaku-info-row .danmaku-info-block-btn,
+.danmaku-wrap .player-auxiliary-area .player-auxiliary-danmaku-wrap .player-auxiliary-danmaku-list .danmaku-info-row .danmaku-info-protect-btn,
+.danmaku-wrap .player-auxiliary-area .player-auxiliary-danmaku-wrap .player-auxiliary-danmaku-list .danmaku-info-row .danmaku-info-report-btn {
+    border: 1px solid var(--bpx-primary-color, #00a1d67d)!important;
+}
+
+.danmaku-wrap .player-auxiliary-area .player-auxiliary-danmaku-btn-footer {
+    background: #2b2b2b!important;
+}
+
+.bui-button.bui-button-gray2 {
+    color: #ffffffb3!important;
+    background-color: #505050 !important;
+}
+
+.bui-button.bui-button-gray2:hover {
+    background-color: #505050!important;
+    color: #ffffffb3!important;
+}
+
+.player-auxiliary-area .player-auxiliary-filter .player-auxiliary-setting-menu-wrap {
+    background-color: #222!important;
+    border-radius: 10px!important;
+    border: 1px solid #f4f4f433!important;
+}
+
+.player-auxiliary-area .player-auxiliary-filter .player-auxiliary-setting-menu-wrap .player-auxiliary-setting-menu-list {
+    background-color: #222!important;
+    color: #bcbcbc!important;
+}
+
+.player-auxiliary-area .player-auxiliary-filter .player-auxiliary-setting-menu-wrap .player-auxiliary-setting-menu-list:hover {
+    color: #00a1d6!important;
+    background-color: #3b3b3b!important;
+}
+
+.danmaku-wrap .player-auxiliary-area .player-auxiliary-danmaku-wrap .player-auxiliary-danmaku-load-status {
+    background: #2b2b2bd6!important;
+    color: #bcbcbc!important;
+}
+
+
+/*  */
+
+.player-auxiliary-area .player-auxiliary-filter,
+.bui-collapse .bui-collapse-header {
+    color: #222;
+}
+
+.main-container .plp-r .danmaku-box .danmaku-wrap {
+    border-radius: 10px;
+    background-color: #222;
+}
+
+.player-auxiliary-area .player-auxiliary-filter {
+    border-top-left-radius: 10px;
+}
+
+.bui-collapse .bui-collapse-header .bui-collapse-arrow {
+    color: #a7a7a7;
+}
+
+.player-auxiliary-area .player-auxiliary-filter .player-auxiliary-setting-menu-wrap {
+    background-color: #4e4e4e;
+    -webkit-box-shadow: 0 2px 4px 0 #1b1b1b;
+    box-shadow: 0 2px 4px 0 #1b1b1b;
+    background-color: #798086;
+}
+
+.player-auxiliary-area .player-auxiliary-filter .player-auxiliary-setting-menu-wrap .player-auxiliary-setting-menu-list,
+.player-auxiliary-area .player-auxiliary-filter .player-auxiliary-setting-menu-wrap {
+    background-color: #4e4e4e;
+}
+
+
+/* 10.关注分组页面 */
+
+.follow-dialog-wrap .follow-dialog-window {
+    background: #222!important;
+    border-bottom: 1px solid #505050!important;
+    color: #e7e7e7e6!important;
+    border-radius: 15px!important;
+}
+
+.follow-dialog-wrap .follow-dialog-window .content .group-list li {
+    color: #e7e7e7e6!important;
+}
+
+.follow-dialog-wrap .follow-dialog-window .content .group-list li .special-tip {
+    color: #b4bdc5!important;
+}
+
+.follow-dialog-wrap .follow-dialog-window .content .info {
+    color: #aeb8c1!important;
+}
+
+.follow-dialog-wrap .follow-dialog-window .content .info .uname {
+    color: #9aa4ab!important;
+}
+
+.follow-dialog-wrap .follow-dialog-window .bottom {
+    border-top: 1px solid #505050!important;
+}
+
+.follow-dialog-wrap .follow-dialog-window .content .group-list .add-group .add-btn {
+    border: 1px solid #adacac!important;
+    color: #929ca2!important;
+}
+
+.follow-dialog-wrap .follow-dialog-window .bottom .btn {
+    opacity: 0.9!important;
+}
+
+
+/* 新建组 */
+
+.follow-dialog-wrap .follow-dialog-window .bottom .btn:disabled {
+    background-color: #525252!important;
+    color: #a6a9af!important;
+}
+
+.follow-dialog-wrap .follow-dialog-window .content .group-list .add-group .input-group {
+    border: 1px solid #00a1d6b3!important;
+}
+
+.follow-dialog-wrap .follow-dialog-window .content .group-list .add-group .input-group .submit {
+    background: #00b5e51c!important;
+    border-left: 1px solid #00a1d6b3!important;
+    color: #00a1d6!important;
+}
+
+
+/* //!important	不加可能无效 */
+
+.follow-dialog-wrap .follow-dialog-window .content .group-list .add-group .input-group input {
+    background-color: #222!important;
+    color: #e5e9efe8!important;
+}
+
+.follow-dialog-wrap .follow-dialog-window .content .group-list ul .follow-group-mask {
+    background: #fff0!important;
+}
+
+
+/* 11.点评内部 */
+
+.short-review-masker .short-review-content {
+    background: #222;
+    border-radius: 20px;
+}
+
+.review-edit-header .review-edit-media-info h4 {
+    color: #e2e2e2;
+}
+
+.review-edit-header .review-edit-media-info .rate-tip {
+    color: #e2e2e2c4;
+}
+
+.short-review-masker .short-review-content .review-body-wrap textarea {
+    color: #e2e2e2;
+    background: #222;
+}
+
+
+/* 12.评论弹出 */
+
+
+/* comment more to comment */
+
+.bb-comment .comment-send.comment-send-lite,
+.comment-bilibili-fold .comment-send.comment-send-lite,
+.bb-comment .comment-send-lite.comment-send-lite,
+.comment-bilibili-fold .comment-send-lite.comment-send-lite {
+    background: #161819!important;
+}
+
+.bb-comment .no-login .baffle,
+.comment-bilibili-fold .no-login .baffle {
+    background-color: #505050!important;
+    color: #e2e2e2!important;
+}
+
+
+/* 13.其他 */
+
+.main-container .media-info .media-right .media-title {
+    color: #e2e2e2e8;
+}
+
+.main-container .media-info .media-right .media-desc,
+.main-container .media-info .media-right .pub-wrapper .home-link,
+.main-container .media-info .media-right .pub-wrapper .pub-info {
+    color: #e2e2e2f0;
+}
+
+.main-container .media-info,
+.main-container .review-module,
+.main-container .plp-l .comment-wrapper {
+    border-top: 1px solid #6d757a;
+}
+
+.main-container .review-module .review-list .review-item .review-body {
+    border-radius: 10px;
+    background-color: #222;
+}
+
+.main-container .review-module .review-list .review-item .review-title {
+    color: #c7bcbc;
+}
+
+.main-container .review-module .review-list .review-item .review-content {
+    color: #c7bcbce3;
+}
+
+.main-container .review-module .module-title h4,
+.main-container .recom-wrapper .recom-title,
+.main-container .recom-wrapper .recom-list .recom-item .info-wrapper .video-title,
+.main-container .review-module .module-title .more-link,
+.main-container .plp-l .comment-wrapper .b-head {
+    color: #e7e7e7eb;
+}
+
+
+/* follow window title line */
+
+
+/* title #e5e9ef line #6d757a*/
+
+.follow-dialog-wrap .follow-dialog-window .title {
+    color: #e5e9ef!important;
+    border-bottom: 1px solid #6d757a !important;
+}
+
+
+/* comment textarea color focus e2e2e2 */
+
+.bb-comment .comment-send .textarea-container:hover textarea,
+.comment-bilibili-fold .comment-send .textarea-container:hover textarea,
+.bb-comment .comment-send .textarea-container.focus textarea,
+.comment-bilibili-fold .comment-send .textarea-container.focus textarea {
+    color: #e2e2e2 !important;
+}
+
+
+/* rate  */
+
+.main-container .media-info .media-right .media-tool-bar .btn-rating {
+    border: 1px solid #5050509e;
+    color: #ffffffcc;
+}
+
+.main-container .media-info .media-right .media-tool-bar .btn-rating {
+    background-color: #505050;
+}
+
+.main-container .media-info .media-right .media-tool-bar .btn-rating:hover {
+    background-color: #4a4b4e;
+}
+
+
+/* vip tip */
+
+.main-container .pay-bar .vip .btn-pay.active {
+    color: #e7e7e7e8;
+    background-color: #222!important;
+    border-radius: 10px;
+    border: 0px;
+}
+
+
+/* side nav bar */
+
+.main-container .nav-tools .tool-item {
+    background: #505050;
+    border: 0px;
+    color: #ffffffcc;
+}
+
+
+/* page box */
+
+.paging-box-big .current,
+.paging-box-big .next,
+.paging-box-big .prev,
+.paging-box-big .tcd-number,
+.paging-box-big .dian {
+    background: #505050!important;
+    border: 0px!important;
+    color: #ffffffcc!important;
+}
+
+
+/* page jump box */
+
+.paging-box-big .page-jump input {
+    border: 1px solid #505050!important;
+    background-color: #505050;
+    color: #ffffffcc;
+}
+
+
+/* comment info fix*/
+
+.bb-comment .comment-list .list-item .info .btn-hover:hover,
+.comment-bilibili-fold .comment-list .list-item .info .btn-hover:hover {
+    color: #00a1d6;
+    background: #161819;
+}
+
+
+/* ———————————————————————————————————— */
+
+
+/* 滑动出现的评论发送修复 */
+
+.bb-comment .comment-send .textarea-container .ipt-txt,
+.comment-bilibili-fold .comment-send .textarea-container .ipt-txt,
+.bb-comment .comment-send-lite .textarea-container .ipt-txt,
+.comment-bilibili-fold .comment-send-lite .textarea-container .ipt-txt {
+    background-color: #2b2b2b!important;
+    border: 0px!important;
+    border-radius: 10px!important;
+    color: #e1e1e1!important;
+}
+
+.bb-comment .comment-send .textarea-container:hover textarea,
+.comment-bilibili-fold .comment-send .textarea-container:hover textarea,
+.bb-comment .comment-send-lite .textarea-container:hover textarea,
+.comment-bilibili-fold .comment-send-lite .textarea-container:hover textarea,
+.bb-comment .comment-send .textarea-container.focus textarea,
+.comment-bilibili-fold .comment-send .textarea-container.focus textarea,
+.bb-comment .comment-send-lite .textarea-container.focus textarea,
+.comment-bilibili-fold .comment-send-lite .textarea-container.focus textarea {
+    background-color: #505050!important;
+    border: 1px solid #00a1d6!important;
+}
+
+::placeholder {
+    color: #8E8E8E!important;
+}
+
+
+/* 用手机观看修复 */
+
+.main-container .tool-bar .mobile-info .mobile-more .top-wrapper .video-title {
+    color: #e1e1e1;
+}
+
+.main-container .tool-bar .mobile-info .mobile-more p {
+    color: #bcbcbc;
+}
+
+.main-container .tool-bar .mobile-info .mobile-more .top-wrapper .van-qrcode {
+    opacity: 0.85;
+}
+
+
+/* 点评-用户名 */
+
+.main-container .review-module .review-list .review-item .review-header .review-author {
+    color: #bcbcbc;
+}
+
+
+/* 评论-用户名 */
+
+.bb-comment .comment-list .list-item .reply-box .reply-item .reply-con .user .name,
+.comment-bilibili-fold .comment-list .list-item .reply-box .reply-item .reply-con .user .name {
+    color: #bcbcbc;
+}
+
+
+/* 评论-共--条回复 */
+
+.bb-comment .comment-list .list-item .reply-box .view-more,
+.comment-bilibili-fold .comment-list .list-item .reply-box .view-more {
+    color: #bcbcbc!important;
+}
+
+
+/* 评论-回复保持 */
+
+.bb-comment .comment-list .list-item .info .btn-hover:hover,
+.comment-bilibili-fold .comment-list .list-item .info .btn-hover:hover,
+.bb-comment .comment-list .list-item .reply-box .view-more .btn-more:hover,
+.comment-bilibili-fold .comment-list .list-item .reply-box .view-more .btn-more:hover {
+    background: #505050!important;
+}
+
+
+/* 评论-加入黑名单、举报 */
+
+.bb-comment .operation .opera-list,
+.comment-bilibili-fold .operation .opera-list {
+    background: #222!important;
+    box-shadow: 0px 2px 8px rgb(0 0 0 / 20%)!important;
+    color: #bcbcbc!important;
+    border-radius: 10px!important;
+}
+
+.bb-comment .operation .opera-list li:hover,
+.comment-bilibili-fold .operation .opera-list li:hover {
+    background: #505050!important;
+}
+
+
+/* 评论-翻页 */
+
+.paging-box .current,
+.paging-box .next,
+.paging-box .prev,
+.paging-box .tcd-number,
+.paging-box .dian,
+.paging-box .result {
+    color: #bcbcbc!important;
+}
+
+.paging-box .current:hover,
+.paging-box .next:hover,
+.paging-box .prev:hover,
+.paging-box .tcd-number:hover,
+.paging-box .dian:hover {
+    color: #00a1d6!important;
+}
+
+.paging-box .current {
+    color: #00a1d6!important;
+}
