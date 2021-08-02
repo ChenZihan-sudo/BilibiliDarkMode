@@ -1,0 +1,245 @@
+/* 小黑屋 */
+
+
+/* https://www.bilibili.com/blackroom/ban */
+
+.ban-modal,
+.ban-modal-h5 {
+    background: #222;
+}
+
+.ban-modal {
+    border-radius: 10px;
+}
+
+.pub-list .info .name[data-v-46dd4b8a] {
+    color: #e7e7e7e0;
+}
+
+.pub-list .info .type .bk-title[data-v-46dd4b8a],
+.pub-list .info dl dt[data-v-46dd4b8a] {
+    color: #bcbcbc;
+}
+
+.pub-list .info dl[data-v-46dd4b8a] {
+    border-left: 3px solid #bcbcbc80;
+}
+
+.publicity .header[data-v-381593fc] {
+    color: #e1e1e1;
+}
+
+.select-wrap .select-txt[data-v-78203d85] {
+    background: #161819;
+}
+
+
+/*通用多选项框 */
+
+.select-wrap .select-option[data-v-78203d85] {
+    border: 1px solid #222;
+    border-radius: 8px;
+    background-color: #222;
+}
+
+.select-wrap .select-option p[data-v-78203d85]:hover {
+    background-color: #3b3e40;
+}
+
+
+/* 小黑屋详细内容页面 */
+
+.ban-detail .content-box .info-wrap[data-v-2812059c] {
+    border-radius: 15px;
+    background: #222;
+    box-shadow: 3px 4px 6px #00000057;
+}
+
+.comment-wrap[data-v-b2676c04] {
+    background: #161819;
+}
+
+.ban-detail .content-box .bk-user-info .name[data-v-2812059c] {
+    color: #e7e7e7e0;
+}
+
+.ban-detail .content-box .punish-title[data-v-2812059c] {
+    color: #bcbcbc;
+}
+
+.ban-detail .content-box .bk-text-con[data-v-2812059c] {
+    color: #e7e7e7e0;
+    border-left: 4px solid #bcbcbc80;
+}
+
+.what-ban .text-con[data-v-d8d6c3a6] {
+    background: #222;
+}
+
+.what-ban .text-con .title[data-v-d8d6c3a6] {
+    color: #e7e7e7e0;
+}
+
+.what-ban .text-con .txt[data-v-d8d6c3a6] {
+    color: #bcbcbc;
+}
+
+.ban-detail .content-box .link-box[data-v-2812059c] {
+    border: 1px solid #bcbcbc80;
+    color: #e7e7e7e0;
+}
+
+.ban-detail .content-box .link-box .box-right .origin-text[data-v-2812059c],
+.ban-detail .content-box .link-box .box-rule .origin-text[data-v-2812059c] {
+    color: #e7e7e7e0;
+}
+
+.comment-wrap .header .title-h2[data-v-b2676c04] {
+    color: #e1e1e1;
+}
+
+.comment-wrap[data-v-b2676c04] {
+    border-radius: 15px;
+    box-shadow: 2px 4px 15px 0px #00000052;
+}
+
+.crumbs a {
+    color: #aeaeae;
+}
+
+.crumbs {
+    color: #e1e1e1e0;
+}
+
+.ban-detail .content-box[data-v-c428d402] {
+    border-radius: 15px;
+    background: #222;
+}
+
+.block-wrap article .list-item p[data-v-08d650dd] {
+    color: #e7e7e7e0;
+}
+
+.notice-wrap .news-box[data-v-859f8efc] {
+    background: #222;
+}
+
+.notice-wrap .news-box .news-title[data-v-859f8efc] {
+    color: #e1e1e1;
+}
+
+.notice-wrap .news-box .item .title strong[data-v-859f8efc] {
+    color: #e7e7e7e0;
+}
+
+.paginator .paging-box-big .current[data-v-99397e02],
+.paginator .paging-box-big .dian[data-v-99397e02],
+.paginator .paging-box-big .next[data-v-99397e02],
+.paginator .paging-box-big .prev[data-v-99397e02],
+.paginator .paging-box-big .tcd-number[data-v-99397e02] {
+    background-color: #2B2B2B;
+    color: #bcbcbc;
+    border: 0px;
+    margin-right: 6px;
+    border-radius: 6px;
+}
+
+.paginator .paging-box-big .page-jump input[data-v-99397e02] {
+    border: 0px;
+    background-color: #3b3b3b;
+    border-radius: 8px;
+    color: #e1e1e1;
+}
+
+.paginator .paging-box-big .current[data-v-99397e02],
+.paginator .paging-box-big .current[data-v-99397e02]:hover,
+.paginator .paging-box-big .dian[data-v-99397e02]:hover,
+.paginator .paging-box-big .next[data-v-99397e02]:hover,
+.paginator .paging-box-big .prev[data-v-99397e02]:hover,
+.paginator .paging-box-big .tcd-number[data-v-99397e02]:hover {
+    background-color: #00a1d6c7;
+    color: #e7e7e7e0;
+    border: 0px;
+}
+
+.act-rich-style-init2 .public-DraftEditor-content,
+.act-rich-style-init2 .act-rich-render-content {
+    color: e7e7e7e0;
+}
+
+.timeline-header {
+    background: #161819;
+    box-shadow: 0 10px 10px #0e0e0ecc;
+    -webkit-box-shadow: 0 10px 10px #0e0e0ecc;
+}
+
+.tl-head {
+    background: #161819;
+}
+
+.tl-head .tl-day {
+    background: #161819;
+}
+
+.tl-head .tl-day.today span.t-date,
+.tl-head .tl-day.today span.t-week {
+    color: #e7e7e7e0;
+}
+
+
+/* 全部，连载动画 */
+
+.bread-crumb ul li a {
+    color: #e7e7e7e0;
+}
+
+.season-timeline {
+    background: #161819;
+}
+
+li.season-item .season-body .season-title span.follow {
+    border-radius: 7px;
+}
+
+li.season-item .season-body .season-title {
+    color: #e7e7e7e0;
+}
+
+.season-timeline .season-group .group-time:before {
+    background: #161819;
+}
+
+.season-timeline .season-group .group-time {
+    color: #e7e7e7e0;
+}
+
+.season-timer .current-timer:before {
+    opacity: 0.9;
+}
+
+.timeline-wrapper .tl-body-list {
+    background: #161819;
+}
+
+.season-empty .season-bg.ball-2 {
+    opacity: 0.8;
+}
+
+.season-timeline .season-group {
+    border-left: 1px dashed #bcbcbc80;
+}
+
+.tl-head .tl-day span {
+    color: #adadad;
+}
+
+.tl-head .week-1,
+.tl-head .week-2,
+.tl-head .week-3,
+.tl-head .week-4,
+.tl-head .week-5,
+.tl-head .week-6,
+.tl-head .week-7,
+.tl-head .tl-day .indicator {
+    opacity: 0.8;
+}

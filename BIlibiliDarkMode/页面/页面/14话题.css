@@ -1,0 +1,198 @@
+/* 话题页面 
+   1.导航栏
+   2.背景更改
+   3.评论
+   4.评论发布、标题（热门、最新）-窗口外观
+   5.卡片
+   6.卡片-加关注-更多
+   7.卡片样式修改
+   8.右侧活跃用户
+   9.窗口-视频
+   10.页面跳转切换
+   11.举报页面
+*/
+
+
+/* 4.评论发布、标题（热门、最新）-窗口外观 */
+
+.feed-topic .publis,
+.feed-topic .separater-line,
+.feed-topic .publish-panel-container {
+    background: #222!important;
+    border-radius: 10px!important;
+    box-shadow: 0px 4px 6px 0px rgb(0 0 0 / 30%)!important;
+}
+
+
+/* 6.卡片-加关注-更多 */
+
+.card .focus-btn .focus {
+    border: 1px solid #ccd0d7!important;
+    border-radius: 20px!important;
+    background-color: #222!important;
+}
+
+.card .focus-btn .unfocus {
+    border: 1px solid #00a1d6!important;
+    border-radius: 20px!important;
+    background-color: #222!important;
+}
+
+.card .more-panel {
+    background: #2B2B2B!important;
+    border: 0px!important;
+    -webkit-box-shadow: 0 11px 12px 0 rgb(0 0 0 / 20%)!important;
+    box-shadow: 0 11px 12px 0 rgb(0 0 0 / 20%)!important;
+    border-radius: 10px!important;
+    color: #e1e1e1!important;
+}
+
+.card .more-panel:after {
+    border-top: 1px solid #2b2b2b!important;
+    border-left: 1px solid #2B2B2B!important;
+    background: #2B2B2B!important;
+}
+
+
+/* 7.卡片样式修改 */
+
+.card {
+    border-radius: 15px!important;
+    border: 0px!important;
+}
+
+
+/*  8.右侧活跃用户 */
+
+.tc-dark-slate {
+    color: #e1e1e1;
+}
+
+.active-panel .show-more-button {
+    background-color: #3b3b3b!important;
+    border-radius: 10px!important;
+}
+
+
+/* 9.窗口-视频 */
+
+.tab-nav .tab .tab-text {
+    color: #bcbcbc!important;
+}
+
+.video-topic .video-list {
+    background-color: #222!important;
+    border-radius: 15px!important;
+}
+
+.video-topic .video-list .video-title {
+    color: #e7e7e7!important;
+}
+
+.v .t {
+    color: #e1e1e1!important;
+}
+
+
+/*  10.页面跳转切换 */
+
+.page-list-box .page-item a {
+    color: #bcbcbc!important;
+}
+
+.page-list-box .page-item {
+    color: #bcbcbc!important;
+    background-color: #2B2B2B!important;
+    border: 0px!important;
+}
+
+.page-list-box .active a {
+    color: #e1e1e1!important;
+}
+
+.page-list-box .active {
+    background: #00a1d6!important;
+}
+
+.page-list-box .page-input {
+    color: #e1e1e1!important;
+    border-radius: 10px!important;
+    border: 0px!important;
+    background-color: #3b3b3b!important;
+}
+
+
+/* 11.举报页面 */
+
+.bp-popup-panel {
+    background-color: #222!important;
+}
+
+.selector-box {
+    color: #e1e1e1!important;
+}
+
+.content-text {
+    color: #bcbcbc!important;
+}
+
+bl-button--primary:disabled {
+    background-color: #6f6f6f!important;
+    color: #a2a2a2!important;
+}
+
+.bp-popup-ctnr .popup-content-ctnr {
+    color: #e1e1e1!important;
+}
+
+
+/* 12.默认、时间排序 */
+
+.tab-wrap .tab-item {
+    color: #bcbcbc!important;
+}
+
+
+/* fix */
+
+.feed-topic .separater-line {
+    border-bottom: 1px solid #bcbcbc80!important;
+}
+
+#app {
+    background: #161819!important;
+}
+
+.card .focus-btn .focus:hover {
+    border-color: #00a1d6!important;
+}
+
+.unfocus.t-center.w-100.h-100:hover {
+    background: #00a1d6!important;
+}
+
+.textarea[data-v-126b8d34] {
+    background: transparent!important;
+    color: #e1e1e1e0!important;
+}
+
+.bl-button--primary:disabled {
+    background-color: #3b3b3b!important;
+    opacity: 0.8!important;
+    color: #b4b4b4!important;
+}
+
+.bl-button--primary,
+.bl-button--ghost:hover {
+    opacity: 0.9!important;
+}
+
+.tab-wrap .tab-item.active[data-v-479d07d0] {
+    color: #00a1d6!important;
+}
+
+.v:hover .t,
+.tab-nav .tab .tab-text.selected[data-v-21a80c3a],
+.tab-nav .tab .tab-text:hover {
+    color: #00a1d6!important;
+}
