@@ -1,0 +1,35 @@
+/* 稍后再看-深色模式
+1.导航栏
+2.栏目栏
+3.底部栏
+ */
+
+
+/* 主标题 */
+
+.watch-later-list header .t {
+    color: #e1e1e1;
+}
+
+
+/* 暗标题文字 */
+
+.watch-later-list .list-box .av-item .av-about .t {
+    color: #e7e7e7e0;
+}
+
+.watch-later-list .list-box .av-item .av-about .info .user span {
+    color: #bcbcbc;
+}
+
+
+/* 全部播放、一键清空、移除已观看视频 */
+
+.watch-later-list header .s-btn,
+.watch-later-list header .d-btn {
+    background-color: #222;
+}
+
+.watch-later-list .list-box .av-item .av-about {
+    border-bottom: 1px solid #bcbcbc80;
+}
