@@ -12,21 +12,21 @@ https://www.bilibili.com/cheese/ */
     color: #e1e1e1!important;
 }
 
-.myClassroom[data-v-768a6cdf],
-.block-list-item-title[data-v-2192be56],
-.rank-title[data-v-b576269e],
-.block-list-item-title[data-v-0a31c1fd],
-.block-title .sub-title[data-v-7d27b490] {
-    color: #e1e1e1;
+.myClassroom,
+.block-list-item-title,
+.rank-title,
+.block-list-item-title,
+.block-title .sub-title {
+    color: #e1e1e1!important;
 }
 
 
 /* 更亮的副标题文字 */
 
-.item[data-v-768a6cdf],
-.block-list-item-desc[data-v-2192be56],
-.time-line-wrapper .time[data-v-29beee50] {
-    color: #bcbcbc;
+.item,
+.block-list-item-desc,
+.time-line-wrapper .time {
+    color: #bcbcbc!important;
 }
 
 
@@ -39,9 +39,9 @@ https://www.bilibili.com/cheese/ */
 
 /* 按钮背景颜色 */
 
-.backTop-item.bor[data-v-dcae897a],
-.backTop-item[data-v-dcae897a]:nth-child(n+2) {
-    background: #3b3b3b;
+.backTop-item.bor,
+.backTop-item:nth-child(n+2) {
+    background: #3b3b3b!important;
 }
 
 
@@ -50,12 +50,12 @@ https://www.bilibili.com/cheese/ */
 
 /* 右侧悬浮导航栏 */
 
-.backTop-item[data-v-dcae897a] {
-    border-bottom: 1px solid #ffffff1f;
+.backTop-item {
+    border-bottom: 1px solid #ffffff1f!important;
 }
 
-.backTop-item[data-v-dcae897a]:last-child {
-    border: 0px;
+.backTop-item:last-child {
+    border: 0px!important;
 }
 
 
@@ -96,7 +96,7 @@ https://www.bilibili.com/cheese/ */
     transform: rotate( 180deg);
 }
 
-.block-list .slider-contro .slider-prev.disabled {
+.block-list .slider-contro .slid er-prev.disabled {
     pointer-events: none;
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAbUExURUxpcSoqKiYmJiIiIiIiIiEhISIiIiIiIiEhIR/wiRkAAAAIdFJOUwAMIcPhqpvRy08zNQAAAC5JREFUKM9jYKAZYAtEE2BvFkAVYPIwRFOiMoBKAggIoGvBMJQOCjCCECOQqQwAa+IMp83lbxQAAAAASUVORK5CYII=);
     -webkit-transform: rotate( 180deg);
@@ -107,8 +107,31 @@ https://www.bilibili.com/cheese/ */
 
 /* 排行榜 */
 
-.rank-index[data-v-b576269e] {
-    color: #fff;
-    background: #999;
-    border-radius: 10px;
+.rank-index {
+    color: #fff!important;
+    background: #999!important;
+    border-radius: 10px!important;
+}
+
+
+/* fix */
+
+.backTop-item {
+    border: 1px solid #ffffff1f!important;
+}
+
+.classroom-wrapper .common-lazy-img {
+    background-color: #2b2b2b;
+}
+
+.rec-title {
+    color: #e1e1e1e0!important;
+}
+
+.item:hover,
+.block-list-item-title:hover,
+.list:hover .rank-title,
+.block-title .sub-title:hover,
+.myClassroom:hover {
+    color: #0ba395!important;
 }

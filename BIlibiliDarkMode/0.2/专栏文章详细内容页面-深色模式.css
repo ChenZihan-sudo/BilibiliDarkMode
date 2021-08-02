@@ -5,13 +5,18 @@ https://www.bilibili.com/read/cvXXXXXXX */
 /* 文章盒子外观 */
 
 .article-container,
-.article-up-info[data-v-2724bf84],
+.article-up-info,
 .recommend-list,
-.right-side-bar .side-toolbar[data-v-3ee147b6],
-.right-side-bar.on .to-top[data-v-3ee147b6] {
-    background-color: #222;
-    border-radius: 15px;
-    box-shadow: 1px 3px 10px rgb(0 0 0 / 40%);
+.right-side-bar .side-toolbar,
+.right-side-bar.on .to-top,
+.comment-wrapper .comment-m,
+.right-side-bar .catalog,
+.right-side-bar .catalog-panel,
+.list-container .list-info-block,
+.list-container .article-list-block {
+    background-color: #222!important;
+    border-radius: 15px!important;
+    box-shadow: 1px 3px 10px rgb(0 0 0 / 40%)!important;
 }
 
 
@@ -19,18 +24,23 @@ https://www.bilibili.com/read/cvXXXXXXX */
 
 .article-container .title-container .title,
 .normal-article-holder,
-.article-up-info .up-name[data-v-2724bf84],
 .recommend-list .recommend-header .title,
 .recommend-list .recommend-article-list .left-panel .article-desc,
-.recommend-list .recommend-article-list .left-panel .article-title {
+.recommend-list .recommend-article-list .left-panel .article-title,
+.comment-wrapper .comment-m .b-head,
+.list-container .list-info-block .right-side .title {
     color: #e1e1e1;
+}
+
+.article-up-info .up-name,
+.right-side-bar .catalog-panel__title {
+    color: #e1e1e1!important;
 }
 
 
 /* 更亮的副标题 */
 
 .normal-article-holder figcaption,
-.right-side-bar .side-toolbar .toolbar-item[data-v-3ee147b6],
 .recommend-list .recommend-header .more,
 .recommend-list .recommend-header .more .iconfont,
 .article-tags .tag-item,
@@ -39,16 +49,22 @@ https://www.bilibili.com/read/cvXXXXXXX */
     color: #bcbcbc;
 }
 
+.right-side-bar .side-toolbar .toolbar-item,
+.right-side-bar .catalog-panel__info {
+    color: #bcbcbc!important;
+}
+
 
 /* 副标题 */
 
 .article-breadcrumb .breadcrumb-name,
 .article-breadcrumb .slash,
-.right-side-bar .side-toolbar .toolbar-on[data-v-3ee147b6],
-.right-side-bar .side-toolbar .toolbar-on>.iconfont[data-v-3ee147b6],
-.right-side-bar .side-toolbar .toolbar-item .iconfont[data-v-3ee147b6],
-.right-side-bar .to-top .iconfont[data-v-3ee147b6] {
-    color: #8E8E8E;
+.right-side-bar .side-toolbar .toolbar-on,
+.right-side-bar .side-toolbar .toolbar-on>.iconfont,
+.right-side-bar .side-toolbar .toolbar-item .iconfont,
+.right-side-bar .to-top .iconfont,
+.right-side-bar .catalog {
+    color: #8E8E8E!important;
 }
 
 
@@ -64,4 +80,125 @@ https://www.bilibili.com/read/cvXXXXXXX */
 .fixed-top-header .inner .inner-title,
 .fixed-top-header .inner .up-info__name {
     color: #bcbcbc;
+}
+
+#app {
+    background: #161819;
+}
+
+
+/* 边框 */
+
+.article-container__content,
+.recommend-list .recommend-header,
+.recommend-list .recommend-article-list .article-item {
+    border-bottom: 1px solid #bcbcbc80;
+}
+
+.normal-article-holder .img-box:before {
+    border: 1px solid #bcbcbc80;
+}
+
+.card-image__image,
+img {
+    opacity: 0.8!important;
+}
+
+.card-image,
+.read-article-holder .default-cover {
+    background: #1b1b1b!important;
+}
+
+.normal-article-holder .color-default,
+.normal-article-holder .color-gray-03 {
+    color: #dcdcdc;
+}
+
+.right-side-bar .side-toolbar .toolbar-on,
+.right-side-bar .side-toolbar .toolbar-on>.iconfont,
+.right-side-bar .side-toolbar .toolbar-item:hover .iconfont,
+.right-side-bar .side-toolbar .toolbar-item:hover>.toolbar-item__num,
+.right-side-bar .to-top:hover .iconfont,
+.van-popover.van-followed .follow_dropdown li:hover,
+.right-side-bar .catalog:hover .catalog-text,
+.right-side-bar .catalog:hover .icon-catalog,
+.right-side-bar .catalog-panel__info:hover,
+.right-side-bar .catalog-panel .catalog-item--on {
+    color: #00a1d6!important;
+}
+
+.right-side-bar .to-top,
+.right-side-bar .catalog:after {
+    background: #222!important;
+}
+
+.unfollow,
+.list-container .list-info-block .right-side .up-info-block .follow-btn {
+    opacity: 0.9!important;
+}
+
+.followed,
+.list-container .list-info-block .right-side .up-info-block .follow-btn.on {
+    color: #bcbcbc!important;
+    border: 1px solid #3b3b3b!important;
+    background: #3b3b3b!important;
+}
+
+.van-popover.van-followed {
+    border: 1px solid #171717!important;
+    border-radius: 8px!important;
+    background-color: #171717!important;
+}
+
+.van-popover.van-followed .follow_dropdown li:hover {
+    background-color: #111213!important;
+}
+
+.van-popover.van-followed .follow_dropdown li {
+    color: #bcbcbc!important;
+}
+
+.recommend-list .recommend-article-list .left-panel .article-info,
+.recommend-list .recommend-article-list .left-panel .article-info .article-info--up,
+.recommend-list .recommend-article-list .left-panel .article-info .article-info--stats .stats-categroy {
+    color: #bcbcbc;
+}
+
+.right-side-bar .catalog-panel .catalog-item {
+    color: #e1e1e1e0!important;
+}
+
+.list-container .list-info-block .right-side .up-info-block .up-name {
+    color: #e1e1e1e0;
+}
+
+.right-side-bar .catalog-panel .catalog-item:hover {
+    background: #2f3031!important;
+}
+
+.right-side-bar .catalog[data-v-3ee147b6]:after {
+    width: 45px!important;
+}
+
+
+/* https://www.bilibili.com/read/readlist/* */
+
+.list-container .article-list-block .article-item {
+    background: transparent;
+}
+
+.list-container .list-info-block .right-side .col .split-line {
+    background-color: #bcbcbc80;
+}
+
+.list-container .article-list-block .article-item .item-holder .article-content .article-title {
+    color: #e1e1e1e0;
+}
+
+.list-container .article-list-block .article-item .item-holder .article-content .article-left-block {
+    border-bottom: 1px solid #bcbcbc80;
+}
+
+.list-container .article-list-block .article-item .item-holder .article-content .article-desc {
+    color: #e1e1e1e0;
 }

@@ -21,7 +21,8 @@
 .page-content .right-side .up-list .up-item .info-holder .head .nick-name,
 .page-content .right-side .more .top-bar,
 .page-content .right-side .more .help .title,
-.page-content .right-side .more .link .title {
+.page-content .right-side .more .link .title,
+.categories-bar .tag-item {
     color: #e1e1e1;
 }
 
@@ -95,4 +96,22 @@
 
 .page-content .right-side .up-list .fresh-btn {
     border: 1px solid #3b3b3b;
+}
+
+.page-content .right-side .search-module .search-block,
+.page-content .left-side .article-list .article-list-holder .article-item .item-holder .article-title-holder .list-mark,
+.page-content .right-side .search-module .search-block .search-word-panel {
+    border: 1px solid #bcbcbc80;
+}
+
+.page-content .right-side .rank-module .rank-tabs-bar,
+.page-content .left-side .article-list .article-list-holder .article-item,
+.page-content .right-side .up-list .title,
+.page-content .right-side .more .top-bar,
+.categories-bar {
+    border-bottom: 1px solid #bcbcbc80;
+}
+
+.page-content .right-side .search-module .search-block .search-word-panel .panel-title .split-line {
+    border-top: 1px solid #bcbcbc80;
 }

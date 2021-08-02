@@ -29,3 +29,7 @@
 .watch-later-list header .d-btn {
     background-color: #222;
 }
+
+.watch-later-list .list-box .av-item .av-about {
+    border-bottom: 1px solid #bcbcbc80;
+}

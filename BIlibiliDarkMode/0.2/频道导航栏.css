@@ -80,3 +80,7 @@ a {
 .van-popover a:hover {
     color: #00A1D6!important;
 }
+
+.tab-line-itnl {
+    border-left: 1px solid #bcbcbc80;
+}

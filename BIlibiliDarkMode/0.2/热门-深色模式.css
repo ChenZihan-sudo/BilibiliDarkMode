@@ -4,44 +4,45 @@
     color: #e1e1e1;
 }
 
-.popular-list .popular-tips[data-v-59ee846d],
+.popular-list .popular-tips,
 .history-list .history-tips,
-.rank-container .rank-tips[data-v-9b180bbc],
-.weekly-header .update-tips[data-v-6b37fecd] {
-    color: #bcbcbc;
+.rank-container .rank-tips,
+.weekly-header .update-tips,
+.popular-list .popular-tips {
+    color: #bcbcbc!important;
 }
 
-.video-card .video-name[data-v-a182333c],
-.weekly-header .current-tiem[data-v-6b37fecd],
+.video-card .video-name,
+.weekly-header .current-tiem,
 .rank-tab-wrap .rank-tab,
 .rank-list .rank-item .content .info .title {
-    color: #e1e1e1;
+    color: #e1e1e1!important;
 }
 
-.video-card .strong-tag[data-v-a182333c],
-.video-card .weekly-hint[data-v-a182333c],
-.video-card .history-hint[data-v-a182333c],
+.video-card .strong-tag,
+.video-card .weekly-hint,
+.video-card .history-hint,
 .rank-tab-wrap {
-    background: #161819;
+    background: #161819!important;
 }
 
-.video-card .rcmd-tag[data-v-a182333c] {
-    border: 1px solid #f63;
+.video-card .rcmd-tag {
+    border: 1px solid #f63!important;
 }
 
 
 /* 每周观看列表 */
 
-.weekly-header .panel .select-item[data-v-6b37fecd] {
-    background: #222;
+.weekly-header .panel .select-item {
+    background: #222!important;
 }
 
-.weekly-header .panel .item-title[data-v-6b37fecd] {
-    color: #e1e1e1;
+.weekly-header .panel .item-title {
+    color: #e1e1e1!important;
 }
 
-.weekly-header .panel .select-item[data-v-6b37fecd]:not(.item-active):hover {
-    background: #000000d4;
+.weekly-header .panel .select-item:not(.item-active):hover {
+    background: #000000d4!important;
 }
 
 .rank-list .rank-item:hover {
@@ -51,13 +52,26 @@
 
 /* 返回顶部 */
 
-.back-top-btn[data-v-6af406fd] {
+.back-top-btn {
     background: #3b3b3b!important;
     border: 1px solid #3b3b3b!important;
     border-radius: 5px!important;
 }
 
-.rank-container .rank-tips .icon-tip[data-v-9b180bbc] {
+.rank-container .rank-tips .icon-tip {
     fill: #e1e1e1!important;
-    color: #e1e1e1;
+    color: #e1e1e1!important;
+}
+
+.video-card__info:hover .video-name {
+    color: #00a1d6!important;
+}
+
+.nav-tabs,
+.rank-list .rank-item {
+    border-bottom: 1px solid #bcbcbc80;
+}
+
+.video-card__content .cover-picture__image[data-v-a182333c] {
+    background: #222;
 }

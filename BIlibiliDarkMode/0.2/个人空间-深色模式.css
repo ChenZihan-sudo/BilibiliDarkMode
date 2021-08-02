@@ -605,3 +605,82 @@ input::placeholder {
 #page-channel-index .channel-item .channel-name {
     color: #e1e1e1;
 }
+
+
+/* fix */
+
+.i-pin-v .be-tab {
+    border-bottom: 1px solid #bcbcbc80;
+}
+
+#app {
+    background: #161819;
+}
+
+
+/* 卡片加阴影 */
+
+.col-1,
+.section.i-ann,
+.section.i-m,
+.section.user,
+.section.game {
+    box-shadow: 0px 4px 7px 0px #101010;
+}
+
+div#i-ann-display {
+    color: #e1e1e1e0;
+}
+
+.i-live .i-live-fo-btn,
+.i-live .i-live-unfo-btn,
+.i-live .i-live-fo-count,
+.list-item,
+#page-fav .fav-main .filter-item.search,
+#page-setting .setting-index-container {
+    border: 1px solid #bcbcbc80;
+}
+
+p.item,
+.breadcrumb .item.cur {
+    color: #e1e1e1e0;
+}
+
+#page-fav .fav-main .search-types,
+#page-fav .fav-sidenav {
+    border-right: 1px solid #bcbcbc80;
+}
+
+.small-item.disabled .disabled-cover {
+    background: #2b2b2b;
+}
+
+#page-fav .fav-main {
+    border-left: 1px solid #bcbcbc80;
+}
+
+html {
+    background: transparent!important;
+}
+
+#page-fav .fav-main .fav-action-top .back-to-info {
+    color: #e1e1e1e0;
+}
+
+#page-setting #setting-new-tag {
+    color: #e1e1e1e0;
+    border: 1px solid #2b2b2b;
+    background: #2b2b2b;
+}
+
+#page-setting #setting-new-tag-btn {
+    border-radius: 0px;
+}
+
+.be-switch {
+    opacity: 0.8;
+}
+
+#page-setting .setting-index-module {
+    border-bottom: 1px solid #bcbcbc80;
+}

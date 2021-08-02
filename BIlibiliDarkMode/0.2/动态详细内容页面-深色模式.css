@@ -15,7 +15,7 @@
     /* 3.卡片 */
     /* 4.卡片样式修改 */
     
-    .card[data-v-b5713636] {
+    .card {
         border-radius: 15px!important;
         border: 0px!important;
     }

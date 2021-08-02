@@ -1,0 +1,335 @@
+.top-header {
+    opacity: 0.6!important;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAABWCAYAAADlqUfFAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAK6wAACusBgosNWgAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAAbSURBVCiRY2RYcOM/AwMDAxMDFIwyRhkjjQEAc4gDI5wD87YAAAAASUVORK5CYII=) repeat!important;
+}
+
+.security_content {
+    border: 0px!important;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 51%)!important;
+    background: #222!important;
+    border-radius: 15px!important;
+}
+
+
+/* 边框 */
+
+.security-title,
+.security-right-title,
+.big-name-warp,
+.big-privilege-warp,
+.big-watch-wrapper,
+.security-ul,
+.security-list-jump,
+.big-game-gift-warp,
+.big-pendant-warp,
+.tabs-nav {
+    border-bottom: 1px solid #bcbcbc80!important;
+}
+
+.security-right {
+    border-left: 1px solid #bcbcbc80!important;
+    background: #141415!important;
+}
+
+
+/* 空白按钮 */
+
+.big-gift-btn-home {
+    background: #3b3b3b!important;
+    color: #e7e7e7e0!important;
+    border: 1px solid #3b3b3b!important;
+}
+
+.big-gift-btn-home:hover {
+    background: #00b5e5!important;
+    border-color: #00b5e5!important;
+    color: #fff!important;
+}
+
+.big-gift-btn-home:hover {
+    opacity: 0.9!important;
+}
+
+.big-more-tool-btn {
+    border: 0px!important;
+}
+
+
+/* 蓝色按钮 */
+
+.big-member-btn {
+    opacity: 0.9!important;
+}
+
+
+/* 标题 */
+
+.big-privilege-title,
+.big-watch-title,
+.privilege-text,
+.member-list-item-text,
+.big-pendant-test,
+.big-game-gift-text,
+.security-list-link-jump {
+    color: #e1e1e1!important;
+}
+
+
+/* - */
+
+.right-more-btn {
+    color: #e1e1e1!important;
+    opacity: 0.8!important;
+}
+
+
+/* .m-arrow {
+    mask-size: 240px 352px;
+    mask-position: 1px -166.3px;
+    transform: scale(4);
+    mask: url(https://s1.hdslb.com/bfs/static/account-fe/static/img/icons_m_2.57e5263.png) no-repeat;
+    -webkit-mask-size: 240px 352px;
+    -webkit-mask-position: 1px -166.3px;
+    -webkit-transform: scale(4);
+    -webkit-mask: url(https://s1.hdslb.com/bfs/static/account-fe/static/img/icons_m_2.57e5263.png) no-repeat;
+} */
+
+
+/* - */
+
+.security-nav-name {
+    color: #e1e1e1!important;
+}
+
+.security-list:hover,
+.security-list-jump:hover,
+.security-list .child-list li a:hover,
+.f-list-hover:hover {
+    background: #181819!important;
+}
+
+
+/* 首页 */
+
+
+/* 主标题 */
+
+.h-reward-info,
+.h-safe-title,
+.h-reward-info,
+.home-dialy-task-title,
+.re-exp-info,
+.points-exchange-title,
+.points-info p,
+.points-pendant-title p,
+.points-how-title,
+.face-g-list .face-g-block .face-g-block-title,
+.safe-tips p,
+.safe-tips p,
+.main-content-title span.t {
+    color: #e1e1e1!important;
+}
+
+
+/* 副标题 */
+
+.curren-b-num,
+.h-none-msg,
+.h-safe-desc,
+.home-to-space,
+.home-to-update,
+.now-num,
+.go-secuirty,
+.pendant-name,
+.points-faq-info-list,
+.tabs-nav-item,
+.el-form-item__label,
+.userinfo-username,
+.face-nav>div a,
+.pendant-nav li div,
+.pendant-mail-margin h3,
+.security-list .child-list li a,
+.tab-btn-link,
+.face-g-list .mp-block .left .mp-info .mp-title,
+.face-g-list .mp-block .left .mp-info .mp-descr,
+.face-g-list .mp-block .right ul li p.title,
+.tab-mk2,
+.module-title *,
+.medal-message,
+.hold-list-width div,
+.receive-list-width div,
+.nav-list li .list-title .list-title-text p,
+.invitation-info-title,
+.inv-record-title,
+.table-normal tbody tr,
+.record-nav-item,
+.main-content-title span.i,
+.record-group,
+.record-login-descript,
+.security-list .first-level,
+.security-list .first-level,
+.identify-component .identify-content .identify-container .identify-form p,
+.identify-tips .content .tips-box,
+.upload-content .upload-text label,
+.be-row label {
+    color: #e1e1e1e0!important;
+}
+
+.nav-list li .list-description p {
+    color: #bcbcbc;
+}
+
+div {
+    color: #bcbcbc;
+}
+
+
+/* 按钮透明度 */
+
+.h-safe-btn,
+.h-safe-nobtn,
+.h-none-btn,
+.home-right,
+.home-head img,
+.home-dialy-exp-icon,
+.re-exp-getexp,
+.home-mp-icon,
+.h-reward-icon,
+.h-safe-icon {
+    opacity: 0.85!important;
+}
+
+
+/* 按钮边框 */
+
+.home-to-space,
+.home-to-update,
+.points-box,
+.points-pendant-item,
+.tool-container,
+.pendant-list li,
+.hold-list,
+.wear-list li,
+.table-wrapper,
+.indentify-page {
+    border: 1px solid #bcbcbcbf!important;
+}
+
+.nav-list li,
+.identify-component .identify-footer {
+    border-top: 1px solid #bcbcbc80!important;
+}
+
+
+/* 线边框 */
+
+.index-info,
+.home-daily-task-warp,
+.home-mp,
+.points-pendant-warp,
+.user-setting-warp .padding-dom,
+.face-nav,
+.tabs-mk2,
+.face-g-list .face-g-block,
+.hold-list-width.details-list-t,
+.invitation-top-warp,
+.main-content-title,
+.record-nav,
+.sr-t,
+.security-list .child-list,
+.security-list .first-level,
+.identify-component .identify-head {
+    border-bottom: 1px solid #bcbcbc80!important;
+}
+
+.points-header-warp,
+#mp-mine-header,
+#mp-mine-header.active {
+    opacity: 0.6;
+}
+
+.points-faq-line,
+.points-btn {
+    opacity: 0.9;
+}
+
+.btn-small .btn-dufault {
+    opacity: 0.8;
+}
+
+.go-movie {
+    background-color: transparent!important;
+}
+
+.go-movie:hover {
+    background-color: #00a1d6!important;
+    color: #fff!important;
+    opacity: 0.9;
+}
+
+
+/* 填写框 */
+
+.user-my-date .el-input__inner {
+    background: #3b3b3b;
+    border: 1px solid #3b3b3b;
+    color: #e1e1e1;
+    border-radius: 10px;
+}
+
+.el-input,
+textarea.el-textarea__inner,
+.user-my-sex .el-radio-button__inner,
+input,
+.be-row select {
+    background: #3b3b3b!important;
+    border: 1px solid #3b3b3b!important;
+    color: #e1e1e1!important;
+    border-radius: 10px!important;
+}
+
+.tool-uninstall-pendant {
+    background: #2b2b2b!important;
+}
+
+.pendant-list li:hover {
+    border: 1px solid #00a1d6!important;
+}
+
+
+/*通用表格框 */
+
+
+/* 抬头 */
+
+.invtable tr th,
+table.invtable td,
+.table-styleW thead tr td,
+.table-normal tbody tr:nth-child(odd) {
+    background-color: #2b2b2b!important;
+    border: 1px solid #bcbcbc80!important;
+    color: #e1e1e1e0!important;
+}
+
+.identify-component .identify-head,
+.identify-content,
+.indentify-page,
+.identify-tips {
+    background: #222!important;
+}
+
+.identify-component .identify-content .identify-container .identify-form p {
+    margin-top: 0px!important;
+}
+
+.big-more-item-item,
+.big-more-item-list {
+    border: 1px solid #222;
+    border-radius: 8px;
+    background-color: #222;
+    color: #e1e1e1e0;
+}
+
+.big-more-item-item:hover .big-more-item-txt {
+    background: #3b3e40;
+}

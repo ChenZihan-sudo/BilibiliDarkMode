@@ -281,7 +281,8 @@ section-title {
 
 /* page to up tool*/
 
-.back-top-tools .tool-item,
+
+/* .back-top-tools .tool-item,
 .go-top-m .go-top {
     background: #5050505e;
     border: 0px;
@@ -290,7 +291,7 @@ section-title {
 .back-top-tools .tool-item:hover,
 .go-top-m .go-top:hover {
     background-color: #4a4b4e;
-}
+} */
 
 
 /* 12.视频信息卡片 */
@@ -413,4 +414,26 @@ section-title {
     border-radius: 10px;
     border: 0px;
     background-color: #3b3b3b;
+}
+
+.video-floor-m .zone-title .headline .tags li a {
+    color: #e1e1e1e0;
+}
+
+.go-top-m .go-top {
+    background-position: -714px -72px;
+    border: 1px solid #333333;
+    background-color: #333333;
+    opacity: 0.7;
+    border-radius: 10px;
+}
+
+.sub-nav-m .tips {
+    color: #e1e1e1e0;
+    border: 1px solid #2b2b2b;
+    background-color: #2b2b2b;
+}
+
+.sub-nav-m .tips .t-arrow {
+    background: transparent;
 }

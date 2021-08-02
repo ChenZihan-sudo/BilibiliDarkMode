@@ -1,7 +1,7 @@
 .international-header .mini-type,
 .van-popover .mini-type {
     background: #5457585c!important;
-    box-shadow: 0px 4px 4px 0 rgb(0 0 0 / 60%)!important;
+    box-shadow: 0px 4px 4px 0 rgb(0 0 0 / 15%)!important;
 }
 
 .mini-type .nav-user-center .user-con .item .name {
@@ -438,4 +438,72 @@ input::placeholder {
 .bilibili-search-history .history-item a:hover,
 .bilibili-search-suggest .suggest-item a:hover {
     color: #e1e1e1;
+}
+
+
+/* fix2 */
+
+.van-popper-history .tab-header {
+    border-bottom: 1px solid #bcbcbc80!important;
+}
+
+.van-popper-favorite .tabs-panel {
+    border-right: 1px solid #bcbcbc80!important;
+}
+
+.van-popper-favorite .play-all {
+    border-top: 1px solid #bcbcbc80!important;
+}
+
+.van-popper-upload .upload-item:hover {
+    background-color: #1f1f1f!important;
+}
+
+.bilifont[data-v-8b01bddc] {
+    color: #e1e1e1e0;
+}
+
+
+/* 导航栏-动态 */
+
+.content,
+.tip-box,
+.split-line .history-tip[data-v-213951fc] {
+    color: #bcbcbc!important;
+}
+
+.list-item:hover {
+    background-color: #70727d22!important;
+}
+
+.tab-bar {
+    border-bottom: 1px solid #bcbcbc80!important;
+}
+
+.split-line::before {
+    border-top: 1px solid #bcbcbc80!important;
+}
+
+.content {
+    color: #c2c8d0!important;
+}
+
+.loading-tip::before {
+    display: none!important;
+}
+
+.name-line {
+    color: #e7e7e7e0!important;
+}
+
+
+/* 附历史记录fix */
+
+.van-popper-history .view-all {
+    background: #3b3b3b!important;
+    border-radius: 15px!important;
+}
+
+.van-popper-history .view-all:hover {
+    background: #505050!important;
 }
