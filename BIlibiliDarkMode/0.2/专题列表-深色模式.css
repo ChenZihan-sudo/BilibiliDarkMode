@@ -1,0 +1,133 @@
+/* 专题列表、专题列表-深色模式 */
+
+
+/* 专题列表-https://www.bilibili.com/blackboard/topic_list.html#/ */
+
+
+/* 话题列表-https://www.bilibili.com/topic/integrated-1.html */
+
+
+/* 标题 */
+
+.topic-main .topic-title .b-topic-t,
+.topic-main .act-list ul li h2 a,
+.b-head .b-head-t,
+.art_list li h2 a,
+.active-main .active-title .b-active-t,
+.active-main .act-list ul li h2 a {
+    color: #e1e1e1;
+}
+
+
+/* 副标题 */
+
+.topic-main .nav-tab li,
+.topic-main .act-list ul li .act-info,
+.art_list li .info,
+.active-main .act-list ul li .event_status {
+    color: #8E8E8E;
+}
+
+.topic-main .act-list ul li,
+.art_list li,
+.active-main .act-list ul li {
+    background: #222;
+}
+
+.topic-main .act-list ul li,
+.art_list li,
+.active-main .act-list ul li {
+    border-bottom: 1px solid #e5e9ef;
+    padding: 0 0 20px;
+    margin: 20px 0 0;
+    border-radius: 10px;
+}
+
+.topic-main .act-list ul li img,
+.art_list li img {
+    padding: 10px 0px 0px 10px;
+}
+
+
+/* 字与卡片上部距离 */
+
+.topic-main .act-list ul li h2,
+.art_list li h2 {
+    margin: 25px 0px 20px 0px;
+}
+
+
+/* 字向右移动 */
+
+.topic-main .act-list ul li .act-info,
+.topic-main .act-list ul li h2,
+.art_list li .info {
+    padding: 0px 0px 0px 20px;
+}
+
+.topic-main .act-list ul li .found-time,
+.art_list li .artInfo {
+    padding: 0px 0px 0px 165px;
+}
+
+
+/* 边框 */
+
+.active-main .active-title,
+.topic-main .nav-tab,
+.b-head.topic {
+    border-bottom: 1px solid #bcbcbc80;
+}
+
+.topic-main .act-list ul li,
+.art_list li,
+.active-main .act-list ul li {
+    border: 0px;
+}
+
+
+/* 回顶部 */
+
+.active-main .back-top,
+.topic-main .back-top {
+    background-position: -714px -72px;
+    border: 1px solid #333333;
+    background-color: #333333;
+    opacity: 0.7;
+    border-radius: 10px;
+}
+
+
+/* 换页 */
+
+.pagelist .flip-left span,
+.pagelistbox .p {
+    background-color: #2B2B2B;
+    color: #bcbcbc;
+    border: 0px;
+    margin-right: 6px;
+    border-radius: 6px;
+}
+
+.pagelist .flip-right input,
+.pagelistbox .custom-right .custom-right-inner.custompage {
+    border: 0px;
+    background-color: #3b3b3b;
+    border-radius: 8px;
+    color: #e1e1e1;
+}
+
+.pagelist .flip-left span:hover,
+.pagelist .flip-left .active,
+.pagelistbox .p:hover,
+.pagelistbox .p.active {
+    background: #00a1d6c7;
+    color: #e7e7e7e0;
+    border: 0px;
+}
+
+.pagelist .flip-left strong,
+.pagelistbox strong {
+    background-color: transparent;
+    color: #e1e1e1e0;
+}

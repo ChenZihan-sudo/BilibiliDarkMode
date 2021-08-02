@@ -1,0 +1,74 @@
+导航文字     #e7e7e7
+大标题文字   #e7e7e7
+标题文字     #e1e1e1       color:#e1e1e1;
+暗标题文字     #e7e7e7e0
+更亮的副标题文字 #bcbcbc    color: #bcbcbc;
+副标题文字   #8E8E8E       color: #8E8E8E;
+图标内部填充  #3b3b3b       color: #3b3b3b; 
+一级 框背景颜色    #222     color:#222;  
+二级 框背景颜色    #2B2B2B   color:#2B2B2B;  
+保持选中的颜色 红色 #403b3b   color:#403b3b;  
+             蓝色 #3b3e40   color:#3b3e40;  
+             灰色 #f4f4f433  color:#f4f4f433;  
+             灰色 #000000d4  color:#000000d4;  
+
+保持颜色 background-color: #181917;
+按钮背景颜色  #3b3b3b
+按钮文字颜色  #ffffffb3
+按钮保持选中的颜色 #505050
+               
+无能力按钮背景颜色 #6f6f6f
+无能力按钮文字颜色 #a2a2a2
+边框颜色 #bcbcbc80;  1px solid #bcbcbc80
+#141414
+
+阴影 #161819 -> #0e0e0ecc
+
+加载框架 1级 #
+
+
+
+——————————————————Template——————————————————
+// ==UserScript==
+// @name         资源库-BILIBILI
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  小破站深色模式
+// @author       Chen Zihan
+// @match        https://www.bilibili.com/*
+// @match        https://*.bilibili.com/*
+// @grant        none
+// ==/UserScript==
+(function() {
+
+    var domBody = document.body.style;
+    domBody.backgroundColor = "#161819"
+
+    var path = location.pathname
+
+    let css = "";
+    css += `
+        `;
+    if (typeof GM_addStyle !== "undefined") {
+        GM_addStyle(css);
+    } else {
+        let styleNode = document.createElement("style");
+        styleNode.appendChild(document.createTextNode(css));
+        (document.querySelector("head") || document.documentElement).appendChild(styleNode);
+    }
+})();
+
+html {
+    --light-title: #e7e7e7;
+    --nrml-title: #e1e1e1;
+    --dark-title: #e7e7e7e0;
+    --light-desc: #bcbcbc;
+    --nrml-desc: #8e8e8e;
+    --btn-bg: #3b3b3b;
+    --btn-text: #ffffffb3;
+    --btn-hold: #505050;
+    --btn-noability-bg:#6f6f6f;
+    --btn-noability-text:#a2a2a2;
+    --borderC: #bcbcbc80;
+    --out-card: #222;
+}

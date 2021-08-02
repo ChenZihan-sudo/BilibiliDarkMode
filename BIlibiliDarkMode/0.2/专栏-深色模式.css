@@ -1,0 +1,117 @@
+/* 专栏-深色模式
+1.导航栏
+2.底部
+ */
+
+
+/* https://www.bilibili.com/read/home */
+
+
+/* 3.标题 */
+
+.nav-tab-bar .tab-item span,
+.page-content .left-side .partitio-name,
+.page-content .left-side .partitio-name,
+.page-content .right-side .rank-module .rank-tabs-bar label,
+.page-content .right-side .search-module .search-block .search-word-panel .history-item,
+.page-content .right-side .search-module .search-block .search-word-panel .suggest-item,
+.page-content .right-side .rank-module .rank-list .item a,
+.page-content .left-side .article-list .article-list-holder .article-item .item-holder .article-title-holder,
+.page-content .right-side .up-list .title,
+.page-content .right-side .up-list .up-item .info-holder .head .nick-name,
+.page-content .right-side .more .top-bar,
+.page-content .right-side .more .help .title,
+.page-content .right-side .more .link .title,
+.categories-bar .tag-item {
+    color: #e1e1e1;
+}
+
+
+/* 4.副标题 */
+
+.page-content .left-side .article-list .article-list-holder .article-item .item-holder .article-desc,
+.page-content .right-side .rank-module .rank-tabs-bar .rank-tabs-list li,
+.page-content .right-side .more .help .info,
+.page-content .right-side .more .link .info,
+.page-content .right-side .up-list .up-item .info-holder .dynamic .arc-title,
+.page-content .right-side .up-list .up-item .info-holder .dynamic {
+    color: #bcbcbc;
+}
+
+
+/* 5.背景颜色 */
+
+.page-content .left-side .article-list .article-list-holder .article-item,
+.page-content .right-side .rank-module .rank-list .item,
+.page-content .right-side .search-module .search-block input,
+.page-content .left-side .article-list .article-list-holder .article-item .item-holder .article-title-holder,
+.page-content .right-side .up-list {
+    background: #161819;
+    background-color: #161819;
+}
+
+
+/* 6.搜索栏 */
+
+.page-content .right-side .search-module .search-block input {
+    color: #e1e1e1;
+}
+
+.page-content .right-side .search-module .search-block .search-word-panel,
+.page-content .right-side .search-module .search-block .search-word-panel .panel-title p span {
+    background: #222;
+}
+
+.page-content .right-side .search-module .search-block .search-word-panel .history-item:hover,
+.page-content .right-side .search-module .search-block .search-word-panel .suggest-item:hover {
+    background-color: #3b3b3b;
+}
+
+
+/* 7.排行榜 */
+
+.page-content .right-side .rank-module .rank-list .item .rank-index {
+    color: #fff;
+    background: #999;
+    border-radius: 10px;
+}
+
+
+/* 8.返回顶部 */
+
+.to-top {
+    background: #5050505e;
+    border: 0px;
+}
+
+
+/* 9.查看完整榜单、更新 */
+
+.page-content .right-side .rank-module .complete-rank,
+.page-content .right-side .up-list .fresh-btn {
+    background: #3b3b3b;
+    border-radius: 10px;
+    color: #ccc;
+}
+
+.page-content .right-side .up-list .fresh-btn {
+    border: 1px solid #3b3b3b;
+}
+
+.page-content .right-side .search-module .search-block,
+.page-content .left-side .article-list .article-list-holder .article-item .item-holder .article-title-holder .list-mark,
+.page-content .right-side .search-module .search-block .search-word-panel {
+    border: 1px solid #bcbcbc80;
+}
+
+.page-content .right-side .rank-module .rank-tabs-bar,
+.page-content .left-side .article-list .article-list-holder .article-item,
+.page-content .right-side .up-list .title,
+.page-content .right-side .more .top-bar,
+.categories-bar {
+    border-bottom: 1px solid #bcbcbc80;
+}
+
+.page-content .right-side .search-module .search-block .search-word-panel .panel-title .split-line {
+    border-top: 1px solid #bcbcbc80;
+}

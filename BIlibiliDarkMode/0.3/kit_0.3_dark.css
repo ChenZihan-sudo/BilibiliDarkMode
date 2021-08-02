@@ -1,0 +1,305 @@
+.kitOuter[data-position*=center] {
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.kitOuter {
+    position: fixed;
+    z-index: 2333;
+}
+
+.set_Pfix {
+    top: 95%;
+    left: 3%;
+}
+
+.card_Pfix {
+    top: 75%;
+    left: 3%;
+}
+
+.kitOuterDark,
+.kit_dark {
+    display: flex;
+    flex-direction: column;
+}
+
+.kitOuterDark {
+    display: none;
+    width: 315px;
+    height: 450px;
+    border-radius: 15px;
+    background-color: #222;
+    box-shadow: 0 2px 4px #222;
+}
+
+.boxOuterDark,
+.center {
+    display: flex;
+}
+
+.center {
+    justify-content: center;
+}
+
+.boxSideLight {
+    background-color: rgb(86 86 86);
+}
+
+.titleDark {
+    color: #e1e1e1;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.auto_fix {
+    position: absolute;
+}
+
+.kit_getPic {
+    margin: 0 4px;
+}
+
+.subFix {
+    padding: 10px 0px 5px 0px !important;
+}
+
+.widthBox {
+    display: flex;
+    margin: 8px 0 8px 0;
+    margin-bottom: 0px;
+    width: 145px;
+    height: 47px;
+    border-radius: 15px;
+    background-color: #2b2b2b;
+    box-shadow: 0 2px 8px #1d1d1d;
+    border: 1px solid #2b2b2b;
+}
+
+.verticalBox {
+    display: flex;
+    justify-content: center;
+}
+
+.widthBox:hover,.queClear:hover {
+    border: 1px solid #bcbcbc80;
+}
+
+.settingDark,
+.settingNormal {
+    display: flex;
+    margin: 10px;
+    margin-left: -20px;
+    border-radius: 10px;
+}
+
+.settingDark {
+    background-color: #222;
+    box-shadow: 0 2px 4px #222;
+}
+
+.boxSideDark {
+    display: flex;
+    width: 150px;
+    height: 45px;
+    border-radius: 15px;
+    background-color: #2b2b2b;
+    box-shadow: 0 2px 8px #1d1d1d;
+    border: 1px solid #2b2b2b;
+}
+
+.boxSideDark:hover {
+    border: 1px solid #bcbcbc80;
+}
+
+.boxMainDark:hover {
+    border: 1px solid #bcbcbc80;
+}
+
+.boxMainDark {
+    display: flex;
+    margin: 0 8px 8px;
+    width: 160px;
+    height: 100px;
+    border-radius: 15px;
+    background-color: #2b2b2b;
+    box-shadow: 0 2px 8px #1d1d1d;
+    border: 1px solid #2b2b2b;
+}
+
+.icon_fix {
+    display: flex;
+    color: #e1e1e1;
+    font-size: 40px!important;
+    justify-content: center!important;
+    align-items: center!important;
+    width: inherit;
+    height: inherit;
+}
+
+.sideMargin {
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.smallsize {
+    font-size: 8px;
+    margin-left: 10px;
+}
+
+.subtitleDark {
+    color: #bcbcbc;
+}
+
+.icon_fix_dark_theme {
+    display: flex!important;
+    height: 100px;
+    width: 135px;
+    margin-left: 1px;
+    color: #e1e1e1;
+    font-size: 50px!important;
+    justify-content: center!important;
+    align-items: center!important;
+}
+
+.iconDark {
+    color: #e1e1e1;
+    font-size: 23px!important;
+    width: 43px;
+    height: 43px;
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face {
+    font-family: 'iconfont';
+    /* Project id 2625254 */
+    src: url('//at.alicdn.com/t/font_2625254_gt3kmsgdenl.woff2?t=1627703471867') format('woff2'), url('//at.alicdn.com/t/font_2625254_gt3kmsgdenl.woff?t=1627703471867') format('woff'), url('//at.alicdn.com/t/font_2625254_gt3kmsgdenl.ttf?t=1627703471867') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+/* transition */
+.widthBox,.boxMainDark,.boxSideDark,.queClear{
+    transition: border .3s;
+}
+/* brightness */
+
+.brightOuter {
+    display: flex;
+    flex-direction: row;
+    width: inherit;
+    height: inherit;
+    justify-content: space-around;
+}
+
+.brightSetOuter {
+    display: flex;
+    align-items: center;
+}
+
+.brightSet {
+    color: #e1e1e1e0;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+}
+
+.brightTitle {
+    color: #e1e1e1;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+
+/* 
+<div class="brightOuter">
+    <div class="brightSetOuter">
+      <div class="brightSet" id="brightDec">-</div>
+    </div>
+    <div class="brightTitle" id="brightNum">1</div>
+    <div class="brightSetOuter">
+      <div class="brightSet" id="brightAdd">+</div>
+    </div>
+</div>
+ */
+
+.cAdOuter {
+    display: flex;
+    width: inherit;
+    height: inherit;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cAd {
+    display: flex;
+    font-size: small;
+    align-items: center;
+    color: #e1e1e1;
+    background: #333;
+    border-radius: 15px;
+    height: 40px;
+    width: 120px;
+    justify-content: center;
+}
+
+
+/* 
+<div class="widthBox" id="6_tabs"><div class="cAdOuter">
+   <div class="cAd" id="cAd">已开启，点击关闭</div>
+</div></div> 
+*/
+
+.queSolveOuter {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+.queT {
+    display: flex;
+    align-items: center;
+    color: #e1e1e1;
+}
+
+.queClear {
+    display: flex;
+    height: 30px;
+    width: 100px;
+    font-size: small;
+    background: #333;
+    color: #e1e1e1;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+
+/* 
+<div class="queSolveOuter">
+   <div class="queT">遇到问题？</div>
+   <div class="queClearBox">
+    <div class="queClear" id="queClear">清除缓存</div>
+   </div>
+</div>
+ */
