@@ -11,7 +11,6 @@ var frame = `
             var img = document.createElement("img");
             img.src = "http://i0.hdslb.com/bfs/archive/4e0572c7e01bca2dd08bb41b797276db0130d158.jpg"
             document.body.appendChild(img)
-            node.click()
         </script>
     `
 with(document) {
