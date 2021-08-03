@@ -1,0 +1,1193 @@
+/* 导航栏-动态 */
+
+.content[data-v-35faf080],
+.tip-box[data-v-213951fc],
+.split-line .history-tip[data-v-213951fc] {
+    color: #bcbcbc;
+}
+
+.list-item[data-v-35faf080]:hover {
+    background-color: #70727d22;
+}
+
+.tab-bar[data-v-55a4a73b] {
+    border-bottom: 1px solid #bcbcbc80;
+}
+
+.split-line[data-v-213951fc]::before {
+    border-top: 1px solid #bcbcbc80;
+}
+
+.content[data-v-35faf080] {
+    color: #c2c8d0;
+}
+
+.loading-tip[data-v-77141e7e]::before {
+    display: none;
+}
+
+.name-line[data-v-35faf080] {
+    color: #e7e7e7e0;
+}
+
+
+/* 附历史记录fix */
+
+.van-popper-history .view-all[data-v-c8b73006] {
+    background: #3b3b3b;
+    border-radius: 15px;
+}
+
+.van-popper-history .view-all[data-v-c8b73006]:hover {
+    background: #505050;
+}
+
+
+/* 番剧索引 */
+
+
+/* https://www.bilibili.com/anime/index/ */
+
+.sort-item,
+.filter-block .filter-item-wrapper .filter-item,
+.bangumi-item .pub-info {
+    color: #bcbcbc;
+}
+
+.filter-wrapper .filter-title,
+.filter-block .filter-name,
+.bangumi-item .bangumi-title {
+    color: #e1e1e1;
+}
+
+
+/* 通用页面切换栏 */
+
+.pagelistbox .p {
+    background-color: #2B2B2B;
+    color: #bcbcbc;
+    border: 0px;
+    margin-right: 6px;
+    border-radius: 6px;
+}
+
+.pagelistbox .custom-right .custom-right-inner.custompage {
+    border: 0px;
+    background-color: #3b3b3b;
+    border-radius: 8px;
+    color: #e1e1e1;
+}
+
+.pagelistbox .p.active,
+.pagelistbox .p:hover {
+    background-color: #00a1d6c7;
+    color: #e7e7e7e0;
+}
+
+.pagelistbox strong {
+    color: #aeaeae;
+}
+
+.b-head-search .b-head-search_input[_v-0a0880cb] {
+    background: #161819;
+    color: #bcbcbc;
+}
+
+.history-wrap .history-btn .btn:hover {
+    background-color: #0189ad;
+    color: #e0dfdf;
+}
+
+.history-wrap .b-head .b-head-t {
+    color: #e1e1e1;
+}
+
+.history-list .l-info .lastplay-time .lastplay-t {
+    color: #bcbcbc;
+}
+
+.history-list .l-info {
+    border-right: 1.5px solid #a2a1a1;
+}
+
+.history-list .l-info .lastplay-time .history-red-round {
+    border: 5px dashed #a2a1a1;
+    border-right-width: 0;
+    border-left-style: solid;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+}
+
+.history-list .r-info {
+    background: #161819;
+}
+
+.history-list .r-info .r-txt a {
+    color: #e1e1e1;
+}
+
+.history-list .r-info .w-info .device,
+.history-list .r-info .w-info .pro-txt,
+.history-list .r-info .w-info .username,
+.history-list .r-info .w-info .name,
+.history-list .r-info .history-delete,
+.history-list .r-info .history-mark {
+    color: #bcbcbc;
+}
+
+
+/* 通用返回顶部 */
+
+.go-top-m .go-top[_v-7ed6730a] {
+    border-radius: 8px;
+    background-color: #3b3b3b;
+    background-position: -714px -72px;
+    border: 0px;
+}
+
+.history-list .r-info .subtitle {
+    color: #e7e7e7e0;
+}
+
+.history-list .r-info .r-txt {
+    border-bottom: 1px solid #a2a1a1;
+}
+
+.history-wrap .load-contain .loadtv {
+    background: #161819
+}
+
+
+/* 历史记录-New */
+
+#pgc-navigate-wrap .ep-box .ep-sub .ep-item {
+    border: 1px solid #bcbcbc80;
+    border-radius: 15px;
+    color: #bcbcbc;
+}
+
+#pgc-navigate-wrap .ep-box .ep-sub .ep-item .name {
+    color: #e7e7e7e0;
+}
+
+#pgc-navigate-wrap .ep-box .ep-sub .ep-item:hover,
+#pgc-navigate-wrap .play-btn:hover {
+    background-color: #00a1d6c7;
+}
+
+#pgc-navigate-wrap .play-btn:hover {
+    border: 1px solid #00a1d6c7;
+    color: #e7e7e0;
+}
+
+#pgc-navigate-wrap .ep-box.horizontal .ep-sub .ep-item,
+#pgc-navigate-wrap .play-btn:hover .play-btn-svg {
+    color: #e7e7e7e0;
+}
+
+.pgc-item .right-info .headline .pgc-label {
+    color: #bcbcbc;
+}
+
+.pgc-item .right-info .intros .value,
+.bangumi-item .right-info .intros .value {
+    color: #e8e8dce0;
+}
+
+.pgc-item .right-info .intros .label,
+.bangumi-item .right-info .intros .label {
+    color: #dde7eae0;
+}
+
+.pgc-item .right-info .intros .desc,
+.bangumi-item .right-info .intros .desc {
+    color: #e0d9e0e0;
+}
+
+#all-list .card-more {
+    color: #e7e7e7e0;
+}
+
+#all-list .mixin-list ul:not(:last-child) {
+    border-bottom: 1px solid #bcbcbc80;
+}
+
+.bangumi-item .right-info .score .user-count,
+.pgc-item .right-info .score .user-count {
+    color: #bcbcbc;
+}
+
+.bangumi-item .right-info .headline .bangumi-label {
+    color: #bcbcbc;
+}
+
+.keyword {
+    opacity: 0.95;
+}
+
+.video-item.list {
+    border-bottom: 1px solid #bcbcbc80;
+}
+
+.video-item.list .type {
+    border: 1px solid #e5e9efb8;
+    color: #ced4d2;
+}
+
+.video-item.list .des {
+    color: #cec7cd;
+}
+
+.video-item.list .so-icon,
+.video-item .so-icon .up-name,
+.video-item.matrix .info .time,
+.video-item.matrix .info .so-icon.watch-num {
+    color: #cdceca;
+}
+
+.error-wrap .text {
+    background: #161819;
+}
+
+.error-wrap {
+    border: 1px solid #bcbcbc80;
+    color: #e7e7e7e0;
+}
+
+.logo-input.clearfix {
+    width: max-content;
+}
+
+.search-wrap .search-logo {
+    background-position: -261px 0px;
+    width: 151px;
+    height: 43px;
+    float: left;
+    margin-top: 0px;
+}
+
+.search-wrap {
+    width: 625px;
+}
+
+.load-state .loading:before {
+    background: #161819;
+}
+
+.load-state .loading {
+    color: #e7e7e7e0;
+    font-size: 17px;
+    margin-right: 0px;
+}
+
+.search-wrap .fixed-top {
+    background: hsl(197deg 10% 18% / 90%);
+}
+
+.search-wrap .search-block .input-wrap input {
+    height: 18px;
+    background: #505050;
+    width: 296px;
+    border: 1px solid #ccd0d7;
+    border-radius: 20px;
+    color: #ffffffcc;
+    outline: none;
+}
+
+.search-wrap .search-block .input-wrap {
+    background: #161819;
+}
+
+.search-wrap .search-block .search-button {
+    opacity: 0.95;
+    border-radius: 22px;
+}
+
+.search-wrap .fixed-top .search-block .input-wrap input {
+    border: 1px solid #bcbcbc80;
+    border-radius: 15px;
+}
+
+.search-wrap .fixed-top .search-block .input-wrap {
+    background: transparent;
+}
+
+.search-wrap .fixed-top .search-block .search-loupe .icon-loupe {
+    opacity: 0.9;
+    background-position: -141px -320px;
+}
+
+.suggest-wrap {
+    background: #222;
+    border: 0px;
+    border-radius: 15px;
+}
+
+.suggest-wrap .keyword-wrap .keyword {
+    color: #e7e7e7e0;
+}
+
+.suggest-wrap .vt-text:hover {
+    background-color: #70727d22;
+}
+
+.suggest-wrap .horizontal .hz-text {
+    border: 1px solid #bcbcbc80;
+    color: #e1e7e8e0;
+    border-radius: 10px;
+}
+
+.suggest-wrap .vt-text {
+    color: #e4dee3e0;
+}
+
+.suggest-wrap .title span {
+    background: #222;
+    color: #bdb4b4;
+}
+
+.suggest-wrap .title {
+    border-top: 1px solid #bcbcbc;
+}
+
+.filter-wrap .sub-filter {
+    border-radius: 10px;
+    border: 1px solid #bcbcbc80;
+    background-color: #222;
+}
+
+.filter-wrap .icon-tid2-arr,
+.filter-wrap .icon-tid1-arr {
+    position: inherit;
+}
+
+.filter-wrap .fold:hover {
+    background-color: #161819;
+}
+
+.filter-wrap .fold {
+    color: #bcbcbc;
+}
+
+.arrow-down,
+.arrow-up {
+    filter: drop-shadow(0px 0px #fff);
+}
+
+.pager .pages .page-item button {
+    background-color: #2B2B2B;
+    color: #bcbcbc;
+    border: 0px;
+    margin-right: 6px;
+    border-radius: 6px;
+}
+
+.pager .pages .page-item.active button,
+.pager .pages .page-item button:hover {
+    background-color: #00a1d6c7;
+    color: #e7e7e7e0;
+    border: 0px;
+}
+
+.pager .pages strong {
+    color: #aeaeae;
+}
+
+
+/* 搜索-首页 */
+
+.home-wrap .home-input .content {
+    background: #505050;
+    color: #e1e1e1;
+    outline: none;
+    border: 1px solid #505050;
+}
+
+.home-wrap .home-input .type {
+    background: #505050;
+    border: 1px solid #505050;
+    color: #e7e7e7;
+    border-radius: 15px 0 0 15px;
+    border-right: 1px solid #bcbcbc80;
+}
+
+.home-wrap .home-input .searchBtn {
+    border-radius: 0 15px 15px 0;
+}
+
+.home-wrap .home-input {
+    width: 635px;
+}
+
+.home-wrap .home-suggest .title {
+    color: #e1e1e1;
+}
+
+.home-wrap .home-suggest .hot-search,
+.home-wrap .home-suggest .history {
+    border: 1px solid #bcbcbc80;
+    border-radius: 15px;
+}
+
+.word,
+a,
+.home-wrap .home-suggest .history .list .item a {
+    color: #e1e1e1;
+}
+
+.home-wrap .home-suggest .hotlist .item {
+    border-bottom: 1px dotted #eeeeeead;
+}
+
+.home-wrap .home-suggest .hot-search .item .num.special,
+.home-wrap .home-suggest .hotlist .num,
+.home-wrap .home-suggest .history .list .item {
+    border-radius: 5px;
+}
+
+.home-wrap .home-input .type.selected,
+.home-wrap .home-input .type:hover {
+    border: 1px solid #bcbcbc80;
+    background-image: linear-gradient( 0deg, #505050, #505050);
+}
+
+.home-wrap .home-input .list {
+    border: 1px solid #222;
+    border-radius: 8px;
+    background-color: #222;
+    color: #e7e7e7e0;
+}
+
+.home-wrap .home-input .list li:hover {
+    background-color: #3b3e40;
+}
+
+
+/* 消息中心-深色模式 */
+
+body {
+    background: #161819!important;
+}
+
+
+/* 外观 */
+
+.space-right .space-right-top .title[data-v-1c9150a9],
+.card[data-v-fb77dc7a],
+.space-left[data-v-1c9150a9],
+.config[data-v-467e3e3e] {
+    background-color: #222;
+    -webkit-box-shadow: 0 2px 4px 0 rgb(0 0 0 / 50%);
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 50%);
+    border-radius: 5px;
+}
+
+.space-right[data-v-1c9150a9] {
+    background-color: #2b2b2b;
+}
+
+
+/* 设置刷新时背景颜色 */
+
+
+/* document.querySelector("#link-message-container > div.container > div.space-right > div.space-right-bottom.ps > div.card > div > div").style.backgroundColor = "#222"*/
+
+.link-progress-tv[data-v-42e02e95] {
+    background-color: #222!important;
+}
+
+
+/* 暗标题文字 */
+
+.line-1 .name-field[data-v-657577a0],
+.title[data-v-7d37e619],
+.item a[data-v-7d37e619] {
+    color: #bcbcbc;
+}
+
+.line-1[data-v-657577a0] {
+    color: #8E8E8E;
+}
+
+.orginal-reply[data-v-8142435e],
+.text-box[data-v-8142435e],
+.text[data-v-e5050176] {
+    color: #bcbcbc;
+}
+
+.divider[data-v-1df9d092] {
+    border-bottom: 1px solid #bcbcbc80;
+}
+
+.side-bar .icon[data-v-7d37e619] {
+    background: #e7e7e7e0;
+    -webkit-mask: url(//s2.hdslb.com/bfs/static/blive/blfe-message-web/static/img/plane.c9984cf0.svg) no-repeat;
+    mask: url(//s2.hdslb.com/bfs/static/blive/blfe-message-web/static/img/plane.c9984cf0.svg) no-repeat;
+    mask-size: 100% 100%;
+    -webkit-mask-size: 100% 100%;
+}
+
+
+/* 消息中心-选项列表-icon */
+
+.item[data-v-7d37e619]::before {
+    color: #e7e7e7e0;
+}
+
+.space-right .space-right-top .title[data-v-1c9150a9] {
+    box-shadow: 0 2px 4px 2px rgb(0 0 0 / 50%);
+}
+
+.card[data-v-fb77dc7a] {
+    border-radius: 15px;
+}
+
+
+/* 我的消息 */
+
+.bili-im .left .title[data-v-12ea5675],
+.list-item[data-v-1f03ec9a],
+.bili-im .right[data-v-12ea5675],
+.bili-im[data-v-12ea5675],
+.bili-im {
+    background: #222;
+}
+
+.message-list[data-v-e8aa6bb6],
+.send-box[data-v-7762b962] {
+    background-color: #141415;
+}
+
+.bili-im .left .title[data-v-12ea5675],
+.title[data-v-79389194],
+.love-item[data-v-bdf166be]:not(:last-child)::after {
+    border-bottom: 1px solid #bcbcbc80;
+}
+
+.bili-im .left[data-v-12ea5675] {
+    border-right: 1px solid #bcbcbc80;
+}
+
+.send-box[data-v-7762b962],
+.divided-line[data-v-7d37e619] {
+    border-top: 1px solid #bcbcbc80;
+}
+
+.config .config-item[data-v-467e3e3e]:not(:first-child)::before {
+    background: #bcbcbc80;
+}
+
+
+/* #e1e1e1 */
+
+.title span[data-v-79389194],
+.list-item .name[data-v-1f03ec9a],
+.bili-im .left .title[data-v-12ea5675],
+span,
+a.router-link-active,
+.name,
+.ar-recommend-item__info--title,
+.auto-reply-push__desc,
+.config .radio-selector[data-v-467e3e3e],
+.title[data-v-196262e8],
+.core-style[data-v-b2e4822a],
+.action-menu .menu-list a[data-v-d43989d2] {
+    color: #e1e1e1;
+}
+
+.notify-wrapper .notify-text[data-v-e8aa6bb6] {
+    color: #3b3b3b;
+}
+
+.message .message-content.not-img[data-v-50547f2d] {
+    background: #313131;
+    color: #e1e1e1;
+}
+
+.list-item[data-v-1f03ec9a]:hover {
+    background-color: #181917;
+}
+
+.msg-push-new,
+.auto-reply-push {
+    background: #222;
+}
+
+.send-btn[data-v-7762b962] {
+    background-color: #505050;
+    border-radius: 10px;
+}
+
+.btn-box[data-v-6cbfef24] {
+    border: 1px solid #505050;
+    color: #e1e1e1;
+}
+
+.action-menu .menu-list[data-v-d43989d2] {
+    border: 1px solid #222;
+    border-radius: 8px;
+    background-color: #222;
+    -webkit-box-shadow: 0 6px 12px 0 rgb(31 34 39 / 12%);
+    box-shadow: 0 6px 12px 0 rgb(31 34 39 / 22%);
+}
+
+.action-menu .menu-list a[data-v-d43989d2]:hover {
+    background-color: #3b3e40;
+}
+
+.action-menu .menu-list[data-v-d43989d2]:before {
+    background-color: #222;
+    border: 0px;
+}
+
+.reply-textarea[data-v-abfa145e] {
+    background-color: #222;
+    border: 1px solid #bcbcbc80;
+    overflow: auto;
+    border-radius: 10px;
+    color: #555;
+}
+
+.reply-textarea[data-v-abfa145e]:focus {
+    background: #1f1e1e;
+}
+
+.send-button[data-v-abfa145e],
+.send-btn.active[data-v-7762b962]:hover {
+    opacity: 0.9;
+}
+
+.notify-wrapper .notify-text[data-v-e8aa6bb6] {
+    color: #ddd;
+}
+
+.notify-wrapper .notify-text[data-v-e8aa6bb6] {
+    background-color: #2f2f2f;
+}
+
+
+/* 消息中心-深色模式 */
+
+body {
+    background: #161819!important;
+}
+
+
+/* 外观 */
+
+.space-right .space-right-top .title[data-v-1c9150a9],
+.card[data-v-fb77dc7a],
+.space-left[data-v-1c9150a9],
+.config[data-v-467e3e3e] {
+    background-color: #222;
+    -webkit-box-shadow: 0 2px 4px 0 rgb(0 0 0 / 50%);
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 50%);
+    border-radius: 5px;
+}
+
+.space-right[data-v-1c9150a9] {
+    background-color: #2b2b2b;
+}
+
+
+/* 设置刷新时背景颜色 */
+
+
+/* document.querySelector("#link-message-container > div.container > div.space-right > div.space-right-bottom.ps > div.card > div > div").style.backgroundColor = "#222"*/
+
+.link-progress-tv[data-v-42e02e95] {
+    background-color: #222!important;
+}
+
+
+/* 暗标题文字 */
+
+.line-1 .name-field[data-v-657577a0],
+.title[data-v-7d37e619],
+.item a[data-v-7d37e619] {
+    color: #bcbcbc;
+}
+
+.line-1[data-v-657577a0] {
+    color: #8E8E8E;
+}
+
+.orginal-reply[data-v-8142435e],
+.text-box[data-v-8142435e],
+.text[data-v-e5050176] {
+    color: #bcbcbc;
+}
+
+.divider[data-v-1df9d092] {
+    border-bottom: 1px solid #bcbcbc80;
+}
+
+.side-bar .icon[data-v-7d37e619] {
+    background: #e7e7e7e0;
+    -webkit-mask: url(//s2.hdslb.com/bfs/static/blive/blfe-message-web/static/img/plane.c9984cf0.svg) no-repeat;
+    mask: url(//s2.hdslb.com/bfs/static/blive/blfe-message-web/static/img/plane.c9984cf0.svg) no-repeat;
+    mask-size: 100% 100%;
+    -webkit-mask-size: 100% 100%;
+}
+
+
+/* 消息中心-选项列表-icon */
+
+.item[data-v-7d37e619]::before {
+    color: #e7e7e7e0;
+}
+
+.space-right .space-right-top .title[data-v-1c9150a9] {
+    box-shadow: 0 2px 4px 2px rgb(0 0 0 / 50%);
+}
+
+.card[data-v-fb77dc7a] {
+    border-radius: 15px;
+}
+
+
+/* 我的消息 */
+
+.bili-im .left .title[data-v-12ea5675],
+.list-item[data-v-1f03ec9a],
+.bili-im .right[data-v-12ea5675],
+.bili-im[data-v-12ea5675],
+.bili-im {
+    background: #222;
+}
+
+.message-list[data-v-e8aa6bb6],
+.send-box[data-v-7762b962] {
+    background-color: #141415;
+}
+
+.bili-im .left .title[data-v-12ea5675],
+.title[data-v-79389194],
+.love-item[data-v-bdf166be]:not(:last-child)::after {
+    border-bottom: 1px solid #bcbcbc80;
+}
+
+.bili-im .left[data-v-12ea5675] {
+    border-right: 1px solid #bcbcbc80;
+}
+
+.send-box[data-v-7762b962],
+.divided-line[data-v-7d37e619] {
+    border-top: 1px solid #bcbcbc80;
+}
+
+.config .config-item[data-v-467e3e3e]:not(:first-child)::before {
+    background: #bcbcbc80;
+}
+
+
+/* #e1e1e1 */
+
+.title span[data-v-79389194],
+.list-item .name[data-v-1f03ec9a],
+.bili-im .left .title[data-v-12ea5675],
+span,
+a.router-link-active,
+.name,
+.ar-recommend-item__info--title,
+.auto-reply-push__desc,
+.config .radio-selector[data-v-467e3e3e],
+.title[data-v-196262e8],
+.core-style[data-v-b2e4822a],
+.action-menu .menu-list a[data-v-d43989d2] {
+    color: #e1e1e1;
+}
+
+.notify-wrapper .notify-text[data-v-e8aa6bb6] {
+    color: #3b3b3b;
+}
+
+.message .message-content.not-img[data-v-50547f2d] {
+    background: #313131;
+    color: #e1e1e1;
+}
+
+.list-item[data-v-1f03ec9a]:hover {
+    background-color: #181917;
+}
+
+.msg-push-new,
+.auto-reply-push {
+    background: #222;
+}
+
+.send-btn[data-v-7762b962] {
+    background-color: #505050;
+    border-radius: 10px;
+}
+
+.btn-box[data-v-6cbfef24] {
+    border: 1px solid #505050;
+    color: #e1e1e1;
+}
+
+.action-menu .menu-list[data-v-d43989d2] {
+    border: 1px solid #222;
+    border-radius: 8px;
+    background-color: #222;
+    -webkit-box-shadow: 0 6px 12px 0 rgb(31 34 39 / 12%);
+    box-shadow: 0 6px 12px 0 rgb(31 34 39 / 22%);
+}
+
+.action-menu .menu-list a[data-v-d43989d2]:hover {
+    background-color: #3b3e40;
+}
+
+.action-menu .menu-list[data-v-d43989d2]:before {
+    background-color: #222;
+    border: 0px;
+}
+
+.reply-textarea[data-v-abfa145e] {
+    background-color: #222;
+    border: 1px solid #bcbcbc80;
+    overflow: auto;
+    border-radius: 10px;
+    color: #555;
+}
+
+.reply-textarea[data-v-abfa145e]:focus {
+    background: #1f1e1e;
+}
+
+.send-button[data-v-abfa145e],
+.send-btn.active[data-v-7762b962]:hover {
+    opacity: 0.9;
+}
+
+.notify-wrapper .notify-text[data-v-e8aa6bb6] {
+    color: #ddd;
+}
+
+.notify-wrapper .notify-text[data-v-e8aa6bb6] {
+    background-color: #2f2f2f;
+}
+
+
+/* 小黑屋 */
+
+
+/* https://www.bilibili.com/blackroom/ban */
+
+.ban-modal,
+.ban-modal-h5 {
+    background: #222;
+}
+
+.ban-modal {
+    border-radius: 10px;
+}
+
+.pub-list .info .name[data-v-46dd4b8a] {
+    color: #e7e7e7e0;
+}
+
+.pub-list .info .type .bk-title[data-v-46dd4b8a],
+.pub-list .info dl dt[data-v-46dd4b8a] {
+    color: #bcbcbc;
+}
+
+.pub-list .info dl[data-v-46dd4b8a] {
+    border-left: 3px solid #bcbcbc80;
+}
+
+.publicity .header[data-v-381593fc] {
+    color: #e1e1e1;
+}
+
+.select-wrap .select-txt[data-v-78203d85] {
+    background: #161819;
+}
+
+
+/*通用多选项框 */
+
+.select-wrap .select-option[data-v-78203d85] {
+    border: 1px solid #222;
+    border-radius: 8px;
+    background-color: #222;
+}
+
+.select-wrap .select-option p[data-v-78203d85]:hover {
+    background-color: #3b3e40;
+}
+
+
+/* 小黑屋详细内容页面 */
+
+.ban-detail .content-box .info-wrap[data-v-2812059c] {
+    border-radius: 15px;
+    background: #222;
+    box-shadow: 3px 4px 6px #00000057;
+}
+
+.comment-wrap[data-v-b2676c04] {
+    background: #161819;
+}
+
+.ban-detail .content-box .bk-user-info .name[data-v-2812059c] {
+    color: #e7e7e7e0;
+}
+
+.ban-detail .content-box .punish-title[data-v-2812059c] {
+    color: #bcbcbc;
+}
+
+.ban-detail .content-box .bk-text-con[data-v-2812059c] {
+    color: #e7e7e7e0;
+    border-left: 4px solid #bcbcbc80;
+}
+
+.what-ban .text-con[data-v-d8d6c3a6] {
+    background: #222;
+}
+
+.what-ban .text-con .title[data-v-d8d6c3a6] {
+    color: #e7e7e7e0;
+}
+
+.what-ban .text-con .txt[data-v-d8d6c3a6] {
+    color: #bcbcbc;
+}
+
+.ban-detail .content-box .link-box[data-v-2812059c] {
+    border: 1px solid #bcbcbc80;
+    color: #e7e7e7e0;
+}
+
+.ban-detail .content-box .link-box .box-right .origin-text[data-v-2812059c],
+.ban-detail .content-box .link-box .box-rule .origin-text[data-v-2812059c] {
+    color: #e7e7e7e0;
+}
+
+.comment-wrap .header .title-h2[data-v-b2676c04] {
+    color: #e1e1e1;
+}
+
+.comment-wrap[data-v-b2676c04] {
+    border-radius: 15px;
+    box-shadow: 2px 4px 15px 0px #00000052;
+}
+
+.crumbs a {
+    color: #aeaeae;
+}
+
+.crumbs {
+    color: #e1e1e1e0;
+}
+
+.ban-detail .content-box[data-v-c428d402] {
+    border-radius: 15px;
+    background: #222;
+}
+
+.block-wrap article .list-item p[data-v-08d650dd] {
+    color: #e7e7e7e0;
+}
+
+.notice-wrap .news-box[data-v-859f8efc] {
+    background: #222;
+}
+
+.notice-wrap .news-box .news-title[data-v-859f8efc] {
+    color: #e1e1e1;
+}
+
+.notice-wrap .news-box .item .title strong[data-v-859f8efc] {
+    color: #e7e7e7e0;
+}
+
+.paginator .paging-box-big .current[data-v-99397e02],
+.paginator .paging-box-big .dian[data-v-99397e02],
+.paginator .paging-box-big .next[data-v-99397e02],
+.paginator .paging-box-big .prev[data-v-99397e02],
+.paginator .paging-box-big .tcd-number[data-v-99397e02] {
+    background-color: #2B2B2B;
+    color: #bcbcbc;
+    border: 0px;
+    margin-right: 6px;
+    border-radius: 6px;
+}
+
+.paginator .paging-box-big .page-jump input[data-v-99397e02] {
+    border: 0px;
+    background-color: #3b3b3b;
+    border-radius: 8px;
+    color: #e1e1e1;
+}
+
+.paginator .paging-box-big .current[data-v-99397e02],
+.paginator .paging-box-big .current[data-v-99397e02]:hover,
+.paginator .paging-box-big .dian[data-v-99397e02]:hover,
+.paginator .paging-box-big .next[data-v-99397e02]:hover,
+.paginator .paging-box-big .prev[data-v-99397e02]:hover,
+.paginator .paging-box-big .tcd-number[data-v-99397e02]:hover {
+    background-color: #00a1d6c7;
+    color: #e7e7e7e0;
+    border: 0px;
+}
+
+.act-rich-style-init2 .public-DraftEditor-content,
+.act-rich-style-init2 .act-rich-render-content {
+    color: e7e7e7e0;
+}
+
+.timeline-header {
+    background: #161819;
+    box-shadow: 0 10px 10px #0e0e0ecc;
+    -webkit-box-shadow: 0 10px 10px #0e0e0ecc;
+}
+
+.tl-head {
+    background: #161819;
+}
+
+.tl-head .tl-day {
+    background: #161819;
+}
+
+.tl-head .tl-day.today span.t-date,
+.tl-head .tl-day.today span.t-week {
+    color: #e7e7e7e0;
+}
+
+
+/* 全部，连载动画 */
+
+.bread-crumb ul li a {
+    color: #e7e7e7e0;
+}
+
+.season-timeline {
+    background: #161819;
+}
+
+li.season-item .season-body .season-title span.follow {
+    border-radius: 7px;
+}
+
+li.season-item .season-body .season-title {
+    color: #e7e7e7e0;
+}
+
+.season-timeline .season-group .group-time:before {
+    background: #161819;
+}
+
+.season-timeline .season-group .group-time {
+    color: #e7e7e7e0;
+}
+
+.season-timer .current-timer:before {
+    opacity: 0.9;
+}
+
+.timeline-wrapper .tl-body-list {
+    background: #161819;
+}
+
+.season-empty .season-bg.ball-2 {
+    opacity: 0.8;
+}
+
+.season-timeline .season-group {
+    border-left: 1px dashed #bcbcbc80;
+}
+
+.tl-head .tl-day span {
+    color: #adadad;
+}
+
+.tl-head .week-1,
+.tl-head .week-2,
+.tl-head .week-3,
+.tl-head .week-4,
+.tl-head .week-5,
+.tl-head .week-6,
+.tl-head .week-7,
+.tl-head .tl-day .indicator {
+    opacity: 0.8;
+}
+
+.timeline-header {
+    background: #161819;
+    box-shadow: 0 10px 10px #0e0e0ecc;
+    -webkit-box-shadow: 0 10px 10px #0e0e0ecc;
+}
+
+.tl-head {
+    background: #161819;
+}
+
+.tl-head .tl-day {
+    background: #161819;
+}
+
+.tl-head .tl-day.today span.t-date,
+.tl-head .tl-day.today span.t-week {
+    color: #e7e7e7e0;
+}
+
+
+/* 全部，连载动画 */
+
+.bread-crumb ul li a {
+    color: #e7e7e7e0;
+}
+
+.season-timeline {
+    background: #161819;
+}
+
+li.season-item .season-body .season-title span.follow {
+    border-radius: 7px;
+}
+
+li.season-item .season-body .season-title {
+    color: #e7e7e7e0;
+}
+
+.season-timeline .season-group .group-time:before {
+    background: #161819;
+}
+
+.season-timeline .season-group .group-time {
+    color: #e7e7e7e0;
+}
+
+.season-timer .current-timer:before {
+    opacity: 0.9;
+}
+
+.timeline-wrapper .tl-body-list {
+    background: #161819;
+}
+
+.season-empty .season-bg.ball-2 {
+    opacity: 0.8;
+}
+
+.season-timeline .season-group {
+    border-left: 1px dashed #bcbcbc80;
+}
+
+.tl-head .tl-day span {
+    color: #adadad;
+}
+
+.tl-head .week-1,
+.tl-head .week-2,
+.tl-head .week-3,
+.tl-head .week-4,
+.tl-head .week-5,
+.tl-head .week-6,
+.tl-head .week-7,
+.tl-head .tl-day .indicator {
+    opacity: 0.8;
+}

@@ -1,0 +1,44 @@
+/* 观看列表 */
+
+
+/* https://www.bilibili.com/video/online.html?spm_id_from=333.851.b_7265706f7274466972737432.15 */
+
+
+/* 主标题 */
+
+.b-head.online .b-head-t,
+.online-list .ebox .etitle {
+    color: #e1e1e1;
+}
+
+
+/* 副标题 */
+
+.b-head.online .b-head-desc,
+.online-list .ebox .ol,
+.online-list .ebox .dlo span,
+.online-list .ebox .dlo .author {
+    color: #e1e1e1e0;
+}
+
+
+/* 卡片 */
+
+.online-list .ebox {
+    background: #191919;
+}
+
+.online-list .ebox .ol {
+    background: #222;
+}
+
+
+/* 边框 */
+
+.b-head.online {
+    border-bottom: 1px solid #bcbcbc80
+}
+
+.online-list .ebox {
+    border: 1px solid #bcbcbc80
+}

@@ -1,0 +1,30 @@
+.video-page-card .card-box .pic-box {
+    background: #353434;
+}
+
+.up-info .btn-panel .default-btn,
+.up-info .u-face .fa,
+.vcd .cover[data-v-2202ce1b],
+.mini-header[data-v-c00a7aa4] {
+    background: #222;
+}
+
+.nav-link-item .link[data-v-c00a7aa4] {
+    color: #e1e1e1;
+}
+
+.activity-m .inside-wrp .hinter-msg,
+.activity-m .inside-wrp .l-inside,
+.activity-m .onlytip,
+.bb-comment .comment-list .list-item .user .name,
+.comment-bilibili-fold .comment-list .list-item .user .name {
+    color: #e1e1e1e0;
+}
+
+#bilibili-player.mini-player:before {
+    box-shadow: 0 0 5px #212121;
+}
+
+#bilibili-player.mini-player .player {
+    box-shadow: 0 2px 8px 0px rgb(0 0 0);
+}

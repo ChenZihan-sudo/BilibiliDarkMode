@@ -1,0 +1,336 @@
+/* 漫画 */
+
+
+/* 标题 */
+
+.title .text,
+.title,
+.text,
+.section-navigator .section-item,
+.dp-i-block,
+.nav-list .nav-item,
+.header-info .manga-info .manga-title,
+.manga-detail .section .section-list .section-title,
+.season-comment .section-title,
+.manga-detail .section .right-side .recommendation .header-content .title,
+.rank-list-component .section-title,
+.manga-card-vertical .text-info-section .manga-title,
+.manga-title,
+.user-info-component .coin-info .coin-remain-count,
+.purchased-comic-item .list-content .manga-title {
+    color: #e1e1e1!important;
+}
+
+.user-info-component .unuseable[data-v-3fee07fa] {
+    color: #fff;
+}
+
+
+/* 标题2 */
+
+.tab,
+.nav-list .nav-item,
+.download-app,
+.manga-navbar-history-list .action-button,
+.manga-navbar-favourite-manga .action-button,
+.header-info .manga-info .supporting-text,
+.header-info .manga-info .season-introduction,
+.comic-info-panel .comic-detail .t-over-hidden-line,
+.manga-detail .section .right-side .recommendation .header-content .more,
+.ranking-jump,
+.manga-card-vertical .text-info-section .supporting-text,
+.page-content .input-label,
+.page-content .extral-info,
+.my-coupon .subtitle,
+.coupon-label .container-left .coupon-reason,
+.purchased-comic-item .list-content .comic-content .bought-ep-count,
+.purchased-comic-item .list-content .comic-content .last-update-eq,
+.manga-checkbox .label-text,
+.auto-purchase .page-sub-title {
+    color: #e1e1e1e0!important;
+}
+
+
+/* 副标题 */
+
+.header-info .manga-info .author-name[data-v-2a1c4edc],
+.list-item[data-v-1153cf6e],
+.comic-info-panel .comic-detail .comic-title[data-v-7245bbb6],
+.rank-list-item .expand-mode .text-section .item-title[data-v-0a5a9178],
+.rank-list-item .preview-mode[data-v-0a5a9178],
+.schedule-item .text-section .title-text[data-v-683c59ab],
+.search-bar .search-bar-bg .search-suggestion .suggestion-item[data-v-3c58a041],
+.user-info-component .coin-info .b-coin[data-v-3fee07fa],
+h1.page-title {
+    color: #e7e7e7e0;
+}
+
+.tags[data-v-455ef465],
+.rank-list-item .preview-mode .supporting-text[data-v-0a5a9178],
+.rank-list-item .expand-mode .text-section .footer-text[data-v-0a5a9178],
+.recharge-history .list-item .text-info .recharge-date {
+    color: #bcbcbc;
+}
+
+.section-navigator[data-v-31dfb8ea],
+.manga-navbar[data-v-0b65b86e],
+.container .back-to-content[data-v-1d7037ba] {
+    background: #222;
+}
+
+
+/* 边框 */
+
+.section-navigator[data-v-31dfb8ea],
+.list-item.is-read[data-v-1153cf6e],
+.list-item[data-v-1153cf6e] {
+    border: 1px solid #bcbcbc80;
+}
+
+.recharge-history .list-item,
+.pivot-component .pivot-headers[data-v-4824e072],
+.purchase-history .list-item {
+    border-bottom: 1px solid #bcbcbc80;
+}
+
+.search-bar .search-bar-bg[data-v-3c58a041] {
+    background-color: #505050;
+}
+
+.search-bar .search-input[data-v-3c58a041] {
+    color: #e1e1e1;
+}
+
+.search-bar .confirm-btn .search-icon[data-v-3c58a041] {
+    background-color: #fff;
+    -webkit-mask: url(data:image/svg+xml;base64,PHN2ZyBkYXRhLW5hbWU9IuWbvuWxgiAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTE3Ljg5IDE2LjQ4bDMuMzIgMy4zMWExIDEgMCAwMS0xLjQyIDEuNDJsLTMuMzEtMy4zMmE4Ljc5IDguNzkgMCAxMTEuNDEtMS40MXpNMTEgMTguMkE3LjIgNy4yIDAgMTAzLjggMTFhNy4yIDcuMiAwIDAwNy4yIDcuMnoiIGZpbGwtb3BhY2l0eT0iLjM0Ii8+PC9zdmc+);
+    -webkit-mask-size: 100% 100%;
+    mask: url(data:image/svg+xml;base64,PHN2ZyBkYXRhLW5hbWU9IuWbvuWxgiAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTE3Ljg5IDE2LjQ4bDMuMzIgMy4zMWExIDEgMCAwMS0xLjQyIDEuNDJsLTMuMzEtMy4zMmE4Ljc5IDguNzkgMCAxMTEuNDEtMS40MXpNMTEgMTguMkE3LjIgNy4yIDAgMTAzLjggMTFhNy4yIDcuMiAwIDAwNy4yIDcuMnoiIGZpbGwtb3BhY2l0eT0iLjM0Ii8+PC9zdmc+);
+    mask-size: 100% 100%;
+}
+
+.manga-navbar[data-v-0b65b86e] {
+    box-shadow: 0 0 5px 1px rgb(13 15 16);
+}
+
+.user-info-panel[data-v-39c37407] {
+    background: #191919;
+    color: #e1e1e1;
+}
+
+.user-info-panel .info-item .item-text[data-v-39c37407],
+.user-info-panel .info-item .item-num[data-v-39c37407] {
+    color: #e7e7e7e0;
+}
+
+.user-panel .drop-list .logout-btn-container .logout-button[data-v-31ce2e23] {
+    background: #222;
+    color: #e7e7e7e0;
+}
+
+.user-panel .drop-list[data-v-31ce2e23] {
+    background: #222;
+}
+
+.section-navigator .section-item.current[data-v-31dfb8ea] {
+    background-color: #6fc3ffe0;
+}
+
+
+/* 漫画详情页面 */
+
+
+/* 1.卡片 */
+
+.manga-detail .layout[data-v-1addff6a],
+.manga-detail .layout[data-v-1addff6a] {
+    border-radius: 15px;
+    background: #222!important;
+    box-shadow: 0 1px 8px 0 rgb(19 20 23);
+}
+
+
+/* 透明度 */
+
+.manga-button.primary[data-v-b8e7c12a] {
+    opacity: 0.85;
+}
+
+.manga-button.ghost[data-v-b8e7c12a] {
+    color: #e1e1e1;
+    border: 1px solid #505050;
+    background-color: #505050;
+}
+
+.header-info .manga-info .action-buttons .do-favourite[data-v-2a1c4edc]:hover {
+    background-color: #424242;
+}
+
+.episode-list-component .episode-list .list-header .header-item[data-v-1a9c4470] {
+    background: #505050d4;
+    color: #e1e1e1e0;
+}
+
+.list-item[data-v-1153cf6e]:hover {
+    color: #e7e7e7e0;
+    background-color: #505050;
+}
+
+.title-tooltip[data-v-1153cf6e] {
+    background-color: #505050;
+    color: #e1e1e1;
+}
+
+.title-tooltip[data-v-1153cf6e]:before {
+    background-color: #505050;
+}
+
+.container .back-to-content .line[data-v-1d7037ba] {
+    color: #bcbcbc80;
+}
+
+
+/* 分类 */
+
+.manga-info-ctnr {
+    color: #bcbcbc!important;
+}
+
+.show-status-text,
+.schedule-list .list-header .date-selector .date-item,
+.schedule-item .text-section .status-text,
+.user-info-component .user-info .uid,
+.coupon-label .container-left .limits-title,
+.coupon-label .container-left .coupon-expire-time,
+.purchase-history .list-item .text-info .recharge-date {
+    color: #bcbcbc!important;
+}
+
+.rank-item-wrapper[data-v-7260e4ec],
+.rank-item-wrapper[data-v-1b06be34] {
+    background-image: none;
+}
+
+.schedule-list .list-header .date-selector .date-item[data-v-0eaaed9b]:hover {
+    color: #e7e7e78c;
+}
+
+.user-info-panel,
+.data-list {
+    background: #191919;
+    color: #e1e1e1;
+}
+
+.user-info-panel .info-item .item-text,
+.user-info-panel .info-item .item-num,
+.search-bar .search-bar-bg .search-suggestion .suggestion-item {
+    color: #e7e7e7e0;
+}
+
+.user-panel .drop-list .logout-btn-container .logout-button,
+.manga-navbar-history-list .drop-list .more-btn-container .more-button,
+.manga-navbar-favourite-manga .drop-list .more-btn-container .more-button {
+    background: #222;
+    color: #e7e7e7e0;
+}
+
+.user-panel .drop-list,
+.manga-navbar-history-list .drop-list,
+.manga-navbar-favourite-manga .drop-list,
+.data-list {
+    background: #222;
+}
+
+.data-list .list-container .data-item .text-section .footer-text .text,
+.data-list .list-container .data-item .text-section .footer-text .text {
+    color: #e1e1e1e0!important;
+}
+
+.data-list .list-container .data-item .text-section .manga-title[data-v-9293f53e],
+.data-list .list-container .data-item .text-section .manga-title[data-v-2b2fc7ed] {
+    color: #e1e1e1;
+}
+
+.multi-line-text:after,
+.multi-line-text[data-v-12e8c17c]:after {
+    background: transparent;
+}
+
+.user-panel .drop-list,
+.manga-navbar-history-list .drop-list,
+.manga-navbar-favourite-manga .drop-list,
+.data-list {
+    background: #191919;
+}
+
+
+/* 用户中心 */
+
+.app-layout .page-content .router-view[data-v-14804250] {
+    background: #191919;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.app-layout .page-content .app-sidebar[data-v-14804250] {
+    background: #222;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.app-layout .page-content[data-v-14804250] {
+    background-color: #222;
+    border-radius: 10px;
+}
+
+.coupon-label .container-left[data-v-3bf259b7] {
+    background: #272727;
+}
+
+.coupon-label.whole-coupon[data-v-3bf259b7] {
+    opacity: 0.85;
+}
+
+.sidebar .nav-item.router-link-active[data-v-79ce36a4],
+.sidebar .nav-item-indicator[data-v-79ce36a4] {
+    background: #191919;
+}
+
+.dropbox-component[data-v-27293bb3],
+.manga-textbox[data-v-7789b467],
+.page-content .feedback-content-input .feedback-input[data-v-92cc41a4] {
+    background: #3b3b3b;
+    border: 1px solid #3b3b3b;
+    color: #e1e1e1;
+    border-radius: 10px;
+}
+
+.auto-purchase-types .selected-type .selected-title[data-v-3c550b4d] {
+    background: #191919de;
+}
+
+.auto-purchase-types .selected-type .selection-list[data-v-3c550b4d],
+.dropbox-component.is-open[data-v-27293bb3],
+.dropbox-component .data-list[data-v-27293bb3] {
+    border: 1px solid #222;
+    border-radius: 8px;
+    background-color: #222;
+}
+
+.dropbox-component .data-list[data-v-27293bb3] {
+    border-radius: 0px;
+}
+
+.auto-purchase-types .selected-type .selection-list .selections-item:hover,
+.dropbox-component .data-list>li:hover {
+    background: #3b3e40!important;
+}
+
+.auto-purchase-types .selected-type .selection-list .selections-item[data-v-3c550b4d],
+.recharge-history .list-item .text-info .display-text,
+.purchase-history .list-item .text-info .display-text,
+.rank-list-item .preview-mode .index-indicator[data-v-0a5a9178] {
+    color: #e1e1e1e0;
+}
+
+.section-navigator .divider {
+    border: 1px solid #bcbcbc80!important;
+}

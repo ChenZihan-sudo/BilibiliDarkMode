@@ -1,0 +1,76 @@
+.timeline-header {
+    background: #161819;
+    box-shadow: 0 10px 10px #0e0e0ecc;
+    -webkit-box-shadow: 0 10px 10px #0e0e0ecc;
+}
+
+.tl-head {
+    background: #161819;
+}
+
+.tl-head .tl-day {
+    background: #161819;
+}
+
+.tl-head .tl-day.today span.t-date,
+.tl-head .tl-day.today span.t-week {
+    color: #e7e7e7e0;
+}
+
+
+/* 全部，连载动画 */
+
+.bread-crumb ul li a {
+    color: #e7e7e7e0;
+}
+
+.season-timeline {
+    background: #161819;
+}
+
+li.season-item .season-body .season-title span.follow {
+    border-radius: 7px;
+}
+
+li.season-item .season-body .season-title {
+    color: #e7e7e7e0;
+}
+
+.season-timeline .season-group .group-time:before {
+    background: #161819;
+}
+
+.season-timeline .season-group .group-time {
+    color: #e7e7e7e0;
+}
+
+.season-timer .current-timer:before {
+    opacity: 0.9;
+}
+
+.timeline-wrapper .tl-body-list {
+    background: #161819;
+}
+
+.season-empty .season-bg.ball-2 {
+    opacity: 0.8;
+}
+
+.season-timeline .season-group {
+    border-left: 1px dashed #bcbcbc80;
+}
+
+.tl-head .tl-day span {
+    color: #adadad;
+}
+
+.tl-head .week-1,
+.tl-head .week-2,
+.tl-head .week-3,
+.tl-head .week-4,
+.tl-head .week-5,
+.tl-head .week-6,
+.tl-head .week-7,
+.tl-head .tl-day .indicator {
+    opacity: 0.8;
+}

@@ -1,0 +1,241 @@
+/* 通用返回顶部 */
+
+.go-top-m .go-top[_v-7ed6730a] {
+    border-radius: 8px;
+    background-color: #3b3b3b;
+    background-position: -714px -72px;
+}
+
+.go-top-m .go-top[_v-7ed6730a]:hover {
+    background-color: #038ab7;
+}
+
+
+/*通用加载中 */
+
+.history-wrap .load-contain .loadtv {
+    background: #161819
+}
+
+
+/* 番剧-全部，连载动画 */
+
+.bread-crumb ul li a {
+    color: #e7e7e7e0;
+}
+
+
+/* 通用页面切换栏 */
+
+.pagelistbox .p {
+    background-color: #2B2B2B;
+    color: #bcbcbc;
+    border: 0px;
+    margin-right: 6px;
+    border-radius: 6px;
+}
+
+.pagelistbox .custom-right .custom-right-inner.custompage {
+    border: 0px;
+    background-color: #3b3b3b;
+    border-radius: 8px;
+    color: #e1e1e1;
+}
+
+.pagelistbox .p.active,
+.pagelistbox .p:hover {
+    background-color: #00a1d6c7;
+    color: #e7e7e7e0;
+}
+
+.pagelistbox strong {
+    color: #aeaeae;
+}
+
+
+/*通用多选项框 */
+
+.select-wrap .select-option[data-v-78203d85] {
+    border: 1px solid #222;
+    border-radius: 8px;
+    background-color: #222;
+    /* -webkit-box-shadow: 0 6px 12px 0 rgb(31 34 39 / 12%);
+    box-shadow: 0 6px 12px 0 rgb(106 115 133 / 22%); */
+}
+
+.select-wrap .select-option p[data-v-78203d85]:hover {
+    background-color: #3b3e40;
+}
+
+
+/* 通用图片修改颜色 */
+
+a {
+    background: #e1e1e1;
+    -webkit-mask: url(//s2.hdslb.com/bfs/static/blive/blfe-message-web/static/img/plane.c9984cf0.svg) no-repeat;
+    mask: url(//s2.hdslb.com/bfs/static/blive/blfe-message-web/static/img/plane.c9984cf0.svg) no-repeat;
+    mask-size: 100% 100%;
+    -webkit-mask-size: 100% 100%;
+}
+
+
+/* 通用导航栏加载框架 */
+
+.mini-header[data-v-c00a7aa4] {
+    background: #222;
+}
+
+.nav-link-item .link[data-v-c00a7aa4] {
+    color: #e1e1e1;
+}
+
+
+/* 漫画 */
+
+
+/* 标题 */
+
+.title .text,
+.title,
+.text,
+.section-navigator .section-item[data-v-31dfb8ea],
+.dp-i-block,
+.nav-list .nav-item[data-v-d455879a] {
+    color: #e1e1e1!important;
+}
+
+
+/* 标题2 */
+
+.tab[data-v-69400fb0],
+.nav-list .nav-item[data-v-2ba5b2f3],
+.download-app[data-v-0113b803],
+.manga-navbar-history-list .action-button,
+.manga-navbar-favourite-manga .action-button {
+    color: #e1e1e1e0;
+}
+
+
+/* 副标题 */
+
+.tags[data-v-455ef465] {
+    color: #bcbcbc;
+}
+
+
+/* 边框 */
+
+.section-navigator[data-v-31dfb8ea] {
+    border: 1px solid #bcbcbc80;
+}
+
+.section-navigator[data-v-31dfb8ea],
+.manga-navbar[data-v-0b65b86e] {
+    background-color: #222;
+}
+
+
+/* 通用-漫画-导航栏 */
+
+.manga-navbar[data-v-0b65b86e] {
+    background-color: #222;
+}
+
+.nav-list .nav-item[data-v-d455879a] {
+    color: #e1e1e1!important;
+}
+
+.nav-list .nav-item[data-v-2ba5b2f3],
+.download-app[data-v-0113b803],
+.manga-navbar-history-list .action-button,
+.manga-navbar-favourite-manga .action-button {
+    color: #e1e1e1e0;
+}
+
+.search-bar .search-bar-bg[data-v-3c58a041] {
+    background-color: #505050;
+}
+
+.search-bar .search-input[data-v-3c58a041] {
+    color: #e1e1e1;
+}
+
+.search-bar .confirm-btn .search-icon[data-v-3c58a041] {
+    background-color: #fff;
+    -webkit-mask: url(data:image/svg+xml;base64,PHN2ZyBkYXRhLW5hbWU9IuWbvuWxgiAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTE3Ljg5IDE2LjQ4bDMuMzIgMy4zMWExIDEgMCAwMS0xLjQyIDEuNDJsLTMuMzEtMy4zMmE4Ljc5IDguNzkgMCAxMTEuNDEtMS40MXpNMTEgMTguMkE3LjIgNy4yIDAgMTAzLjggMTFhNy4yIDcuMiAwIDAwNy4yIDcuMnoiIGZpbGwtb3BhY2l0eT0iLjM0Ii8+PC9zdmc+);
+    -webkit-mask-size: 100% 100%;
+    mask: url(data:image/svg+xml;base64,PHN2ZyBkYXRhLW5hbWU9IuWbvuWxgiAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTE3Ljg5IDE2LjQ4bDMuMzIgMy4zMWExIDEgMCAwMS0xLjQyIDEuNDJsLTMuMzEtMy4zMmE4Ljc5IDguNzkgMCAxMTEuNDEtMS40MXpNMTEgMTguMkE3LjIgNy4yIDAgMTAzLjggMTFhNy4yIDcuMiAwIDAwNy4yIDcuMnoiIGZpbGwtb3BhY2l0eT0iLjM0Ii8+PC9zdmc+);
+    mask-size: 100% 100%;
+}
+
+.manga-navbar[data-v-0b65b86e] {
+    box-shadow: 0 0 5px 1px rgb(13 15 16);
+}
+
+.manga-navbar-manga-logo[data-v-308d0e4a] {
+    color: #e1e1e1;
+}
+
+.user-info-panel,
+.data-list {
+    background: #191919;
+    color: #e1e1e1;
+}
+
+.user-info-panel .info-item .item-text,
+.user-info-panel .info-item .item-num,
+.search-bar .search-bar-bg .search-suggestion .suggestion-item {
+    color: #e7e7e7e0;
+}
+
+.user-panel .drop-list .logout-btn-container .logout-button,
+.manga-navbar-history-list .drop-list .more-btn-container .more-button,
+.manga-navbar-favourite-manga .drop-list .more-btn-container .more-button {
+    background: #222;
+    color: #e7e7e7e0;
+}
+
+.user-panel .drop-list,
+.manga-navbar-history-list .drop-list,
+.manga-navbar-favourite-manga .drop-list,
+.data-list {
+    background: #222;
+}
+
+.data-list .list-container .data-item .text-section .footer-text .text[data-v-9293f53e],
+.data-list .list-container .data-item .text-section .footer-text .text[data-v-2b2fc7ed] {
+    color: #e1e1e1e0!important;
+}
+
+.data-list .list-container .data-item .text-section .manga-title[data-v-9293f53e],
+.data-list .list-container .data-item .text-section .manga-title[data-v-2b2fc7ed] {
+    color: #e1e1e1;
+}
+
+.multi-line-text:after,
+.multi-line-text[data-v-12e8c17c]:after {
+    background: transparent;
+}
+
+
+/* 通用填写框 */
+
+.user-my-date .el-input__inner {
+    background: #3b3b3b;
+    border: 1px solid #3b3b3b;
+    color: #e1e1e1;
+    border-radius: 10px;
+}
+
+
+/* 通用关注前后按钮 */
+
+.unfollow {
+    opacity: 0.9;
+}
+
+.followed {
+    color: #bcbcbc!important;
+    border: 1px solid #3b3b3b!important;
+    background: #3b3b3b!important;
+}

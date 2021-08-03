@@ -1,0 +1,10 @@
+.main-container .pre-mask,
+.player-module .player-tool-bar,
+.main-container .media-info .media-cover,
+.bpx-docker-minor {
+    background-color: #222;
+}
+
+textarea.ipt-txt {
+    color: #e1e1e1!important;
+}
