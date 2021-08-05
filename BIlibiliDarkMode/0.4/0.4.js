@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         哔哩哔哩深色模式+工具箱(下载封面、关闭广告、调节亮度、获取av/BV号)
+// @name         BTEST
 // @namespace    https://github.com/ChenZihan-sudo/BilibiliDarkMode
-// @version      0.4.4
-// @description  熬夜必备 呵护眼睛 沉浸体验 优化布局 适用于网页端 深色/夜间/黑色/暗色模式
+// @version      0.4.5
+// @description  
 // @author       ChenZihan
 // @match        https://*.bilibili.com/*
 // @match        http://*.hdslb.com/bfs/archive/*
@@ -23,19 +23,6 @@
         //globalVarible
         var mainBg, sty;
         var isOnLoad = false;
-
-        //load jquery
-        var loadTimer = setInterval(() => {
-            var { length } = document.getElementsByTagName("head");
-            if (length == 1) {
-                clearInterval(loadTimer);
-                let jquery = document.createElement("script");
-                jquery.src = "//static.hdslb.com/js/jquery.min.js";
-                jquery.type = "text/javascript";
-                jquery.id = "jquery";
-                (document.querySelector("head") || document.documentElement).appendChild(jquery);
-            }
-        }, 50);
 
         window.onload = function () {
             isOnLoad = true;
@@ -122,28 +109,48 @@
         }
 
         function tran_kit_mouseEvent() {
-            var times = 0;
-            aaa();
-            var timer = setInterval(() => {
-                times++;
-                aaa();
-                if (times > 4) {clearInterval(timer);}
-            }, 500);
-            function aaa() {
-                //when mouse is on btn
-                $(document).ready(function () {
-                    $("#setting").mouseenter(function () {
-                        //show card
-                        document.getElementById("kitCard").style = "display:flex;";
-                    });
-                });
-                //when mouse out card
-                $(document).ready(function () {
-                    $("#kitCard").mouseleave(function () {
-                        //hide card
-                        document.getElementById("kitCard").style = "display:none;"
-                    });
-                });
+            var isDisplayNone = false;
+            var setting = document.getElementById("setting");
+            var kitCard = document.getElementById("kitCard");
+
+            setting.onmouseover = function () {
+                //show card
+                document.getElementById("kitCard").style = "display:flex;";
+            }
+
+            kitCard.onmouseout = function (e) {
+                //Mouseout when element have child, use relatedTarget to find which element out.
+                //If out is its child, not set display none
+                function mixtureParent(length) {
+                    var prentNode = ".parentNode"
+                    var finalParent = "";
+
+                    for (var i = 0; i < length; i++) {
+                        finalParent = finalParent + prentNode
+                    }
+                    return finalParent;
+                }
+                //find which element is out 
+                var outElement = "e.relatedTarget";
+                var indexId = "kitCard";
+                isDisplayNone = true;
+                for (var i = 0; i < 4; i++) {
+                    var checkId = outElement + mixtureParent(i + 1) + ".id"
+                    if (eval(checkId) == indexId) {
+                        isDisplayNone = false;
+                        break;
+                    }
+                }
+
+                displayNone();
+            }
+
+            function displayNone() {
+                if (isDisplayNone == true) {
+                    //hide card
+                    document.getElementById("kitCard").style = "display:none;";
+                    isDisplayNone == false;
+                }
             }
         }
 
