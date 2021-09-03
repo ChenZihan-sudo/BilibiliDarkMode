@@ -4,13 +4,11 @@
 3.底部栏
  */
 
-
 /* 主标题 */
 
 .watch-later-list header .t {
     color: #e1e1e1;
 }
-
 
 /* 暗标题文字 */
 
@@ -22,14 +20,34 @@
     color: #bcbcbc;
 }
 
-
 /* 全部播放、一键清空、移除已观看视频 */
 
-.watch-later-list header .s-btn,
-.watch-later-list header .d-btn {
+.watch-later-list header .s-btn, .watch-later-list header .d-btn {
     background-color: #222;
 }
 
 .watch-later-list .list-box .av-item .av-about {
     border-bottom: 1px solid #bcbcbc80;
+}
+
+/* fix */
+
+.watch-later-list header .t {
+    color: #e1e1e1!important;
+}
+
+.watch-later-list .list-box .av-item .av-about .t {
+    color: #e1e1e1e0!important;
+}
+
+.watch-later-list .list-box .av-item .av-about {
+    border-bottom: 1px solid #bcbcbc2e!important;
+}
+
+.watch-later-list header .s-btn {
+    background: transparent!important;
+}
+
+.watch-later-list .list-box .av-item .av-about .info .state .looked {
+    border-right: 1px solid #bcbcbc2e!important;
 }

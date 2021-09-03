@@ -1,0 +1,48 @@
+.follow-dialog-wrap .follow-dialog-window .title,.follow-dialog-wrap .follow-dialog-window .content .group-list li, .follow-dialog-wrap .follow-dialog-window .content .info .uname {
+    color: #e1e1e1e0!important;
+}
+
+.follow-dialog-wrap .follow-dialog-window .content .info,.follow-dialog-wrap .follow-dialog-window .content .group-list .add-group .add-btn {
+    color: #bcbcbc!important;
+}
+
+.follow-dialog-wrap .follow-dialog-window .content .group-list .add-group .add-btn {
+    border: 1px solid #bcbcbc5e!important;
+}
+
+.follow-dialog-wrap .follow-dialog-window .title {
+    border-bottom: 1px solid #bcbcbc5e!important;
+}
+
+.follow-dialog-wrap .follow-dialog-window .bottom {
+    border-top: 1px solid #bcbcbc5e!important;
+}
+
+.follow-dialog-wrap .follow-dialog-window .content .group-list ul .follow-group-mask{
+    background: hsl(0deg 0% 16% / 70%)!important;
+}
+
+.follow-dialog-wrap .follow-dialog-window .content .group-list .add-group .input-group input{
+    background: #222!important;
+}
+.follow-dialog-wrap .follow-dialog-window .content .group-list .add-group .input-group .submitGroup{
+    background: #2b3d43fc!important;
+}
+
+.follow-dialog-wrap .follow-dialog-window .bottom .btn:disabled {
+    background-color: #3c3c3c!important;
+    color: #868686!important;
+}
+
+.follow-dialog-wrap .follow-dialog-window .bottom .btn{
+    background: #00a1d6b5!important;
+    color: #d7d7d7!important;
+}
+
+.follow-dialog-wrap .follow-dialog-window .content .group-list li .special-tip{
+    color: #bcbcbc!important;
+}
+
+.follow-dialog-wrap .follow-dialog-window .content .group-list li input[type=checkbox]+i{
+    opacity: 0.7!important;
+}

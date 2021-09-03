@@ -3,74 +3,34 @@ https://www.bilibili.com/v/channel
 引入导航栏 和 底部 
 */
 
-
 /*  背景颜色 */
 
-.category-container[data-v-17c2df7b],
-.detail-page-container[data-v-748372c9],
-.main-container[data-v-748372c9],
-.discovery-container[data-v-74951002],
-.play-selector__item[data-v-77de7349],
-.year-selector__item[data-v-cfdccf38],
-.category-container[data-v-17c2df7b] {
-    background: #161819;
+.category-container, .detail-page-container, .main-container, .discovery-container, .play-selector__item, .year-selector__item, .category-container {
+    background: #161819!important;
 }
 
-.channel-sidebar[data-v-0177db62],
-.discovery-panel__toggle[data-v-1dbd110a],
-.subscribe-panel[data-v-575ebe9e],
-.card--light[data-v-fde23d48] {
-    background: #222;
-    border-right: 0px;
+.channel-sidebar, .discovery-panel__toggle, .subscribe-panel, .card--light {
+    background: #222!important;
+    border-right: 0px!important;
 }
-
 
 /* 标题文字 */
 
-.discovery-panel__title[data-v-1dbd110a],
-.discovery-panel .content-item__name[data-v-1dbd110a],
-.subscribe-panel__title .text[data-v-575ebe9e],
-.subscribe-panel .subscribe-item .name[data-v-575ebe9e],
-.video-card .video-name[data-v-6694beea],
-.rank-card-panel .header .title[data-v-1669476f],
-.type-header .header-info .title[data-v-4044b066],
-.channel-list-preview .header-info .title[data-v-72236eb8],
-.category-container .inner-container__header .title[data-v-17c2df7b],
-.channel-list-preview .header-info .title[data-v-72236eb8],
-.type-header .header-info .title[data-v-748372c9],
-.mini-channel-card .count[data-v-fde23d48],
-.mini-channel-card .name[data-v-fde23d48] {
-    color: #e1e1e1;
+.discovery-panel__title, .discovery-panel .content-item__name, .subscribe-panel__title .text, .subscribe-panel .subscribe-item .name, .video-card .video-name, .rank-card-panel .header .title, .type-header .header-info .title, .channel-list-preview .header-info .title, .category-container .inner-container__header .title, .channel-list-preview .header-info .title, .type-header .header-info .title, .mini-channel-card .count, .mini-channel-card .name {
+    color: #e1e1e1!important;
 }
-
 
 /* 副标题文字 */
 
-.discovery-panel__toggle[data-v-1dbd110a],
-.video-card .up-name[data-v-6694beea],
-.discovery-panel .content-item__count[data-v-1dbd110a],
-.subscribe-panel__title .btn[data-v-575ebe9e],
-.subscribe-panel__title .count[data-v-575ebe9e],
-.rank-card-panel .header .desc[data-v-1669476f],
-.play-selector__item[data-v-77de7349],
-.year-selector__item[data-v-cfdccf38] {
-    color: #bcbcbc;
+.discovery-panel__toggle, .video-card .up-name, .discovery-panel .content-item__count, .subscribe-panel__title .btn, .subscribe-panel__title .count, .rank-card-panel .header .desc, .play-selector__item, .year-selector__item {
+    color: #bcbcbc!important;
 }
-
 
 /* 按钮保持 */
 
-.discovery-panel__title--active[data-v-1dbd110a],
-.subscribe-panel .subscribe-item--active[data-v-575ebe9e] .discovery-panel__title[data-v-1dbd110a]:hover,
-.subscribe-panel .subscribe-item--active[data-v-575ebe9e] .discovery-panel .content-item[data-v-1dbd110a]:hover,
-.subscribe-panel .subscribe-item[data-v-575ebe9e]:hover,
-.discovery-panel__title[data-v-1dbd110a]:hover,
-.discovery-panel .content-item--active[data-v-1dbd110a],
-.discovery-panel .content-item[data-v-1dbd110a]:hover,
-.subscribe-panel .subscribe-item--active[data-v-575ebe9e] {
-    background: #3b3b3b;
+.discovery-panel__title--active, .subscribe-panel .subscribe-item--active .discovery-panel__title:hover, .subscribe-panel .subscribe-item--active .discovery-panel .content-item:hover, .subscribe-panel .subscribe-item:hover, .discovery-panel__title:hover, .discovery-panel .content-item--active, .discovery-panel .content-item:hover, .subscribe-panel .subscribe-item--active {
+    background: #3b3b3b!important;
 }
-
 
 /* 返回顶部 */
 
@@ -80,47 +40,38 @@ https://www.bilibili.com/v/channel
     border-radius: 5px!important;
 }
 
-
 /* —————————————————————————————————— */
-
 
 /* 左频道、订阅 */
 
-
 /* 搜索 */
 
-.sidebar-search-bar .inner-input[data-v-0693a90d] {
-    color: #e1e1e1;
-    background: #222;
+.sidebar-search-bar .inner-input {
+    color: #e1e1e1!important;
+    background: #222!important;
 }
-
 
 /* 展开 */
 
-.discovery-panel__toggle[data-v-1dbd110a] {
+.discovery-panel__toggle {
     border-top: 1px solid;
 }
 
-
 /* 边框修改 */
 
-.discovery-panel[data-v-1dbd110a] {
-    border-bottom: 1px solid #bcbcbc;
+.discovery-panel {
+    border-bottom: 1px solid #bcbcbc!important;
 }
-
 
 /* —————————————————————————————————— */
 
-
 /* 订阅 */
-
 
 /* 订阅展示降低亮度 */
 
-.detail-banner[data-v-c5ca1424] {
-    opacity: 0.85;
+.detail-banner {
+    opacity: 0.85!important;
 }
-
 
 /* 精选 综合 */
 
@@ -128,36 +79,63 @@ https://www.bilibili.com/v/channel
     color: #bcbcbc!important;
 }
 
-
 /* 展开、收起 */
 
-.rank-card-panel .toggle>span[data-v-1669476f] {
-    background: #161819;
-    border-radius: 10px;
-    box-shadow: 0px 2px 4px 0px rgb(0 0 0 / 30%);
+.rank-card-panel .toggle>span {
+    background: #161819!important;
+    border-radius: 10px!important;
+    box-shadow: 0px 2px 4px 0px rgb(0 0 0 / 30%)!important;
 }
 
-
 /* —————————————————————————————————— */
-
 
 /* 发现频道 */
 
-.card--light[data-v-fde23d48] {
-    border-radius: 10px;
+.card--light {
+    border-radius: 10px!important;
 }
-
 
 /* —————————————————————————————————— */
 
-
 /* 频道 */
-
 
 /* 已订阅样式 */
 
-.gray-btn[data-v-72236eb8] {
-    background: #bcbcbc;
-    color: #7d7d7d;
-    border: 0px;
+.gray-btn {
+    background: #bcbcbc!important;
+    color: #7d7d7d!important;
+    border: 1px solid #bcbcbc!important;
+    opacity: 0.95!important;
+}
+
+.sidebar-search-bar {
+    border: 1px solid #bcbcbc2e!important;
+}
+
+.discovery-panel__toggle {
+    border-top: 1px solid #bcbcbc2e!important;
+}
+
+.discovery-panel {
+    border-bottom: 1px solid #bcbcbc2e!important;
+}
+
+.channel-sidebar {
+    border-right: 0px!important;
+}
+
+.detail-page-container .van-tabs-bar:after {
+    background: #bcbcbc2e!important;
+}
+
+.play-selector__item,.year-selector__item {
+    border: 1px solid #bcbcbc5e!important;
+}
+
+.rank-card-panel .toggle:before {
+    background: #bcbcbc3e!important;
+}
+
+.video-card .video-name:hover{
+    color: #00a1d6!important;
 }

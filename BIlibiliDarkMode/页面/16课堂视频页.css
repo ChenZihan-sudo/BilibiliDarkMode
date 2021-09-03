@@ -1,0 +1,55 @@
+.bpx-player-video-sendbar{
+    background: #222!important;
+}
+
+.bpx-player-video-sendbar .bpx-player-video-inputbar-wrap{
+    border: 1px solid #505050!important;
+}
+
+.bpx-player-video-sendbar .bpx-player-video-inputbar{
+    background: #505050!important;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: #e1e1e1!important;
+}
+
+.v-wrap .r-con .pay-btns{
+    background: #222!important;
+}
+
+.v-wrap .r-con .pay-btns .e-title{
+    color: #e1e1e1!important;
+}
+
+.v-wrap .r-con .pay-btns .notice{
+    opacity: 0.7!important;
+}
+
+.list-box_link .list-box_index{
+    color: #e1e1e1!important;
+}
+
+.season-info .desc{
+    color: #bcbcbc!important;
+}
+
+.season-owner .info h3 a {
+    color: #e1e1e1!important;
+}
+
+.season-owner .info .desc{
+    color: #bcbcbc!important;
+}
+
+.season-tabs .tabs a{
+    color: #e1e1e1e0!important;
+}
+
+.season-info,.season-tabs .tabs{
+    border-bottom: 1px solid #bcbcbc5e!important;
+}
+
+.main_title{
+    color: #e1e1e1e0!important;
+}

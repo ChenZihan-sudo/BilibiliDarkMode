@@ -4,65 +4,403 @@ body {
     background: #161819!important;
 }
 
-
 /* 外观 */
 
-.space-right .space-right-top .title[data-v-1c9150a9],
-.card[data-v-fb77dc7a],
-.space-left[data-v-1c9150a9],
-.config[data-v-467e3e3e] {
-    background-color: #222;
-    -webkit-box-shadow: 0 2px 4px 0 rgb(0 0 0 / 50%);
-    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 50%);
-    border-radius: 5px;
+.space-right .space-right-top .title, .card, .space-left, .config {
+    background-color: #222!important;
+    -webkit-box-shadow: 0 2px 4px 0 rgb(0 0 0 / 50%)!important;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 50%)!important;
+    border-radius: 5px!important;
 }
 
-.space-right[data-v-1c9150a9] {
-    background-color: #2b2b2b;
+.space-right {
+    background-color: #2b2b2b!important;
+    ;
 }
-
 
 /* 设置刷新时背景颜色 */
 
-
 /* document.querySelector("#link-message-container > div.container > div.space-right > div.space-right-bottom.ps > div.card > div > div").style.backgroundColor = "#222"*/
 
-.link-progress-tv[data-v-42e02e95] {
+.link-progress-tv {
     background-color: #222!important;
 }
 
-
 /* 暗标题文字 */
 
-.line-1 .name-field[data-v-657577a0],
-.title[data-v-7d37e619],
-.item a[data-v-7d37e619] {
-    color: #bcbcbc;
+.line-1 .name-field, .title, .item a {
+    color: #bcbcbc!important;
 }
 
-.line-1[data-v-657577a0] {
-    color: #8E8E8E;
+.line-1 {
+    color: #8E8E8E!important;
 }
 
-.orginal-reply[data-v-8142435e],
-.text-box[data-v-8142435e],
-.text[data-v-e5050176] {
-    color: #bcbcbc;
+.orginal-reply, .text-box, .text {
+    color: #bcbcbc!important;
 }
 
-.divider[data-v-1df9d092] {
-    border-bottom: 1px solid #bcbcbc80;
+.divider {
+    border-bottom: 1px solid #bcbcbc80!important;
 }
 
-.side-bar .icon[data-v-7d37e619] {
-    width: 0px;
-    height: 0px;
-    background: #222;
+.side-bar .icon {
+    background: #e7e7e7e0!important;
+    -webkit-mask: url(//s2.hdslb.com/bfs/static/blive/blfe-message-web/static/img/plane.c9984cf0.svg) no-repeat!important;
+    mask: url(//s2.hdslb.com/bfs/static/blive/blfe-message-web/static/img/plane.c9984cf0.svg) no-repeat!important;
+    mask-size: 100% 100%!important;
+    -webkit-mask-size: 100% 100%!important;
 }
-
 
 /* 消息中心-选项列表-icon */
 
-.item[data-v-7d37e619]::before {
-    color: #e7e7e7e0;
+.item::before {
+    color: #e7e7e7e0!important;
+}
+
+.space-right .space-right-top .title {
+    box-shadow: 0 2px 4px 2px rgb(0 0 0 / 50%);
+}
+
+.card {
+    border-radius: 15px!important;
+}
+
+/* 我的消息 */
+
+.bili-im .left .title, .list-item, .bili-im .right, .bili-im, .bili-im {
+    background: #222!important;
+}
+
+.message-list, .send-box {
+    background-color: #141415!important;
+}
+
+.bili-im .left .title, .title, .love-item:not(:last-child)::after {
+    border-bottom: 1px solid #bcbcbc80!important;
+}
+
+.bili-im .left {
+    border-right: 1px solid #bcbcbc80!important;
+}
+
+.send-box, .divided-line {
+    border-top: 1px solid #bcbcbc80!important;
+}
+
+.config .config-item:not(:first-child)::before {
+    background: #bcbcbc80!important;
+}
+
+/* #e1e1e1 */
+
+.title span[data-v-79389194], .list-item .name[data-v-1f03ec9a], .bili-im .left .title[data-v-12ea5675], span, a.router-link-active, .name, .ar-recommend-item__info--title, .auto-reply-push__desc, .config .radio-selector[data-v-467e3e3e], .title[data-v-196262e8], .core-style[data-v-b2e4822a], .action-menu .menu-list a[data-v-d43989d2] {
+    color: #e1e1e1;
+}
+
+.notify-wrapper .notify-text[data-v-e8aa6bb6] {
+    color: #3b3b3b;
+}
+
+.message .message-content.not-img[data-v-50547f2d] {
+    background: #313131;
+    color: #e1e1e1;
+}
+
+.list-item:hover {
+    background-color: #181917!important;
+}
+
+.msg-push-new, .auto-reply-push {
+    background: #222!important;
+}
+
+.send-btn {
+    background-color: #505050!important;
+    border-radius: 10px!important;
+}
+
+.btn-box {
+    border: 1px solid #505050!important;
+    color: #e1e1e1!important;
+}
+
+.action-menu .menu-list {
+    border: 1px solid #222!important;
+    border-radius: 8px!important;
+    background-color: #222!important;
+    -webkit-box-shadow: 0 6px 12px 0 rgb(31 34 39 / 12%)!important;
+    box-shadow: 0 6px 12px 0 rgb(31 34 39 / 22%)!important;
+}
+
+.action-menu .menu-list a:hover {
+    background-color: #3b3e40!important;
+}
+
+.action-menu .menu-list:before {
+    background-color: #222!important;
+    border: 0px!important;
+}
+
+.reply-textarea {
+    background-color: #222!important;
+    border: 1px solid #bcbcbc80!important;
+    overflow: auto!important;
+    border-radius: 10px!important;
+    color: #555!important;
+}
+
+.reply-textarea:focus {
+    background: #1f1e1e!important;
+}
+
+.send-button, .send-btn.active:hover {
+    opacity: 0.9!important;
+}
+
+.notify-wrapper .notify-text {
+    color: #ddd!important;
+}
+
+.notify-wrapper .notify-text {
+    background-color: #2f2f2f!important;
+}
+
+/* 消息中心-深色模式 */
+
+body {
+    background: #161819!important;
+}
+
+/* 外观 */
+
+.space-right .space-right-top .title, .card, .space-left, .config {
+    background-color: #222!important;
+    -webkit-box-shadow: 0 2px 4px 0 rgb(0 0 0 / 50%)!important;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 50%)!important;
+    border-radius: 5px!important;
+}
+
+.space-right {
+    background-color: #2b2b2b;
+}
+
+/* 设置刷新时背景颜色 */
+
+/* document.querySelector("#link-message-container > div.container > div.space-right > div.space-right-bottom.ps > div.card > div > div").style.backgroundColor = "#222"*/
+
+.link-progress-tv {
+    background-color: #222!important;
+}
+
+/* 暗标题文字 */
+
+.line-1 .name-field, .title, .item a {
+    color: #bcbcbc!important;
+}
+
+.line-1 {
+    color: #8E8E8E!important;
+}
+
+.orginal-reply, .text-box, .text {
+    color: #bcbcbc!important;
+}
+
+.divider {
+    border-bottom: 1px solid #bcbcbc80!important;
+}
+
+.side-bar .icon {
+    background: #e7e7e7e0!important;
+    -webkit-mask: url(//s2.hdslb.com/bfs/static/blive/blfe-message-web/static/img/plane.c9984cf0.svg) no-repeat!important;
+    mask: url(//s2.hdslb.com/bfs/static/blive/blfe-message-web/static/img/plane.c9984cf0.svg) no-repeat!important;
+    mask-size: 100% 100%!important;
+    -webkit-mask-size: 100% 100%!important;
+}
+
+/* 消息中心-选项列表-icon */
+
+.item::before {
+    color: #e7e7e7e0!important;
+}
+
+.space-right .space-right-top .title {
+    box-shadow: 0 2px 4px 2px rgb(0 0 0 / 50%)!important;
+}
+
+.card {
+    border-radius: 15px!important;
+}
+
+/* 我的消息 */
+
+.bili-im .left .title, .list-item, .bili-im .right, .bili-im, .bili-im {
+    background: #222!important;
+}
+
+.message-list, .send-box {
+    background-color: #141415!important;
+}
+
+.bili-im .left .title, .title, .love-item:not(:last-child)::after {
+    border-bottom: 1px solid #bcbcbc80!important;
+}
+
+.bili-im .left {
+    border-right: 1px solid #bcbcbc80!important;
+}
+
+.send-box, .divided-line {
+    border-top: 1px solid #bcbcbc80!important;
+}
+
+.config .config-item:not(:first-child)::before {
+    background: #bcbcbc80!important;
+}
+
+/* #e1e1e1 */
+
+.title span[data-v-79389194],
+.list-item .name[data-v-1f03ec9a],
+.bili-im .left .title[data-v-12ea5675],
+span,
+a.router-link-active,
+.name,
+.ar-recommend-item__info--title,
+.auto-reply-push__desc,
+.config .radio-selector[data-v-467e3e3e],
+.title[data-v-196262e8],
+.core-style[data-v-b2e4822a],
+.action-menu .menu-list a[data-v-d43989d2] {
+    color: #e1e1e1;
+}
+
+.notify-wrapper .notify-text {
+    color: #3b3b3b!important;
+}
+
+.message .message-content.not-img {
+    background: #313131!important;
+    color: #e1e1e1!important;
+}
+
+.list-item:hover {
+    background-color: #181917!important;
+}
+
+.msg-push-new, .auto-reply-push {
+    background: #222!important;
+}
+
+.send-btn {
+    background-color: #505050!important;
+    border-radius: 10px!important;
+}
+
+.btn-box {
+    border: 1px solid #505050!important;
+    color: #e1e1e1!important;
+}
+
+.action-menu .menu-list {
+    border: 1px solid #222!important;
+    border-radius: 8px!important;
+    background-color: #222!important;
+    -webkit-box-shadow: 0 6px 12px 0 rgb(31 34 39 / 12%)!important;
+    box-shadow: 0 6px 12px 0 rgb(31 34 39 / 22%)!important;
+}
+
+.action-menu .menu-list a:hover {
+    background-color: #3b3e40!important;
+}
+
+.action-menu .menu-list:before {
+    background-color: #222!important;
+    border: 0px!important;
+}
+
+.reply-textarea {
+    background-color: #222!important;
+    border: 1px solid #bcbcbc80!important;
+    overflow: auto!important;
+    border-radius: 10px!important;
+    color: #555!important;
+}
+
+.reply-textarea:focus {
+    background: #1f1e1e!important;
+}
+
+.send-button, .send-btn.active:hover {
+    opacity: 0.9!important;
+}
+
+.notify-wrapper .notify-text {
+    color: #ddd!important;
+}
+
+.notify-wrapper .notify-text {
+    background-color: #2f2f2f!important;
+}
+
+/* fix */
+
+.msg-notify {
+    background: #222!important;
+}
+
+.msg-notify .title {
+    color: #e1e1e1e0!important;
+}
+
+.msg-notify .content {
+    color: #bcbcbc!important;
+}
+
+.msg-notify hr {
+    background: #bcbcbc80!important;
+}
+
+/* fix */
+
+.title {
+    border: 0px!important;
+}
+
+.reply-textarea {
+    color: #e1e1e1!important;
+}
+
+.row.right {
+    background: transparent!important;
+}
+
+.orginal-reply {
+    border-left: 2px solid #bcbcbc80!important;
+}
+
+span.title {
+    border-bottom: 0px!important;
+}
+
+.space-right .space-right-top .title a:hover, .detail .content.active:hover {
+    color: #2faee3!important;
+}
+
+.liked-user:not(:last-child)::after {
+    border-bottom: 1px solid #bcbcbc80!important;
+}
+
+.follow-btn.active {
+    background: #343434!important;
+    border: 1px solid #343434!important;
+}
+
+.follow-btn {
+    color: #e1e1e1e0!important;
+}
+
+.nothing-img {
+    opacity: 0.8!important;
 }

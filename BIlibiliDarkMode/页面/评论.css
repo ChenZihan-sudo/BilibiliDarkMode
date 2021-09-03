@@ -1,0 +1,338 @@
+.bb-comment .comment-list .list-item .text, .bb-comment .comment-list .list-item .user .text-con, .comment-bilibili-fold .comment-list .list-item .text, .comment-bilibili-fold .comment-list .list-item .user .text-con {
+    color: hsla(0, 0%, 90.6%, .88)!important
+}
+
+.bb-comment .comment-list .list-item .info>span, .comment-bilibili-fold .comment-list .list-item .info>span {
+    color: hsla(0, 0%, 100%, .7)!important
+}
+
+.bb-comment .comment-send .textarea-container textarea, .comment-bilibili-fold .comment-send .textarea-container textarea {
+    border: 0!important;
+    background-color: #2b2b2b!important;
+    color: #e2e2e2!important
+}
+
+.bb-comment .comment-send .textarea-container.focus textarea, .bb-comment .comment-send .textarea-container:hover textarea, .comment-bilibili-fold .comment-send .textarea-container.focus textarea, .comment-bilibili-fold .comment-send .textarea-container:hover textarea {
+    border: 1px solid #00a1d6!important;
+    color: #e2e2e2!important;
+    color: #505050!important
+}
+
+.bb-comment .comment-header .tabs-order li, .comment-bilibili-fold .comment-header .tabs-order li {
+    color: hsla(0, 0%, 100%, .71)!important
+}
+
+.bb-comment .comment-list .list-item .user .name, .comment-bilibili-fold .comment-list .list-item .user .name {
+    color: rgba(228, 233, 236, .95)
+}
+
+.bb-comment .comment-header .tabs-order li.on, .comment-bilibili-fold .comment-header .tabs-order li.on {
+    color: #00a1d6!important
+}
+
+.bb-comment .comment-send .comment-emoji .face, .bb-comment .comment-send-lite .comment-emoji .face, .comment-bilibili-fold .comment-send .comment-emoji .face, .comment-bilibili-fold .comment-send-lite .comment-emoji .face {
+    margin-right: 0!important;
+    width: 0!important;
+    height: 0!important;
+    background: #222!important
+}
+
+.bb-comment .comment-send .comment-emoji, .bb-comment .comment-send-lite .comment-emoji, .comment-bilibili-fold .comment-send .comment-emoji, .comment-bilibili-fold .comment-send-lite .comment-emoji {
+    margin-top: 8px!important;
+    width: 60px!important;
+    border: 1px solid #bcbcbc!important;
+    border-radius: 15px!important;
+    color: #bcbcbc!important
+}
+
+.bb-comment .comment-send .comment-emoji .text, .bb-comment .comment-send-lite .comment-emoji .text, .comment-bilibili-fold .comment-send .comment-emoji .text, .comment-bilibili-fold .comment-send-lite .comment-emoji .text {
+    vertical-align: inherit!important
+}
+
+.emoji-box {
+    border: 0!important;
+    border-radius: 10px!important;
+    background-color: #2b2b2b!important;
+    -webkit-box-shadow: 0 3px 5px 0 rgb(0 0 0/30%)!important;
+    box-shadow: 0 3px 5px 0 rgb(0 0 0/30%)!important
+}
+
+.emoji-box .emoji-title, .title[data-v-00b4b4ea] {
+    padding: 15px;
+    color: #e1e1e1;
+    text-align: left;
+    font-size: 14px
+}
+
+.emoji[data-v-60ae9c4d] {
+    background-color: transparent
+}
+
+.emoji-box .emoji-tabs .tab-link:hover, .emoji-box .emoji-text:hover, .emoji:hover {
+    background-color: #403b3b!important
+}
+
+.dp-i-block, .emoji-box .emoji-text {
+    display: inline-block;
+    color: #e1e1e1!important
+}
+
+.emoji-box .emoji-tabs, .pagination {
+    position: relative!important;
+    width: 100%!important;
+    border-bottom-right-radius: 8px!important;
+    border-bottom-left-radius: 8px!important;
+    background-color: #222!important
+}
+
+.emoji-box .emoji-tabs .tab-link.on, .emoji-cover.selected {
+    background-color: #403b3b!important
+}
+
+.page-controller .next[data-v-97c4281e]:hover, .page-controller .prev[data-v-97c4281e]:hover {
+    background-color: #403b3b;
+    color: #e1e1e1
+}
+
+.page-controller .next[data-v-97c4281e], .page-controller .prev[data-v-97c4281e] {
+    color: #e1e1e1
+}
+
+.page-controller .next.disabled, .page-controller .prev.disabled {
+    color: #8e8e8e!important
+}
+
+.emoji-box .emoji-tabs .emoji-tab-slider .prev {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiI+PHBhdGggZD0iTTkuMiA4bC0zLjQgMy40Yy0uMy4zLS4zLjggMCAxLjEuMy4zLjguMyAxLjEgMGwzLjktMy45Yy4zLS4zLjMtLjggMC0xLjFMNi45IDMuNmMtLjMtLjMtLjgtLjMtMS4xIDAtLjMuMy0uMy44IDAgMS4xTDkuMiA4eiIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGZpbGw9IiM3NTc1NzUiLz48L3N2Zz4=)!important;
+    transform: rotate(180deg)!important
+}
+
+.emoji-box .emoji-tabs .emoji-tab-slider .next.on {
+    background: url(//s1.hdslb.com/bfs/seed/jinkela/commentpc/img/left-arrow-disable.1c51ed4.svg) no-repeat!important;
+    transform: rotate(180deg)!important
+}
+
+.bilibili-player-video-sendbar {
+    background: #212121!important
+}
+
+.bilibili-player-video-info {
+    color: #ded9d9!important
+}
+
+.bilibili-player-video-sendbar .bilibili-player-video-inputbar {
+    background-color: #505050;
+    color: #999!important
+}
+
+.bilibili-player-video-sendbar .bilibili-player-video-inputbar .bilibili-player-video-danmaku-input {
+    color: #ccd0d7!important
+}
+
+.bilibili-player .bui-button.bui-button-blue, .bilibili-player .bui-button.bui-button-gray3:hover, .bilibili-player .bui-button.bui-button-gray:hover {
+    opacity: .9!important
+}
+
+.bilibili-player-video-sendbar .bilibili-player-video-inputbar .bilibili-player-video-inputbar-wrap {
+    border: 0!important;
+    background-color: #505050!important
+}
+
+.bb-comment .comment-list .list-item .info .btn-hover:hover, .comment-bilibili-fold .comment-list .list-item .info .btn-hover:hover {
+    background: #161819;
+    color: #00a1d6
+}
+
+.bb-comment .comment-send .textarea-container .ipt-txt, .bb-comment .comment-send-lite .textarea-container .ipt-txt, .comment-bilibili-fold .comment-send .textarea-container .ipt-txt, .comment-bilibili-fold .comment-send-lite .textarea-container .ipt-txt {
+    border: 0!important;
+    border-radius: 10px!important;
+    background-color: #2b2b2b!important;
+    color: #e1e1e1!important
+}
+
+.bb-comment .comment-send .textarea-container.focus textarea, .bb-comment .comment-send .textarea-container:hover textarea, .bb-comment .comment-send-lite .textarea-container.focus textarea, .bb-comment .comment-send-lite .textarea-container:hover textarea, .comment-bilibili-fold .comment-send .textarea-container.focus textarea, .comment-bilibili-fold .comment-send .textarea-container:hover textarea, .comment-bilibili-fold .comment-send-lite .textarea-container.focus textarea, .comment-bilibili-fold .comment-send-lite .textarea-container:hover textarea {
+    border: 1px solid #00a1d6!important;
+    background-color: #505050!important
+}
+
+::placeholder {
+    color: #8e8e8e!important
+}
+
+.bb-comment .comment-list .list-item .reply-box .reply-item .reply-con .user .name, .comment-bilibili-fold .comment-list .list-item .reply-box .reply-item .reply-con .user .name {
+    color: #bcbcbc
+}
+
+.bb-comment .comment-list .list-item .reply-box .view-more, .comment-bilibili-fold .comment-list .list-item .reply-box .view-more {
+    color: #bcbcbc!important
+}
+
+.bb-comment .comment-list .list-item .info .btn-hover:hover, .bb-comment .comment-list .list-item .reply-box .view-more .btn-more:hover, .comment-bilibili-fold .comment-list .list-item .info .btn-hover:hover, .comment-bilibili-fold .comment-list .list-item .reply-box .view-more .btn-more:hover {
+    background: #505050!important
+}
+
+.bb-comment .operation .opera-list, .comment-bilibili-fold .operation .opera-list {
+    border-radius: 10px!important;
+    background: #222!important;
+    box-shadow: 0 2px 8px rgb(0 0 0/20%)!important;
+    color: #bcbcbc!important
+}
+
+.bb-comment .operation .opera-list li:hover, .comment-bilibili-fold .operation .opera-list li:hover {
+    background: #505050!important
+}
+
+.paging-box .current, .paging-box .dian, .paging-box .next, .paging-box .prev, .paging-box .result, .paging-box .tcd-number {
+    color: #bcbcbc!important
+}
+
+.paging-box .current, .paging-box .current:hover, .paging-box .dian:hover, .paging-box .next:hover, .paging-box .prev:hover, .paging-box .tcd-number:hover {
+    color: #00a1d6!important
+}
+
+.bb-comment .comment-list .list-item .info .reply-tags span, .comment-bilibili-fold .comment-list .list-item .info .reply-tags span {
+    border-radius: 12px!important;
+    background: #505050!important;
+    color: hsla(0, 0%, 100%, .8)!important
+}
+
+.comment-m .b-head {
+    color: hsla(0, 0%, 90.6%, .91)
+}
+
+.bb-comment .comment-send .textarea-container.focus textarea, .bb-comment .comment-send .textarea-container:hover textarea, .bb-comment .comment-send-lite .textarea-container.focus textarea, .bb-comment .comment-send-lite .textarea-container:hover textarea, .comment-bilibili-fold .comment-send .textarea-container.focus textarea, .comment-bilibili-fold .comment-send .textarea-container:hover textarea, .comment-bilibili-fold .comment-send-lite .textarea-container.focus textarea, .comment-bilibili-fold .comment-send-lite .textarea-container:hover textarea {
+    color: hsla(0, 0%, 88.2%, .88)!important
+}
+
+.bb-comment .comment-list .list-item .user .name, .comment-bilibili-fold .comment-list .list-item .user .name {
+    color: hsla(0, 0%, 88.2%, .88)
+}
+
+/* fix */
+
+.bb-comment .comment-list .list-item .con, .comment-bilibili-fold .comment-list .list-item .con {
+    border-top: 1px solid #bcbcbc2e!important
+}
+
+.bb-comment .comment-header, .comment-bilibili-fold .comment-header {
+    border-bottom: 1px solid #bcbcbc2e!important;
+}
+
+.activity-m.act-now .l-inside .b-btn-praise.voted {
+    color: #e1e1e1e0;
+    border: 1px solid #bcbcbc80;
+}
+
+/* fix */
+
+.list-item:hover {
+    background-color: transparent!important;
+}
+
+/* 未登录提示 - 评论 */
+
+.bb-comment .no-login .baffle, .comment-bilibili-fold .no-login .baffle {
+    background-color: #222;
+}
+
+.bb-comment .no-login .comment-emoji, .comment-bilibili-fold .no-login .comment-emoji {
+    background-color: transparent;
+}
+
+.bb-comment .no-login .comment-submit, .comment-bilibili-fold .no-login .comment-submit {
+    background-color: #222 !important;
+    border-color: #222 !important;
+}
+
+/* 通用用户卡片 */
+
+.user-card-m, .user-card {
+    background: #222!important;
+    border: 1px solid #222!important;
+}
+
+.user-card-m .info .social a, .user-card .info .social a {
+    color: #e1e1e1e0!important;
+}
+
+.user-card-m .btn-box .liked, .user-card-m .btn-box .liked:hover, .user-card .btn-box .liked, .user-card .btn-box .liked:hover {
+    background-color: #3b3b3b!important;
+    border-color: #3b3b3b!important;
+    color: #e1e1e1e0!important;
+}
+
+.user-card-m .btn-box .message, .user-card .btn-box .message {
+    background-color: #4d4d4d!important;
+}
+
+.user-card-m .btn-box a, .user-card .btn-box a {
+    border: 1px solid #4b4b4b!important;
+    color: #e1e1e1e0!important;
+}
+
+.user-card-m .btn-box .like, .user-card .btn-box .like {
+    opacity: 0.9!important;
+}
+
+.user-card-m .info .user .name, .user-card .info .user .name {
+    color: #e1e1e1;
+}
+
+.user-card-m .info .sign, .user-card .info .sign {
+    color: #bcbcbc!important;
+}
+
+.user-card .info .user .name {
+    color: #e1e1e1!important;
+}
+
+.bb-comment .comment-list .list-item .con .vote-container, .comment-bilibili-fold .comment-list .list-item .con .vote-container {
+    border-top: 1px solid #bcbcbc2e!important;
+    border: 1px solid #bcbcbc2e!important;
+}
+
+.bb-comment .comment-list .list-item .con .vote-container .text-area .text-content, .comment-bilibili-fold .comment-list .list-item .con .vote-container .text-area .text-content {
+    color: #e1e1e1e0!important;
+}
+
+.bb-comment .comment-list .list-item .user-face .hot-follow .follow-btn, .comment-bilibili-fold .comment-list .list-item .user-face .hot-follow .follow-btn {
+    opacity: 0.9!important;
+}
+
+.bb-comment .comment-list .list-item .user-face .hot-follow .follow-btn.followed, .comment-bilibili-fold .comment-list .list-item .user-face .hot-follow .follow-btn.followed {
+    opacity: 0.8!important;
+}
+
+.bb-comment .comment-list .list-item .con .vote-container:hover .text-area, .comment-bilibili-fold .comment-list .list-item .con .vote-container:hover .text-area {
+    box-shadow: 2px 3px 4px rgb(0 0 0 / 30%)!important;
+    border: 0px!important;
+}
+
+.bb-comment .nameplate .nameplate-card .nameplate-arrow, .comment-bilibili-fold .nameplate .nameplate-card .nameplate-arrow {
+    background: #222!important;
+}
+
+.bb-comment .nameplate .nameplate-card, .comment-bilibili-fold .nameplate .nameplate-card {
+    background: #222!important;
+    border: 0px !important;
+}
+
+.bb-comment .nameplate .nameplate-card .nameplate-text .n-name, .comment-bilibili-fold .nameplate .nameplate-card .nameplate-text .n-name {
+    color: #e1e1e1e0!important;
+}
+
+.bb-comment .nameplate .nameplate-card .nameplate-text .n-title, .comment-bilibili-fold .nameplate .nameplate-card .nameplate-text .n-title {
+    color: #e1e1e1d0!important;
+}
+
+.bb-comment .nameplate .nameplate-card .nameplate-text, .comment-bilibili-fold .nameplate .nameplate-card .nameplate-text {
+    border-left: 1px solid #bcbcbc2e!important;
+}
+
+.bb-comment .nameplate .nameplate-card .nameplate-arrow, .comment-bilibili-fold .nameplate .nameplate-card .nameplate-arrow {
+    background: transparent!important;
+}
+
+.bb-comment .comment-list .list-item:last-child .con, .comment-bilibili-fold .comment-list .list-item:last-child .con {
+    border-bottom: 1px solid #bcbcbc2e!important;
+}

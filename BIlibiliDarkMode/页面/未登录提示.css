@@ -1,0 +1,62 @@
+.login-tip {
+    background: #222;
+}
+
+.content .lt-text {
+    color: #e1e1e1e0!important;
+}
+
+.login-tip .login-btn {
+    opacity: 0.9!important;
+}
+
+.unlogin-popover:before {
+    background: #222!important;
+}
+
+/* 导航栏 */
+
+.unlogin-avatar {
+    background: #5c5c5c!important;
+}
+
+/* 导航栏 @首页 */
+
+.international-header.fixed-top .mini-header {
+    background: #222;
+}
+
+.international-header.fixed-top .mini-type .nav-link .nav-link-ul .nav-link-item .link, .international-header.fixed-top .mini-type .nav-user-center .user-con .item .name {
+    color: #e1e1e1;
+}
+
+.van-popover {
+    border: 0px!important;
+}
+
+.unlogin-popover {
+    background: #222!important;
+}
+
+.unlogin-popover-avatar .title, .content .lt-text, .unlogin-popover-avatar .register-tip {
+    color: #e1e1e1e0!important;
+}
+
+.login-btn[data-v-eef987ee] {
+    opacity: 0.8!important;
+}
+
+/* 评论 */
+
+.bb-comment .no-login .baffle, .comment-bilibili-fold .no-login .baffle {
+    background-color: #222;
+}
+
+.bb-comment .no-login .comment-emoji, .comment-bilibili-fold .no-login .comment-emoji {
+    background-color: transparent;
+}
+
+.bb-comment .no-login .comment-submit, .comment-bilibili-fold .no-login .comment-submit {
+    background-color: #222 !important;
+    border-color: #222 !important;
+}

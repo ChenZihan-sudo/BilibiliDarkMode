@@ -1,0 +1,40 @@
+8.5 
+#add 未登陆提示-global ok
+#add 未登陆提示-评论 ok
+#add 未登陆提示-导航栏 ok
+#fix 普通视频播放页 ok
+#fix 频道导航栏 底边框 ok
+#fix 频道 #161819 not
+#fix 导航栏 popper ok
+#fix 评论 mainBg!!! not
+#fix 消息中心 ok
+#fix 个人中心 引入页面 not
+#fix 个人空间 引入动态组件 评论组件#222 not
+#fix 番剧视频页 not
+
+#fix 导航栏
+#fix 搜索
+#fix 稍后再看
+#fix 个人中心
+#fix 专栏
+#fix 评论
+#fix 直播 
+
+#fix 导航栏
+#fix 消息中心
+#fix 视频播放页
+#fix 频道导航栏
+
+#fix 评论
+#fix 专栏
+
+#fix 频道导航栏
+#fix 首页
+#fix 导航栏
+#fix 动态
+#fix 评论
+#fix 订阅及频道
+#fix 搜索
+#fix 个人空间
+
+#add 普通视频播放页

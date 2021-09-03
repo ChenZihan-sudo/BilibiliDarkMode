@@ -7,9 +7,7 @@
 右侧悬浮栏 
  */
 
-
 /* _____________________________________ */
-
 
 /* 直播导航栏 */
 
@@ -17,14 +15,11 @@
     background-color: #545758ad!important;
 }
 
-.link-navbar .main-ctnr .nav-logo,
-.link-navbar .nav-item,
-.area-list-panel .list-item {
+.link-navbar .main-ctnr .nav-logo, .link-navbar .nav-item, .area-list-panel .list-item {
     color: #bcbcbc!important;
 }
 
-.link-navbar .main-ctnr .nav-items-ctnr.over-width,
-.area-list-panel {
+.link-navbar .main-ctnr .nav-items-ctnr.over-width, .area-list-panel {
     background-color: #222!important;
 }
 
@@ -32,20 +27,15 @@
     background-color: #505050!important;
 }
 
-
 /* 更亮的副标题文字*/
 
-.user-item .username,
-.activity-item-ctnr .info-ctnr .first-line .username[data-v-04a0c570],
-.darkgray {
+.user-item .username, .activity-item-ctnr .info-ctnr .first-line .username[data-v-04a0c570], .darkgray {
     color: #bcbcbc!important;
 }
 
-
 /* 副标题文字 */
 
-.user-level-detail .detail-link,
-.lightgray {
+.user-level-detail .detail-link, .lightgray {
     color: #8E8E8E!important;
 }
 
@@ -53,7 +43,6 @@
     border-radius: 30px!important;
     background: #3b3b3b!important;
 }
-
 
 /* 文字、按钮保持 */
 
@@ -66,23 +55,15 @@
     color: #23ade5!important;
 }
 
-
 /*用户、动态、签到、公会中心、下载 */
-
 
 /* 卡片外观 */
 
-.link-panel-ctnr,
-.calendar-checkin,
-.download-panel-ctnr,
-.user-panel-ctnr .user-panel,
-.user-level-detail,
-.hab-ctnr {
+.link-panel-ctnr, .calendar-checkin, .download-panel-ctnr, .user-panel-ctnr .user-panel, .user-level-detail, .hab-ctnr {
     background-color: #222!important;
     border-radius: 10px!important;
     box-shadow: 0px 2px 10px rgb(0 0 0 / 30%)!important;
 }
-
 
 /* 用户等级 */
 
@@ -90,25 +71,20 @@
     border: 1px solid #222!important;
 }
 
-
 /* 动态 */
 
-.link-panel-ctnr .load-more .load-more-btn,
-.user-panel-ctnr .user-panel .content-ctnr .logout-btn {
+.link-panel-ctnr .load-more .load-more-btn, .user-panel-ctnr .user-panel .content-ctnr .logout-btn {
     background-color: #3b3b3b!important;
     color: #bcbcbc!important;
 }
 
-.attention-live .switch-btn:active,
-.attention-live .switch-btn:hover {
+.attention-live .switch-btn:active, .attention-live .switch-btn:hover {
     background-color: #3b3e40!important;
 }
 
-
 /* 签到-日历 */
 
-.calendar-checkin .title,
-.calendar-checkin .calendar-wrapper {
+.calendar-checkin .title, .calendar-checkin .calendar-wrapper {
     background-color: #222!important;
 }
 
@@ -128,7 +104,6 @@
     color: #8E8E8E!important;
 }
 
-
 /* 项目选中 */
 
 .download-panel-ctnr .download-item:hover {
@@ -138,7 +113,6 @@
 .user-panel-ctnr .user-panel .content-ctnr .logout-btn:hover {
     color: #23ade5!important;
 }
-
 
 /* 搜索栏 */
 
@@ -151,53 +125,33 @@
     color: #bcbcbc!important;
 }
 
-
 /* _____________________________________ */
-
 
 /* 标题 */
 
-.area-title,
-.yzly-title,
-.area-title,
-.title-text,
-.room-title,
-.section-title,
-.banner-title,
-.room-anchor,
-.section-title,
-.item-title {
+.area-title, .yzly-title, .area-title, .title-text, .room-title, .section-title, .banner-title, .room-anchor, .section-title, .item-title {
     color: #e1e1e1!important;
 }
 
-
 /* 副标题 */
 
-.item-title,
-.v-middle {
+.item-title, .v-middle {
     color: #bcbcbc!important;
 }
 
-
 /* 卡片外观 */
 
-.highlight-area-item,
-.news-ctnr,
-.hab-ctnr,
-.rank-ctnr,
-.rec-area-item {
+.highlight-area-item, .news-ctnr, .hab-ctnr, .rank-ctnr, .rec-area-item {
     background-color: #222!important;
     border-radius: 10px!important;
     box-shadow: 0px 2px 10px rgb(0 0 0 / 20%)!important;
 }
-
 
 /* 背景补充 */
 
 .text-info-ctnr.body-bg {
     background-color: #161819!important;
 }
-
 
 /* 悬浮窗口 */
 
@@ -207,8 +161,7 @@
     border: 0px!important;
 }
 
-.card-info-ctnr,
-.text-info-ctnr {
+.card-info-ctnr, .text-info-ctnr {
     background-color: #2b2b2b!important;
 }
 
@@ -217,13 +170,11 @@
     border: 1px solid #2b2b2b!important;
 }
 
-
 /* 右侧悬浮栏 */
 
 .live-sidebar-ctnr {
     background-color: #222!important;
 }
-
 
 /* 切换按钮 */
 
@@ -235,16 +186,13 @@
     background: #505050!important;
 }
 
-
 /* 推荐分区 */
 
 .rec-area-item {
     border: 0px!important;
 }
 
-
 /* _____________________________________ */
-
 
 /* 底部栏 */
 
@@ -252,15 +200,11 @@
     background-color: #131516!important;
 }
 
-
 /* 调整二维码亮度 */
 
-.link-footer .footer-img-linker .footer-qrcode.qr-weixin,
-.link-footer .footer-img-linker .footer-qrcode.qr-zbj,
-.link-footer .footer-img-linker .footer-qrcode.qr-weibo {
+.link-footer .footer-img-linker .footer-qrcode.qr-weixin, .link-footer .footer-img-linker .footer-qrcode.qr-zbj, .link-footer .footer-img-linker .footer-qrcode.qr-weibo {
     opacity: 0.8!important;
 }
-
 
 /* fix */
 
@@ -268,10 +212,7 @@
     background-color: transparent!important;
 }
 
-.banner-item-ctnr:hover .banner-title,
-.tab-item:hover,
-.more-ctnr:hover,
-span.v-middle:hover {
+.banner-item-ctnr:hover .banner-title, .tab-item:hover, .more-ctnr:hover, span.v-middle:hover {
     color: #23ade5!important;
 }
 
@@ -279,4 +220,41 @@ span.v-middle:hover {
     background: #222!important;
     border: 0px solid #e9eaec!important;
     box-shadow: 0 13px 20px 0 rgb(18 20 23)!important;
+}
+
+/* fix */
+
+.activity-item-ctnr .info-ctnr .first-line .username {
+    color: #e1e1e1!important;
+}
+
+.divider {
+    background-color: #e1e1e1!important;
+}
+
+.calendar-checkin .checkin-btn {
+    background-color: #3b3b3b!important;
+}
+
+.follow-cntr {
+    background: #222!important;
+    border-radius: 15px!important;
+}
+
+.side-bar-popup-cntr{
+    border: 1px solid #222!important;
+    background-color: #222!important;
+    box-shadow: 0 6px 12px 0 rgb(0 0 0 / 51%)!important;
+}
+
+.more-btn-cntr{
+    background-color: #3b3b3b!important;
+}
+
+.user-info-name{
+    color: #e1e1e1e0!important;
+}
+
+.side-bar-popup-cntr:after{
+    border-color: transparent transparent transparent #222!important;
 }

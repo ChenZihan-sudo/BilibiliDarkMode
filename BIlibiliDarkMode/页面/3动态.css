@@ -4,22 +4,13 @@
     background: #161819!important;
 }
 
-
 /* 窗口外观 */
 
-.user-panel,
-.live-panel,
-.tab-bar,
-.most-viewed-panel,
-.home-page .home-container .home-content .center-panel .section-block,
-.notice-panel,
-.new-topic-panel,
-.card {
+.user-panel, .live-panel, .tab-bar, .most-viewed-panel, .home-page .home-container .home-content .center-panel .section-block, .notice-panel, .new-topic-panel, .card {
     background: #222!important;
     border-radius: 10px!important;
     box-shadow: 0px 4px 6px 0px rgb(0 0 0 / 50%)!important;
 }
-
 
 /* 用户信息 */
 
@@ -31,13 +22,11 @@
     color: #e1e1e1;
 }
 
-
 /* 标题 */
 
 .tc-black {
     color: #e7e7e7!important;
 }
-
 
 /* 直播窗口栏 */
 
@@ -49,13 +38,11 @@
     color: #bcbcbc!important;
 }
 
-
 /* 用户窗口栏 */
 
 .most-viewed-panel .list-content .most-viewed-item .name {
     color: #e1e1e1!important;
 }
-
 
 /* 动态发布窗口 */
 
@@ -72,20 +59,15 @@
     background-color: #222!important;
 }
 
-
 /* 窗口外观 */
 
-.static-popup,
-.bili-at-popup,
-.hash-popup,
-.create-vote {
+.static-popup, .bili-at-popup, .hash-popup, .create-vote {
     border: 0px!important;
     border-radius: 10px!important;
     background-color: #2B2B2B!important;
     -webkit-box-shadow: 0 3px 5px 0 rgb(0 0 0 / 30%)!important;
     box-shadow: 0 3px 5px 0 rgb(0 0 0 / 30%)!important;
 }
-
 
 /* 动态发布窗口-图片上传 */
 
@@ -96,7 +78,6 @@
 .static-popup.bp-arrow:before {
     background: #222!important;
 }
-
 
 /* 动态发布窗口-@ */
 
@@ -116,7 +97,6 @@
     color: #e1e1e1!important;
 }
 
-
 /* 动态发布窗口-话题  */
 
 .bg-white {
@@ -128,12 +108,9 @@
     background-color: #3b3e40!important;
 }
 
-
 /* 动态发布-投票 */
 
-.title,
-.bp-radio,
-.bp-button {
+.title, .bp-radio, .bp-button {
     color: #e1e1e1!important;
 }
 
@@ -146,26 +123,17 @@
     color: #bcbcbc!important;
 }
 
-.bp-input .input,
-.bp-input .textarea {
+.bp-input .input, .bp-input .textarea {
     color: #e1e1e1!important;
 }
 
-.core-style:hover,
-.core-style:focus,
-.core-style:active {
+.core-style:hover, .core-style:focus, .core-style:active {
     background: #222!important;
 }
 
-.bp-vote-container input:focus,
-.bp-vote-container input,
-.bp-vote-container textarea,
-.bp-vote-container textarea:focus,
-.bp-vote-container select,
-.bp-vote-container button {
+.bp-vote-container input:focus, .bp-vote-container input, .bp-vote-container textarea, .bp-vote-container textarea:focus, .bp-vote-container select, .bp-vote-container button {
     background-color: transparent!important;
 }
-
 
 /* 动态发布-发布时间 */
 
@@ -179,12 +147,9 @@
     color: #bcbcbc!important;
 }
 
-
 /* ———————————————————————————————— */
 
-
 /* 动态发布-表情 */
-
 
 /* 窗口外观 */
 
@@ -196,7 +161,6 @@
     box-shadow: 0 3px 5px 0 rgb(0 0 0 / 30%)!important;
 }
 
-
 /* 标题-表情 */
 
 .title {
@@ -204,20 +168,17 @@
     color: #e1e1e1!important;
 }
 
-
 /* emoji背景透明 */
 
 .emoji {
     background-color: transparent!important;
 }
 
-
 /* 选中表情 */
 
 .emoji:hover {
     background-color: #403b3b!important;
 }
-
 
 /* 颜文字适配 */
 
@@ -226,7 +187,6 @@
     color: #e1e1e1!important;
     ;
 }
-
 
 /* 底部表情选择 */
 
@@ -242,36 +202,29 @@
     background-color: #403b3b!important;
 }
 
-
 /* 翻页 */
 
-.page-controller .prev:hover,
-.page-controller .next:hover {
+.page-controller .prev:hover, .page-controller .next:hover {
     background-color: #403b3b!important;
     color: #e1e1e1!important;
     ;
 }
 
-.page-controller .prev,
-.page-controller .next {
+.page-controller .prev, .page-controller .next {
     color: #e1e1e1!important;
 }
 
-.page-controller .prev.disabled,
-.page-controller .next.disabled {
+.page-controller .prev.disabled, .page-controller .next.disabled {
     color: #8E8E8E!important;
 }
 
-
 /* ———————————————————————————————— */
-
 
 /* 导航字、标题、更多 */
 
 .tc-slate {
     color: #e1e1e1;
 }
-
 
 /* 新动态提示 */
 
@@ -280,9 +233,7 @@
     border-radius: 10px!important;
 }
 
-
 /* 动态卡片 */
-
 
 /* 1.用户名 */
 
@@ -290,34 +241,22 @@
     color: #e1e1e1!important;
 }
 
-
 /* 2.动态内容文字 */
 
 .content-full {
     color: #e1e1e1!important;
 }
 
-
 /* 3.视频、直播、转发、专栏、番剧、直播回放-外观 */
-
 
 /* 三、二级背景颜色 */
 
-.live-container,
-.video-container,
-.video-container,
-.card-content .repost,
-.card-content .not-support,
-.card-content .deleted,
-.article-container,
-.music-container,
-.bangumi-container {
+.live-container, .video-container, .video-container, .card-content .repost, .card-content .not-support, .card-content .deleted, .article-container, .music-container, .bangumi-container {
     background: #2b2b2b!important;
     border: 0px!important;
     box-shadow: 0px 2px 8px #00000030!important;
     border-radius: 10px!important;
 }
-
 
 /* 4.视频-文字、位置 */
 
@@ -329,15 +268,11 @@
     color: #8E8E8E!important;
 }
 
-
 /* 二级背景颜色 */
 
-.card-content .repost,
-.card-content .not-support,
-.card-content .deleted {
+.card-content .repost, .card-content .not-support, .card-content .deleted {
     background-color: #06060630!important;
 }
-
 
 /* 5.文字-展开 */
 
@@ -347,20 +282,15 @@
     ;
 }
 
-
 /* 6.点赞文字 */
 
-.users-box .like-users-list,
-.users-box .like-users-list:active,
-.users-box .like-users-list:link,
-.users-box .like-users-list:visited {
+.users-box .like-users-list, .users-box .like-users-list:active, .users-box .like-users-list:link, .users-box .like-users-list:visited {
     color: #babec0!important;
 }
 
 .like-users-panel {
     color: #babec0!important;
 }
-
 
 /* 7.商品、活动、追番 推荐 */
 
@@ -388,7 +318,6 @@
     ;
 }
 
-
 /* 8.图片查看、控制 */
 
 .imagesbox .boost-control {
@@ -398,7 +327,6 @@
 .imagesbox .boost-control li {
     color: #8E8E8E!important;
 }
-
 
 /* 9.专栏 */
 
@@ -422,7 +350,6 @@
     box-shadow: 0 3px 10px 0 rgb(0 0 0 / 50%)!important;
 }
 
-
 /* 10.番剧 */
 
 .bangumi-container .text-area .title {
@@ -433,7 +360,6 @@
     margin-top: 9px!important;
     ;
 }
-
 
 /* 11.直播回放窗口*/
 
@@ -446,13 +372,11 @@
     color: #8e8e8e!important;
 }
 
-
 /* 12.动态发布时间 */
 
 .card .main-content .time .detail-link {
     color: #8E8E8E!important;
 }
-
 
 /* 13.更多、举报、关注*/
 
@@ -471,7 +395,6 @@
     background: #2B2B2B!important;
 }
 
-
 /* 话题 */
 
 .new-topic-panel .tag-item .content {
@@ -483,13 +406,11 @@
     color: #cccccc!important;
 }
 
-
 /* 关闭动态加载图 */
 
 .loading-img {
     display: none;
 }
-
 
 /* 链接索引保持 */
 
@@ -497,12 +418,9 @@
     background-color: #3b3e40;
 }
 
-
 /* _________________________________________ */
 
-
 /* 1.用户信息 */
-
 
 /* 2.用户卡片 */
 
@@ -534,14 +452,12 @@
     border-radius: 15px;
 }
 
-.user-card .btn-box .message,
-.userinfo-content .btn-box>a {
+.user-card .btn-box .message, .userinfo-content .btn-box>a {
     background-color: #505050!important;
     border-radius: 15px!important;
 }
 
-.user-card .btn-box a,
-.userinfo-content .btn-box>a {
+.user-card .btn-box a, .userinfo-content .btn-box>a {
     border: 0px!important;
     color: #ffffffb3!important;
     background-color: #676767!important;
@@ -551,25 +467,20 @@
     color: #ffffffb3!important;
 }
 
-.user-card .btn-box a:hover,
-.userinfo-content .btn-box>a.liked:hover {
+.user-card .btn-box a:hover, .userinfo-content .btn-box>a.liked:hover {
     color: #ffffffb3!important;
     background-color: #676767!important;
 }
 
-.userinfo-content .btn-box>a.liked,
-.user-card .btn-box a,
-.userinfo-content .btn-box>a {
+.userinfo-content .btn-box>a.liked, .user-card .btn-box a, .userinfo-content .btn-box>a {
     background-color: #3b3b3b!important;
     color: #ffffffb3!important;
 }
 
-.userinfo-content .btn-box>a.liked:hover,
-.userinfo-content .btn-box>a:hover {
+.userinfo-content .btn-box>a.liked:hover, .userinfo-content .btn-box>a:hover {
     background-color: #505050!important;
     color: #ffffffb3!important;
 }
-
 
 /* 用户名称 */
 
@@ -577,12 +488,28 @@
     color: #e1e1e1!important;
 }
 
-
 /* 描述文本 */
 
 .userinfo-content .info .sign {
     color: #bcbcbc!important;
 }
 
-
 /* —————————————————————————————————— */
+
+/* fix */
+
+.tab-bar {
+    border-bottom: 0px!important;
+}
+
+
+/* fix */
+.feed-title{
+    background-color: #222!important;
+    color: #e1e1e1!important;
+    border-bottom: 1px solid #bcbcbc2e!important;
+}
+
+.like-users-panel::before{
+    background-color: #bcbcbc80!important;
+}

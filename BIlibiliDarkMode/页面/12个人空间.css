@@ -4,7 +4,6 @@ body {
     background: #161819;
 }
 
-
 /* _____________________________其他 */
 
 .n .n-inner {
@@ -14,7 +13,6 @@ body {
 #page-index .col-1 {
     background: #222;
 }
-
 
 /* user page */
 
@@ -51,9 +49,7 @@ section-title {
     background: #222;
 }
 
-
 /* _____________________________其他 */
-
 
 /* 主标题文字 */
 
@@ -61,13 +57,7 @@ section-title {
     color: #00a1d6!important;
 }
 
-a,
-.section-title .t,
-#page-index .fav-item .name,
-.small-item .title,
-.section-title,
-#page-index .col-2 .section .user-auth.no-auth .no-auth-title .goto-auth,
-.section-title {
+a, .section-title .t, #page-index .fav-item .name, .small-item .title, .section-title, #page-index .col-2 .section .user-auth.no-auth .no-auth-title .goto-auth, .section-title {
     color: #e1e1e1;
 }
 
@@ -75,21 +65,9 @@ a,
     color: #e7e7e7e0;
 }
 
-
 /* 副标题文字 */
 
-.n .n-num,
-.n .n-text,
-.large-item .desc,
-.sec-empty-hint,
-#page-index .channel .empty-state p,
-.section .more,
-#page-index .fav-item .state,
-.i-m-text,
-.i-m-u-icon,
-.list-create .text,
-.private-hint,
-.n .n-data .n-data-k {
+.n .n-num, .n .n-text, .large-item .desc, .sec-empty-hint, #page-index .channel .empty-state p, .section .more, #page-index .fav-item .state, .i-m-text, .i-m-u-icon, .list-create .text, .private-hint, .n .n-data .n-data-k {
     color: #bcbcbc;
 }
 
@@ -97,11 +75,9 @@ textarea::placeholder {
     color: #bcbcbcc9;
 }
 
-
 /* 卡片外观 */
 
 #page-index .col-1 {}
-
 
 /* 卡片 */
 
@@ -115,8 +91,7 @@ textarea::placeholder {
     background: #222;
 }
 
-.section .count:before,
-.section .more {
+.section .count:before, .section .more {
     background: #222;
 }
 
@@ -132,29 +107,21 @@ textarea::placeholder {
     width: 0px;
 }
 
-
 /* 卡片、图片阴影、边框取消 */
 
-.large-item .cover img,
-.mini-item .cover img {
+.large-item .cover img, .mini-item .cover img {
     box-shadow: 0 0 0 0px #e5e9ef;
 }
 
-#page-index .fav-covers,
-#page-index .col-1 {
+#page-index .fav-covers, #page-index .col-1 {
     border: 0px;
 }
 
-
 /* 边框 */
 
-.section,
-#page-index .col-2 .section-title,
-.i-m-r2,
-.section .more {
+.section, #page-index .col-2 .section-title, .i-m-r2, .section .more {
     border-bottom: 1px solid #bcbcbc;
 }
-
 
 /* 创作中心 */
 
@@ -168,19 +135,15 @@ textarea::placeholder {
     border-right: 1px solid #bcbcbc;
 }
 
-
 /* 公告去边框 */
 
-#page-index .col-2 .section-title,
-#page-index .col-2 .section:last-child {
+#page-index .col-2 .section-title, #page-index .col-2 .section:last-child {
     border-bottom: 0px;
 }
 
-.section .count:before,
-.section .more {
+.section .count:before, .section .more {
     background: #222;
 }
-
 
 /* 更多 */
 
@@ -188,15 +151,12 @@ textarea::placeholder {
     padding: 0 10px 0 10px;
 }
 
-.i-m-u-icon,
-.i-m-v-icon {
+.i-m-u-icon, .i-m-v-icon {
     width: 0px;
     height: 0px;
 }
 
-
 /* ___________________________________ */
-
 
 /* 卡片外观 */
 
@@ -206,14 +166,11 @@ textarea::placeholder {
     box-shadow: 0px 0px 0px #000;
 }
 
-
 /* 主标题 */
 
-.sub-tabs span,
-.pgc-space-follow-item .pgc-item-info .pgc-item-title {
+.sub-tabs span, .pgc-space-follow-item .pgc-item-info .pgc-item-title {
     color: #e1e1e1!important;
 }
-
 
 /* 更亮的副标题文字 */
 
@@ -221,63 +178,47 @@ textarea::placeholder {
     color: #bcbcbc!important;
 }
 
-
 /*  页面跳转切换 */
 
-.bangumi-pagelistbox .p,
-.be-pager-item,
-.be-pager-next,
-.be-pager-prev {
+.bangumi-pagelistbox .p, .be-pager-item, .be-pager-next, .be-pager-prev {
     color: #bcbcbc!important;
     background-color: #2B2B2B!important;
     border: 0px!important;
     margin-right: 8px!important;
 }
 
-.bangumi-pagelistbox .p:hover,
-.bangumi-pagelistbox .p.active,
-.be-pager-item-active {
+.bangumi-pagelistbox .p:hover, .bangumi-pagelistbox .p.active, .be-pager-item-active {
     background-color: #00a1d6c7!important;
     color: #e7e7e7e0!important;
     border-color: #00a1d6c7!important;
 }
 
-.bangumi-pagelistbox .custom-right .custom-right-inner.custompage,
-.be-pager-options-elevator input {
+.bangumi-pagelistbox .custom-right .custom-right-inner.custompage, .be-pager-options-elevator input {
     color: #e1e1e1!important;
     border-radius: 10px!important;
     border: 0px!important;
     background-color: #3b3b3b!important;
 }
 
-.pgc-space-follow-item .pgc-item-info .pgc-item-desc,
-.be-pager-item a,
-.be-pager-next a,
-.be-pager-prev a {
+.pgc-space-follow-item .pgc-item-info .pgc-item-desc, .be-pager-item a, .be-pager-next a, .be-pager-prev a {
     color: #e7e7e7e0;
 }
 
-
 /* ————————————————————————选项窗口 */
-
 
 /* 窗口外观 */
 
-.be-dropdown-menu,
-.pgc-space-follow-item .bangumi-options .opt-list {
+.be-dropdown-menu, .pgc-space-follow-item .bangumi-options .opt-list {
     background-color: #2b2b2b!important;
     border: 0px!important;
     box-shadow: 0 2px 4px rgb(0 0 0 / 30%)!important;
 }
 
-
 /* 字颜色 */
 
-.be-dropdown-item,
-.pgc-space-follow-item .bangumi-options .opt-list li {
+.be-dropdown-item, .pgc-space-follow-item .bangumi-options .opt-list li {
     color: #bcbcbc!important;
 }
-
 
 /* 已选中字颜色 */
 
@@ -285,11 +226,9 @@ textarea::placeholder {
     color: #8E8E8E!important;
 }
 
-
 /* 保持选中颜色 */
 
-.be-dropdown-item:hover,
-.pgc-space-follow-item .bangumi-options .opt-list li:hover {
+.be-dropdown-item:hover, .pgc-space-follow-item .bangumi-options .opt-list li:hover {
     color: #00a1d6;
     background-color: #3b3b3b!important;
 }
@@ -298,29 +237,19 @@ textarea::placeholder {
     background-color: #3b3b3b!important;
 }
 
-
 /* -------------------------收藏 */
-
 
 /* 主标题 */
 
-.favInfo-box .favInfo-details .fav-name,
-#page-fav .fav-sidenav .nav-title .text,
-.small-item.disabled .title {
+.favInfo-box .favInfo-details .fav-name, #page-fav .fav-sidenav .nav-title .text, .small-item.disabled .title {
     color: #e1e1e1;
 }
 
-
 /* 副标题 */
 
-#page-fav .fav-main .filter-item,
-#page-fav .fav-sidenav .favlist-title,
-#page-fav .fav-sidenav .watch-later,
-#page-fav .fav-main .search-types,
-input::placeholder {
+#page-fav .fav-main .filter-item, #page-fav .fav-sidenav .favlist-title, #page-fav .fav-sidenav .watch-later, #page-fav .fav-main .search-types, input::placeholder {
     color: #bcbcbc;
 }
-
 
 /* 去边框 */
 
@@ -328,13 +257,9 @@ input::placeholder {
     border: 0px;
 }
 
-
 /* 边框颜色 */
 
-#page-fav .fav-sidenav .nav-container,
-.be-dropdown-item.be-dropdown-item-delimiter,
-#page-fav .fav-main .favList-info,
-#page-fav .fav-sidenav .watch-later {
+#page-fav .fav-sidenav .nav-container, .be-dropdown-item.be-dropdown-item-delimiter, #page-fav .fav-main .favList-info, #page-fav .fav-sidenav .watch-later {
     border-bottom: 1px solid #bcbcbc80;
 }
 
@@ -353,14 +278,11 @@ input::placeholder {
     color: #bcbcbc;
 }
 
-
 /* 搜索框 */
-
 
 /* .bangumi-pagelistbox .custom-right .custom-right-inner.custompage {
     background: #222!important;
 } */
-
 
 /* 视频加载中页面 */
 
@@ -368,13 +290,11 @@ input::placeholder {
     background: #272727;
 }
 
-
 /* 收藏频道拖动 */
 
 #page-fav .fav-sidenav .icon-cursor {
     background-color: #2b2b2b;
 }
-
 
 /* 分区窗口 */
 
@@ -382,14 +302,11 @@ input::placeholder {
     color: #e7e7e7e0;
 }
 
-
 /* _____________________________设置 */
 
-#page-setting .setting-privacy-item .setting-privacy-name,
-#page-setting .setting-index-module {
+#page-setting .setting-privacy-item .setting-privacy-name, #page-setting .setting-index-module {
     color: #e1e1e1;
 }
-
 
 /* 个人标签编辑 */
 
@@ -410,16 +327,13 @@ input::placeholder {
     border-radius: 10px;
 }
 
-
 /* 边框设置 */
 
 #page-setting .setting-index-module {
     border-bottom: 1px solid #bcbcbc;
 }
 
-
 /* _____________________________投稿 */
-
 
 /* 主标题 */
 
@@ -435,9 +349,7 @@ input::placeholder {
     background-color: #3b3b3b
 }
 
-
 /* _____________________________动态 */
-
 
 /* 外观背景颜色 */
 
@@ -448,9 +360,7 @@ input::placeholder {
     border: 0px;
 }
 
-
 /* -------------------投稿 */
-
 
 /* 主标题 */
 
@@ -463,18 +373,15 @@ input::placeholder {
     border-radius: 15px;
 }
 
-
 /* 副标题 */
 
-#page-video #submit-video-type-filter a,
-#page-video .page-head__left .be-tab-item {
+#page-video #submit-video-type-filter a, #page-video .page-head__left .be-tab-item {
     color: #bcbcbc;
 }
 
 .contribution-sidenav .contribution-item:hover {
     background-color: #3b3b3b;
 }
-
 
 /* 边框 */
 
@@ -486,27 +393,19 @@ input::placeholder {
     border-right: 1px solid #bcbcbc80;
 }
 
-
 /* 按钮-播放全部 */
 
-#page-video .play-all-btn,
-#page-index .channel .section-right-options .play-all-channel {
+#page-video .play-all-btn, #page-index .channel .section-right-options .play-all-channel {
     border: 1px solid #bcbcbc;
     border-radius: 10px;
     color: #bcbcbc;
 }
 
-.be-tab-input,
-#page-video .play-all-btn .video-commonplayer_play,
-#page-index .channel .section-right-options .play-all-channel .video-commonplayer_play,
-#page-index .channel .section-right-options .play-all-channel>span {
+.be-tab-input, #page-video .play-all-btn .video-commonplayer_play, #page-index .channel .section-right-options .play-all-channel .video-commonplayer_play, #page-index .channel .section-right-options .play-all-channel>span {
     color: #bcbcbc;
 }
 
-.section,
-#page-index .col-2 .section-title,
-.i-m-r2,
-.section .more {
+.section, #page-index .col-2 .section-title, .i-m-r2, .section .more {
     border-bottom: 1px solid #bcbcbc;
 }
 
@@ -514,16 +413,13 @@ input::placeholder {
     color: #00a1d6!important;
 }
 
-
 /* 更多 */
 
 #page-index .col-1 .section .more {
     border-radius: 10px;
 }
 
-
 /* ____________________________主页 */
-
 
 /* 列表标题 */
 
@@ -531,40 +427,29 @@ input::placeholder {
     color: #e1e1e1;
 }
 
-
 /* 视频信息 */
 
-.small-item .meta,
-.i-pin-desc {
+.small-item .meta, .i-pin-desc {
     color: #bcbcbc;
 }
-
 
 /* 边框 */
 
-.section,
-#page-index .col-2 .section-title,
-.i-m-r2,
-.section .more {
+.section, #page-index .col-2 .section-title, .i-m-r2, .section .more {
     border-bottom: 1px solid #bcbcbc80;
 }
 
-.article-content,
-.s-content,
-#page-index .channel .channel-item {
+.article-content, .s-content, #page-index .channel .channel-item {
     border-bottom: 1px solid #bcbcbc80;
 }
 
-.meta-col,
-.i-pin-meta {
+.meta-col, .i-pin-meta {
     color: #bcbcbc;
 }
-
 
 /* 推荐栏目 */
 
 #page-index .channel .section-right-options .play-all-channel {}
-
 
 /* 认证 */
 
@@ -572,19 +457,13 @@ input::placeholder {
     color: #e7e7e7e0;
 }
 
-
 /*直播desc */
 
-.i-live .i-live-off-guest p,
-.i-live .i-live-unfo-btn,
-.i-live .i-live-fo-count,
-.elec .elec-monthly-count {
+.i-live .i-live-off-guest p, .i-live .i-live-unfo-btn, .i-live .i-live-fo-count, .elec .elec-monthly-count {
     color: #bcbcbc;
 }
 
-
 /* 充电人数 */
-
 
 /* .elec .elec-monthly-c{
     color: #e7e7e7e0;
@@ -599,13 +478,11 @@ input::placeholder {
     color: #e7e7e7e0;
 } */
 
-
 /* ————————————————————————频道 */
 
 #page-channel-index .channel-item .channel-name {
     color: #e1e1e1;
 }
-
 
 /* fix */
 
@@ -617,14 +494,9 @@ input::placeholder {
     background: #161819;
 }
 
-
 /* 卡片加阴影 */
 
-.col-1,
-.section.i-ann,
-.section.i-m,
-.section.user,
-.section.game {
+.col-1, .section.i-ann, .section.i-m, .section.user, .section.game {
     box-shadow: 0px 4px 7px 0px #101010;
 }
 
@@ -632,22 +504,15 @@ div#i-ann-display {
     color: #e1e1e1e0;
 }
 
-.i-live .i-live-fo-btn,
-.i-live .i-live-unfo-btn,
-.i-live .i-live-fo-count,
-.list-item,
-#page-fav .fav-main .filter-item.search,
-#page-setting .setting-index-container {
+.i-live .i-live-fo-btn, .i-live .i-live-unfo-btn, .i-live .i-live-fo-count, .list-item, #page-fav .fav-main .filter-item.search, #page-setting .setting-index-container {
     border: 1px solid #bcbcbc80;
 }
 
-p.item,
-.breadcrumb .item.cur {
+p.item, .breadcrumb .item.cur {
     color: #e1e1e1e0;
 }
 
-#page-fav .fav-main .search-types,
-#page-fav .fav-sidenav {
+#page-fav .fav-main .search-types, #page-fav .fav-sidenav {
     border-right: 1px solid #bcbcbc80;
 }
 
@@ -683,4 +548,399 @@ html {
 
 #page-setting .setting-index-module {
     border-bottom: 1px solid #bcbcbc80;
+}
+
+/* fix */
+
+.user-info .user-info-title .info-title {
+    color: #e1e1e1e0!important;
+}
+
+.user-info .user-info-title .change-info-btn {
+    border: .5px solid #bcbcbc80!important;
+    color: #bcbcbc!important;
+}
+
+.user-info .user-info-title {
+    border-bottom: 1px solid #bcbcbc80!important;
+}
+
+.user-info .info-content .info-value, .user-info .info-content .info-command {
+    color: #bcbcbc!important;
+}
+
+.section .more {
+    border: 1px solid #bcbcbc80!important;
+}
+
+/* 引入动态组件 */
+
+.card {
+    border: 0px!important;
+}
+
+/* import */
+
+/* 窗口外观 */
+
+.user-panel, .live-panel, .tab-bar, .most-viewed-panel, .home-page .home-container .home-content .center-panel .section-block, .notice-panel, .new-topic-panel, .card {
+    background: #222!important;
+    border-radius: 10px!important;
+    box-shadow: 0px 4px 6px 0px rgb(0 0 0 / 50%)!important;
+}
+
+/* 窗口外观 */
+
+.static-popup, .bili-at-popup, .hash-popup, .create-vote {
+    border: 0px!important;
+    border-radius: 10px!important;
+    background-color: #2B2B2B!important;
+    -webkit-box-shadow: 0 3px 5px 0 rgb(0 0 0 / 30%)!important;
+    box-shadow: 0 3px 5px 0 rgb(0 0 0 / 30%)!important;
+}
+
+/* ———————————————————————————————— */
+
+/* 导航字、标题、更多 */
+
+.tc-slate {
+    color: #e1e1e1;
+}
+
+/* 新动态提示 */
+
+.new-notice-bar {
+    opacity: 0.75!important;
+    border-radius: 10px!important;
+}
+
+/* 动态卡片 */
+
+/* 1.用户名 */
+
+.card .main-content .user-name a {
+    color: #e1e1e1!important;
+}
+
+/* 2.动态内容文字 */
+
+.content-full {
+    color: #e1e1e1!important;
+}
+
+/* 3.视频、直播、转发、专栏、番剧、直播回放-外观 */
+
+/* 三、二级背景颜色 */
+
+.live-container, .video-container, .video-container, .card-content .repost, .card-content .not-support, .card-content .deleted, .article-container, .music-container, .bangumi-container {
+    background: #2b2b2b!important;
+    border: 0px!important;
+    box-shadow: 0px 2px 8px #00000030!important;
+    border-radius: 10px!important;
+}
+
+/* 4.视频-文字、位置 */
+
+.video-container .text-area .title {
+    color: #e1e1e1!important;
+}
+
+.video-container .text-area .content {
+    color: #8E8E8E!important;
+}
+
+/* 二级背景颜色 */
+
+.card-content .repost, .card-content .not-support, .card-content .deleted {
+    background-color: #06060630!important;
+}
+
+/* 5.文字-展开 */
+
+.content-ellipsis {
+    background-color: transparent;
+    color: #e1e1e1!important;
+    ;
+}
+
+/* 6.点赞文字 */
+
+.users-box .like-users-list, .users-box .like-users-list:active, .users-box .like-users-list:link, .users-box .like-users-list:visited {
+    color: #babec0!important;
+}
+
+.like-users-panel {
+    color: #babec0!important;
+}
+
+/* 7.商品、活动、追番 推荐 */
+
+.shop-panel .shop-list {
+    width: 100%!important;
+    ;
+    background-color: #2B2B2B!important;
+    border-radius: 10px!important;
+}
+
+.shop-panel .panel-desc {
+    color: #bcbcbc!important;
+}
+
+.shop-desc .desc-box .title {
+    color: #e1e1e1!important;
+}
+
+.shop-desc .btn-box .jump-btn {
+    opacity: 0.9!important;
+}
+
+.shop-panel .shop-list.is-repost {
+    background-color: #2B2B2B!important;
+    ;
+}
+
+/* 8.图片查看、控制 */
+
+.imagesbox .boost-control {
+    background: #2B2B2B!important;
+}
+
+.imagesbox .boost-control li {
+    color: #8E8E8E!important;
+}
+
+/* 9.专栏 */
+
+.article-container .text-area .title {
+    color: #e1e1e1!important;
+    ;
+}
+
+.article-container .text-area .content {
+    color: #bcbcbc!important;
+    ;
+}
+
+.article-container .images-area img:first-child {
+    opacity: 0.9!important;
+    ;
+}
+
+.article-container:hover .text-area {
+    -webkit-box-shadow: 0 3px 10px 0 rgb(0 0 0 / 50%)!important;
+    box-shadow: 0 3px 10px 0 rgb(0 0 0 / 50%)!important;
+}
+
+/* 10.番剧 */
+
+.bangumi-container .text-area .title {
+    color: #e1e1e1!important;
+}
+
+.bangumi-container .text-area .title {
+    margin-top: 9px!important;
+    ;
+}
+
+/* 11.直播回放窗口*/
+
+.video-container .text-area .title {
+    color: #e1e1e1!important;
+    ;
+}
+
+.video-container .text-area .content {
+    color: #8e8e8e!important;
+}
+
+/* 12.动态发布时间 */
+
+.card .main-content .time .detail-link {
+    color: #8E8E8E!important;
+}
+
+/* 13.更多、举报、关注*/
+
+.card .more-panel {
+    background: #2B2B2B!important;
+    border: 0px!important;
+    -webkit-box-shadow: 0 11px 12px 0 rgb(0 0 0 / 20%)!important;
+    box-shadow: 0 11px 12px 0 rgb(0 0 0 / 20%)!important;
+    border-radius: 10px!important;
+    color: #e1e1e1!important;
+}
+
+.card .more-panel:after {
+    border-top: 1px solid #2b2b2b!important;
+    border-left: 1px solid #2B2B2B!important;
+    background: #2B2B2B!important;
+}
+
+/* 话题 */
+
+.new-topic-panel .tag-item .content {
+    color: #e1e1e1!important;
+}
+
+.new-topic-panel .tag-item .label {
+    background: #3b3b3b!important;
+    color: #cccccc!important;
+}
+
+/* 关闭动态加载图 */
+
+.loading-img {
+    display: none;
+}
+
+/* 链接索引保持 */
+
+.dynamic-link-hover-bg:hover {
+    background-color: #3b3e40;
+}
+
+/* _________________________________________ */
+
+/* 1.用户信息 */
+
+/* 2.用户卡片 */
+
+.userinfo-content {
+    background: #222!important;
+    color: #6d757a!important;
+    border-radius: 10px!important;
+}
+
+.userinfo-wrapper {
+    -webkit-box-shadow: 0 2px 4px rgb(0 0 0 / 50%)!important;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 50%)!important;
+    border: 0px!important;
+    border-radius: 10px!important;
+}
+
+.userinfo-content .info p {
+    color: #8E8E8E!important;
+}
+
+.userinfo-content .bg {
+    border-top-left-radius: 10px!important;
+    border-top-right-radius: 10px!important;
+}
+
+.user-card .btn-box .like {
+    color: #fff;
+    background-color: #00a1d6;
+    border-radius: 15px;
+}
+
+.user-card .btn-box .message, .userinfo-content .btn-box>a {
+    background-color: #505050!important;
+    border-radius: 15px!important;
+}
+
+.user-card .btn-box a, .userinfo-content .btn-box>a {
+    border: 0px!important;
+    color: #ffffffb3!important;
+    background-color: #676767!important;
+}
+
+.userinfo-content .btn-box>a:hover {
+    color: #ffffffb3!important;
+}
+
+.user-card .btn-box a:hover, .userinfo-content .btn-box>a.liked:hover {
+    color: #ffffffb3!important;
+    background-color: #676767!important;
+}
+
+.userinfo-content .btn-box>a.liked, .user-card .btn-box a, .userinfo-content .btn-box>a {
+    background-color: #3b3b3b!important;
+    color: #ffffffb3!important;
+}
+
+.userinfo-content .btn-box>a.liked:hover, .userinfo-content .btn-box>a:hover {
+    background-color: #505050!important;
+    color: #ffffffb3!important;
+}
+
+/* 用户名称 */
+
+.userinfo-content .info .user .name {
+    color: #e1e1e1!important;
+}
+
+/* 描述文本 */
+
+.userinfo-content .info .sign {
+    color: #bcbcbc!important;
+}
+
+/* —————————————————————————————————— */
+
+/* fix */
+
+.tab-bar {
+    border-bottom: 0px!important;
+}
+
+/* fix */
+
+.feed-title {
+    background-color: #222!important;
+    color: #e1e1e1!important;
+    border-bottom: 1px solid #bcbcbc2e!important;
+}
+
+.like-users-panel::before {
+    background-color: #bcbcbc80!important;
+}
+
+/* fix关注分组 */
+.follow-dialog-wrap .follow-dialog-window .title,.follow-dialog-wrap .follow-dialog-window .content .group-list li, .follow-dialog-wrap .follow-dialog-window .content .info .uname {
+    color: #e1e1e1e0!important;
+}
+
+.follow-dialog-wrap .follow-dialog-window .content .info,.follow-dialog-wrap .follow-dialog-window .content .group-list .add-group .add-btn {
+    color: #bcbcbc!important;
+}
+
+.follow-dialog-wrap .follow-dialog-window .content .group-list .add-group .add-btn {
+    border: 1px solid #bcbcbc5e!important;
+}
+
+.follow-dialog-wrap .follow-dialog-window .title {
+    border-bottom: 1px solid #bcbcbc5e!important;
+}
+
+.follow-dialog-wrap .follow-dialog-window .bottom {
+    border-top: 1px solid #bcbcbc5e!important;
+}
+
+.follow-dialog-wrap .follow-dialog-window .content .group-list ul .follow-group-mask{
+    background: hsl(0deg 0% 16% / 70%)!important;
+}
+
+.follow-dialog-wrap .follow-dialog-window .content .group-list .add-group .input-group input{
+    background: #222!important;
+}
+.follow-dialog-wrap .follow-dialog-window .content .group-list .add-group .input-group .submitGroup{
+    background: #2b3d43fc!important;
+}
+
+.follow-dialog-wrap .follow-dialog-window .bottom .btn:disabled {
+    background-color: #3c3c3c!important;
+    color: #868686!important;
+}
+
+.follow-dialog-wrap .follow-dialog-window .bottom .btn{
+    background: #00a1d6b5!important;
+    color: #d7d7d7!important;
+}
+
+.follow-dialog-wrap .follow-dialog-window .content .group-list li .special-tip{
+    color: #bcbcbc!important;
+}
+
+.follow-dialog-wrap .follow-dialog-window .content .group-list li input[type=checkbox]+i{
+    opacity: 0.7!important;
 }

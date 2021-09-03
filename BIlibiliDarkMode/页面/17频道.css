@@ -437,3 +437,39 @@ section-title {
 .sub-nav-m .tips .t-arrow {
     background: transparent;
 }
+
+/* fix 更新至*话 */
+.timeline-box .timeline-item .item-right p.num a, .timeline-box .timeline-item .item-right p.num span {
+    background: #828993;
+}
+
+/* fix 返回顶部 */
+.back-top-tools .tool-item {
+    background: #282828;
+    border: 1px solid #282828;
+    border-radius: 8px;
+}
+
+.back-top-tools .tool-item:hover {
+    background-color: #036f93;
+    border-color: #036f93;
+}
+
+/* fix 游戏 */
+.game-groom-m {
+    border-radius: 10px;
+    background: #222;
+    border: 1px solid #222;
+}
+
+.game-groom-m .title {
+    background: #222;
+}
+
+.game-groom-m a .title{
+    color: e1e1e1;
+}
+
+.game-groom-m .num{
+    background-color: #222;
+}

@@ -14,21 +14,17 @@
 13.其他
 */
 
-
 /* 2.视频卡片阴影 */
 
 .bilibili-player {
     box-shadow: 0 0 8px #040404!important;
 }
 
-
 /* 4.评论背景颜色 */
 
-.bb-comment,
-.comment-bilibili-fold {
+.bb-comment, .comment-bilibili-fold {
     background-color: #161819!important;
 }
-
 
 /* 6.无点评 */
 
@@ -37,12 +33,9 @@
     border-radius: 20px;
 }
 
-
 /*7.三连、分享、手机观看、一起看 */
 
-.main-container .tool-bar .watch-info .watch-more,
-.main-container .tool-bar .share-info .share-more,
-.main-container .tool-bar .mobile-info .mobile-more {
+.main-container .tool-bar .watch-info .watch-more, .main-container .tool-bar .share-info .share-more, .main-container .tool-bar .mobile-info .mobile-more {
     background: #222;
     border: 0px solid #e5e9ef!important;
     box-shadow: 0 2px 4px 0 #131212!important;
@@ -53,16 +46,13 @@
     color: #bbb;
 }
 
-.main-container .tool-bar .watch-info .watch-more .action-wrap .watch-action .main-title,
-.main-container .tool-bar .watch-info .watch-more .action-wrap .watch-action .sub-title {
+.main-container .tool-bar .watch-info .watch-more .action-wrap .watch-action .main-title, .main-container .tool-bar .watch-info .watch-more .action-wrap .watch-action .sub-title {
     color: #e2e2e2;
 }
 
-.main-container .tool-bar .watch-info .watch-more .action-wrap .watch-action.match-watch,
-.main-container .tool-bar .watch-info .watch-more .action-wrap .watch-action.create-watch {
+.main-container .tool-bar .watch-info .watch-more .action-wrap .watch-action.match-watch, .main-container .tool-bar .watch-info .watch-more .action-wrap .watch-action.create-watch {
     opacity: 0.95;
 }
-
 
 /* 一起看 */
 
@@ -70,25 +60,13 @@
     color: #fff!important;
 }
 
-.main-container .tool-bar .coin-info i,
-.main-container .tool-bar .like-info i,
-.main-container .tool-bar .coin-info span,
-.main-container .tool-bar .like-info span,
-.main-container .tool-bar .share-info i,
-.main-container .tool-bar .share-info span,
-.main-container .tool-bar .mobile-info i,
-.main-container .tool-bar .mobile-info span,
-.main-container .tool-bar .watch-info span,
-.main-container .tool-bar .watch-info span {
+.main-container .tool-bar .coin-info i, .main-container .tool-bar .like-info i, .main-container .tool-bar .coin-info span, .main-container .tool-bar .like-info span, .main-container .tool-bar .share-info i, .main-container .tool-bar .share-info span, .main-container .tool-bar .mobile-info i, .main-container .tool-bar .mobile-info span, .main-container .tool-bar .watch-info span, .main-container .tool-bar .watch-info span {
     color: #ffffffad!important;
 }
 
-
 /* 点赞投币分享栏icon font */
 
-
 /* 8.番剧描述 */
-
 
 /* 展开收起 */
 
@@ -96,8 +74,7 @@
     background-color: #151718!important;
 }
 
-.main-container .media-info .media-right .media-tool-bar .btn-follow span,
-.main-container .media-info .media-right .media-tool-bar .btn-follow i {
+.main-container .media-info .media-right .media-tool-bar .btn-follow span, .main-container .media-info .media-right .media-tool-bar .btn-follow i {
     color: #ffffffcc;
 }
 
@@ -125,42 +102,34 @@
     background-color: #99999982;
 }
 
-
 /* avbv */
 
 .main-container .media-info .media-right .pub-wrapper .av-link {
     color: #d0c7c7;
 }
 
-
 /* 9.右侧 */
 
-.ep-section-module,
-.main-container .ep-list-wrapper {
+.ep-section-module, .main-container .ep-list-wrapper {
     background-color: #222222!important;
     border-radius: 10px;
 }
 
-.ep-section-module .section-title,
-.main-container .ep-list-wrapper .list-title h4 {
+.ep-section-module .section-title, .main-container .ep-list-wrapper .list-title h4 {
     color: #e7e7e7e8!important;
 }
 
-.ep-list-wrapper .ep-item,
-.section-ep-wrapper .ep-item {
+.ep-list-wrapper .ep-item, .section-ep-wrapper .ep-item {
     color: #e7e7e7e0!important;
 }
 
-.ep-list-wrapper .ep-item.cursor,
-.section-ep-wrapper .ep-item.cursor {
+.ep-list-wrapper .ep-item.cursor, .section-ep-wrapper .ep-item.cursor {
     background-color: #46484a!important;
 }
 
-.ep-list-wrapper .ep-item:hover,
-.section-ep-wrapper .ep-item:hover {
+.ep-list-wrapper .ep-item:hover, .section-ep-wrapper .ep-item:hover {
     background-color: #525456bd!important;
 }
-
 
 /* 剧集选择框 */
 
@@ -169,7 +138,6 @@
     background-color: #ffffff4a!important;
     border: 0px;
 }
-
 
 /* 弹幕库 */
 
@@ -186,21 +154,13 @@
     color: #8E8E8E!important;
 }
 
-.player-auxiliary-area .player-auxiliary-danmaku .player-auxiliary-danmaku-function,
-.bpx-player-auxiliary .bpx-player-dm-function,
-.bpx-player-dm-btn-time,
-.bpx-player-dm-btn-dm,
-.bpx-player-dm-btn-date {
+.player-auxiliary-area .player-auxiliary-danmaku .player-auxiliary-danmaku-function, .bpx-player-auxiliary .bpx-player-dm-function, .bpx-player-dm-btn-time, .bpx-player-dm-btn-dm, .bpx-player-dm-btn-date {
     background-color: #2b2b2b!important;
 }
 
-
 /* 展开 */
 
-.player-auxiliary-area .player-auxiliary-danmaku .player-auxiliary-danmaku-function [class*=player-auxiliary-danmaku-btn-],
-.bpx-player-auxiliary .bpx-player-dm-function .bpx-player-dm-btn-date,
-.bpx-player-auxiliary .bpx-player-dm-function .bpx-player-dm-btn-dm,
-.bpx-player-auxiliary .bpx-player-dm-function .bpx-player-dm-btn-time {
+.player-auxiliary-area .player-auxiliary-danmaku .player-auxiliary-danmaku-function [class*=player-auxiliary-danmaku-btn-], .bpx-player-auxiliary .bpx-player-dm-function .bpx-player-dm-btn-date, .bpx-player-auxiliary .bpx-player-dm-function .bpx-player-dm-btn-dm, .bpx-player-auxiliary .bpx-player-dm-function .bpx-player-dm-btn-time {
     color: #bcbcbc!important;
 }
 
@@ -208,34 +168,24 @@
     background: #2b2b2b!important;
 }
 
-.danmaku-wrap .player-auxiliary-area .player-auxiliary-danmaku-wrap,
-.bpx-player-dm-wrap {
+.danmaku-wrap .player-auxiliary-area .player-auxiliary-danmaku-wrap, .bpx-player-dm-wrap {
     background-color: #2b2b2b!important;
 }
 
-.danmaku-wrap .player-auxiliary-area .player-auxiliary-danmaku-wrap .player-auxiliary-danmaku-list .danmaku-info-row span.danmaku-info-danmaku,
-.danmaku-wrap .player-auxiliary-area .player-auxiliary-danmaku-wrap .player-auxiliary-danmaku-list .danmaku-info-row,
-.bpx-player-auxiliary .bpx-player-dm-container .dm-info-row,
-.bpx-player-auxiliary .bpx-player-dm-container .dm-info-row .dm-info-dm {
+.danmaku-wrap .player-auxiliary-area .player-auxiliary-danmaku-wrap .player-auxiliary-danmaku-list .danmaku-info-row span.danmaku-info-danmaku, .danmaku-wrap .player-auxiliary-area .player-auxiliary-danmaku-wrap .player-auxiliary-danmaku-list .danmaku-info-row, .bpx-player-auxiliary .bpx-player-dm-container .dm-info-row, .bpx-player-auxiliary .bpx-player-dm-container .dm-info-row .dm-info-dm {
     color: #bcbcbc!important;
 }
 
-.danmaku-wrap .player-auxiliary-area .player-auxiliary-danmaku-wrap .player-auxiliary-danmaku-list .danmaku-info-row .danmaku-info-block-btn,
-.danmaku-wrap .player-auxiliary-area .player-auxiliary-danmaku-wrap .player-auxiliary-danmaku-list .danmaku-info-row .danmaku-info-protect-btn,
-.danmaku-wrap .player-auxiliary-area .player-auxiliary-danmaku-wrap .player-auxiliary-danmaku-list .danmaku-info-row .danmaku-info-report-btn {
+.danmaku-wrap .player-auxiliary-area .player-auxiliary-danmaku-wrap .player-auxiliary-danmaku-list .danmaku-info-row .danmaku-info-block-btn, .danmaku-wrap .player-auxiliary-area .player-auxiliary-danmaku-wrap .player-auxiliary-danmaku-list .danmaku-info-row .danmaku-info-protect-btn, .danmaku-wrap .player-auxiliary-area .player-auxiliary-danmaku-wrap .player-auxiliary-danmaku-list .danmaku-info-row .danmaku-info-report-btn {
     background: #2b2b2b!important;
 }
 
-.danmaku-wrap .player-auxiliary-area .player-auxiliary-danmaku-wrap .player-auxiliary-danmaku-list .danmaku-info-row .danmaku-info-block-btn:hover,
-.danmaku-wrap .player-auxiliary-area .player-auxiliary-danmaku-wrap .player-auxiliary-danmaku-list .danmaku-info-row .danmaku-info-protect-btn:hover,
-.danmaku-wrap .player-auxiliary-area .player-auxiliary-danmaku-wrap .player-auxiliary-danmaku-list .danmaku-info-row .danmaku-info-report-btn:hover {
+.danmaku-wrap .player-auxiliary-area .player-auxiliary-danmaku-wrap .player-auxiliary-danmaku-list .danmaku-info-row .danmaku-info-block-btn:hover, .danmaku-wrap .player-auxiliary-area .player-auxiliary-danmaku-wrap .player-auxiliary-danmaku-list .danmaku-info-row .danmaku-info-protect-btn:hover, .danmaku-wrap .player-auxiliary-area .player-auxiliary-danmaku-wrap .player-auxiliary-danmaku-list .danmaku-info-row .danmaku-info-report-btn:hover {
     background-color: #00a1d67d!important;
     color: #dcdcdc!important;
 }
 
-.danmaku-wrap .player-auxiliary-area .player-auxiliary-danmaku-wrap .player-auxiliary-danmaku-list .danmaku-info-row .danmaku-info-block-btn,
-.danmaku-wrap .player-auxiliary-area .player-auxiliary-danmaku-wrap .player-auxiliary-danmaku-list .danmaku-info-row .danmaku-info-protect-btn,
-.danmaku-wrap .player-auxiliary-area .player-auxiliary-danmaku-wrap .player-auxiliary-danmaku-list .danmaku-info-row .danmaku-info-report-btn {
+.danmaku-wrap .player-auxiliary-area .player-auxiliary-danmaku-wrap .player-auxiliary-danmaku-list .danmaku-info-row .danmaku-info-block-btn, .danmaku-wrap .player-auxiliary-area .player-auxiliary-danmaku-wrap .player-auxiliary-danmaku-list .danmaku-info-row .danmaku-info-protect-btn, .danmaku-wrap .player-auxiliary-area .player-auxiliary-danmaku-wrap .player-auxiliary-danmaku-list .danmaku-info-row .danmaku-info-report-btn {
     border: 1px solid var(--bpx-primary-color, #00a1d67d)!important;
 }
 
@@ -274,11 +224,9 @@
     color: #bcbcbc!important;
 }
 
-
 /*  */
 
-.player-auxiliary-area .player-auxiliary-filter,
-.bui-collapse .bui-collapse-header {
+.player-auxiliary-area .player-auxiliary-filter, .bui-collapse .bui-collapse-header {
     color: #222;
 }
 
@@ -302,11 +250,9 @@
     background-color: #798086;
 }
 
-.player-auxiliary-area .player-auxiliary-filter .player-auxiliary-setting-menu-wrap .player-auxiliary-setting-menu-list,
-.player-auxiliary-area .player-auxiliary-filter .player-auxiliary-setting-menu-wrap {
+.player-auxiliary-area .player-auxiliary-filter .player-auxiliary-setting-menu-wrap .player-auxiliary-setting-menu-list, .player-auxiliary-area .player-auxiliary-filter .player-auxiliary-setting-menu-wrap {
     background-color: #4e4e4e;
 }
-
 
 /* 10.关注分组页面 */
 
@@ -346,7 +292,6 @@
     opacity: 0.9!important;
 }
 
-
 /* 新建组 */
 
 .follow-dialog-wrap .follow-dialog-window .bottom .btn:disabled {
@@ -364,7 +309,6 @@
     color: #00a1d6!important;
 }
 
-
 /* //!important	不加可能无效 */
 
 .follow-dialog-wrap .follow-dialog-window .content .group-list .add-group .input-group input {
@@ -375,7 +319,6 @@
 .follow-dialog-wrap .follow-dialog-window .content .group-list ul .follow-group-mask {
     background: #fff0!important;
 }
-
 
 /* 11.点评内部 */
 
@@ -397,25 +340,18 @@
     background: #222;
 }
 
-
 /* 12.评论弹出 */
-
 
 /* comment more to comment */
 
-.bb-comment .comment-send.comment-send-lite,
-.comment-bilibili-fold .comment-send.comment-send-lite,
-.bb-comment .comment-send-lite.comment-send-lite,
-.comment-bilibili-fold .comment-send-lite.comment-send-lite {
+.bb-comment .comment-send.comment-send-lite, .comment-bilibili-fold .comment-send.comment-send-lite, .bb-comment .comment-send-lite.comment-send-lite, .comment-bilibili-fold .comment-send-lite.comment-send-lite {
     background: #161819!important;
 }
 
-.bb-comment .no-login .baffle,
-.comment-bilibili-fold .no-login .baffle {
+.bb-comment .no-login .baffle, .comment-bilibili-fold .no-login .baffle {
     background-color: #505050!important;
     color: #e2e2e2!important;
 }
-
 
 /* 13.其他 */
 
@@ -423,15 +359,11 @@
     color: #e2e2e2e8;
 }
 
-.main-container .media-info .media-right .media-desc,
-.main-container .media-info .media-right .pub-wrapper .home-link,
-.main-container .media-info .media-right .pub-wrapper .pub-info {
+.main-container .media-info .media-right .media-desc, .main-container .media-info .media-right .pub-wrapper .home-link, .main-container .media-info .media-right .pub-wrapper .pub-info {
     color: #e2e2e2f0;
 }
 
-.main-container .media-info,
-.main-container .review-module,
-.main-container .plp-l .comment-wrapper {
+.main-container .media-info, .main-container .review-module, .main-container .plp-l .comment-wrapper {
     border-top: 1px solid #6d757a;
 }
 
@@ -448,17 +380,11 @@
     color: #c7bcbce3;
 }
 
-.main-container .review-module .module-title h4,
-.main-container .recom-wrapper .recom-title,
-.main-container .recom-wrapper .recom-list .recom-item .info-wrapper .video-title,
-.main-container .review-module .module-title .more-link,
-.main-container .plp-l .comment-wrapper .b-head {
+.main-container .review-module .module-title h4, .main-container .recom-wrapper .recom-title, .main-container .recom-wrapper .recom-list .recom-item .info-wrapper .video-title, .main-container .review-module .module-title .more-link, .main-container .plp-l .comment-wrapper .b-head {
     color: #e7e7e7eb;
 }
 
-
 /* follow window title line */
-
 
 /* title #e5e9ef line #6d757a*/
 
@@ -467,16 +393,11 @@
     border-bottom: 1px solid #6d757a !important;
 }
 
-
 /* comment textarea color focus e2e2e2 */
 
-.bb-comment .comment-send .textarea-container:hover textarea,
-.comment-bilibili-fold .comment-send .textarea-container:hover textarea,
-.bb-comment .comment-send .textarea-container.focus textarea,
-.comment-bilibili-fold .comment-send .textarea-container.focus textarea {
+.bb-comment .comment-send .textarea-container:hover textarea, .comment-bilibili-fold .comment-send .textarea-container:hover textarea, .bb-comment .comment-send .textarea-container.focus textarea, .comment-bilibili-fold .comment-send .textarea-container.focus textarea {
     color: #e2e2e2 !important;
 }
-
 
 /* rate  */
 
@@ -493,7 +414,6 @@
     background-color: #4a4b4e;
 }
 
-
 /* vip tip */
 
 .main-container .pay-bar .vip .btn-pay.active {
@@ -503,7 +423,6 @@
     border: 0px;
 }
 
-
 /* side nav bar */
 
 .main-container .nav-tools .tool-item {
@@ -512,19 +431,13 @@
     color: #ffffffcc;
 }
 
-
 /* page box */
 
-.paging-box-big .current,
-.paging-box-big .next,
-.paging-box-big .prev,
-.paging-box-big .tcd-number,
-.paging-box-big .dian {
+.paging-box-big .current, .paging-box-big .next, .paging-box-big .prev, .paging-box-big .tcd-number, .paging-box-big .dian {
     background: #505050!important;
     border: 0px!important;
     color: #ffffffcc!important;
 }
-
 
 /* page jump box */
 
@@ -534,18 +447,14 @@
     color: #ffffffcc;
 }
 
-
 /* comment info fix*/
 
-.bb-comment .comment-list .list-item .info .btn-hover:hover,
-.comment-bilibili-fold .comment-list .list-item .info .btn-hover:hover {
+.bb-comment .comment-list .list-item .info .btn-hover:hover, .comment-bilibili-fold .comment-list .list-item .info .btn-hover:hover {
     color: #00a1d6;
     background: #161819;
 }
 
-
 /* ———————————————————————————————————— */
-
 
 /* 用手机观看修复 */
 
@@ -561,13 +470,11 @@
     opacity: 0.85;
 }
 
-
 /* 点评-用户名 */
 
 .main-container .review-module .review-list .review-item .review-header .review-author {
     color: #bcbcbc;
 }
-
 
 /* fix */
 
@@ -589,19 +496,15 @@ span.bui-dropdown-name {
     background: #212121!important;
 }
 
-.bpx-player-video-info,
-.bpx-player-sending-bar .bpx-player-video-inputbar .bpx-player-dm-input {
+.bpx-player-video-info, .bpx-player-sending-bar .bpx-player-video-inputbar .bpx-player-dm-input {
     color: #e1e1e1e0!important;
 }
 
-.bpx-player-sending-bar .bpx-player-dm-root .bpx-player-dm-setting,
-g#watch-together-icon-1,
-span.bpx-common-svg-icon {
+.bpx-player-sending-bar .bpx-player-dm-root .bpx-player-dm-setting, g#watch-together-icon-1, span.bpx-common-svg-icon {
     fill: #ffffffad!important;
 }
 
-.bpx-player-sending-bar .bpx-player-video-inputbar,
-.bpx-player-sending-bar .bpx-player-video-inputbar-wrap {
+.bpx-player-sending-bar .bpx-player-video-inputbar, .bpx-player-sending-bar .bpx-player-video-inputbar-wrap {
     background: #505050!important;
 }
 
@@ -609,8 +512,7 @@ span.bpx-common-svg-icon {
     border: 1px solid #505050!important;
 }
 
-input::-webkit-input-placeholder,
-.bpx-player-sending-bar .bpx-player-video-inputbar .bpx-player-dm-hint a>span {
+input::-webkit-input-placeholder, .bpx-player-sending-bar .bpx-player-video-inputbar .bpx-player-dm-hint a>span {
     color: #bcbcbce0!important;
 }
 
@@ -622,15 +524,11 @@ input::-webkit-input-placeholder,
     box-shadow: 0 0 8px #040404!important;
 }
 
-.ep-list-wrapper .ep-item a,
-.section-ep-wrapper .ep-item a {
+.ep-list-wrapper .ep-item a, .section-ep-wrapper .ep-item a {
     color: #e1e1e1!important;
 }
 
-.main-container .pre-mask,
-.player-module .player-tool-bar,
-.main-container .media-info .media-cover,
-.bpx-docker-minor {
+.main-container .pre-mask, .player-module .player-tool-bar, .main-container .media-info .media-cover, .bpx-docker-minor {
     background-color: #222!important;
 }
 
@@ -642,7 +540,6 @@ textarea.ipt-txt {
     border-radius: 10px 0 0 10px!important;
 }
 
-
 /* fix2 */
 
 .up-info>a .up-name {
@@ -653,8 +550,7 @@ textarea.ipt-txt {
     background-color: #2b2b2b;
 }
 
-.main-container .plp-l .player-mask .bar-wrapper .left-bar,
-.main-container .plp-l .player-mask .bar-wrapper .right-bar {
+.main-container .plp-l .player-mask .bar-wrapper .left-bar, .main-container .plp-l .player-mask .bar-wrapper .right-bar {
     background-color: #232323;
 }
 
@@ -668,4 +564,38 @@ textarea.ipt-txt {
 
 .main-container .season-list .series-title {
     color: #e1e1e1e0;
+}
+
+.main-container .media-info, .main-container .plp-l .comment-wrapper, .main-container .review-module {
+    border: 0px!important;
+}
+
+.bpx-player-auxiliary .bpx-player-dmP {
+    background: #222!important;
+}
+
+.bpx-player-auxiliary .bpx-player-dm-btn-history {
+    background-color: #3b3b3b!important;
+    color: #bcbcbc!important;
+}
+
+.bpx-player-auxiliary .bpx-player-dm-btn-history:hover {
+    color: #bcbcbc!important;
+}
+
+span.dm-info-report-btn.bpx-player-db-btn {
+    background: transparent!important;
+}
+
+.bpx-player-auxiliary .bpx-player-dm-container .dm-info-row .dm-info-block-btn:hover, .bpx-player-auxiliary .bpx-player-dm-container .dm-info-row .dm-info-protect-btn:hover, .bpx-player-auxiliary .bpx-player-dm-container .dm-info-row .dm-info-recall-btn:hover, .bpx-player-auxiliary .bpx-player-dm-container .dm-info-row .dm-info-report-btn:hover {
+    background-color: #00a1d69e!important;
+}
+
+.bpx-player-auxiliary .bpx-player-dm-load-status {
+    background: transparent!important;
+    color: #bcbcbc!important;
+}
+
+.bpx-player-auxiliary .bpx-player-dm-btn-footer{
+    background: #3b3b3b!important;
 }
