@@ -1,5 +1,8 @@
 # BilibiliDarkMode 哔哩哔哩深色模式
-深色模式 熬夜必备 呵护眼睛 沉浸体验 优化布局 适用于网页端
+深色模式 熬夜必备 呵护眼睛 沉浸体验 优化布局 适用于网页端  
+Author: ChenZihan  
+Link to GreasyFork: https://greasyfork.org/zh-CN/scripts/428222  
+License: GPL-3.0
 <img src="https://img12.360buyimg.com/ddimg/jfs/t1/182936/14/13958/2918715/60ec8879Ebbddd940/75be203896756415.png" border="0"/>
 <img src="https://img13.360buyimg.com/ddimg/jfs/t1/37348/36/15423/1198105/60ec8850E5ae69ade/6d8d8656e45d7bd2.png" border="0"/>
 <img src="https://img11.360buyimg.com/ddimg/jfs/t1/181110/9/13899/2219632/60ec885aE6183454f/acb1cb3f6d723921.png" border="0"/>
